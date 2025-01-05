@@ -11,10 +11,9 @@ from IPython.display import display
 from IPython.display import Image as IPythonImage
 from typing import Dict, List, Optional
 
-from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
+from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_openai import ChatOpenAI
 from langgraph.graph import START, END, StateGraph, MessagesState
-from langgraph.prebuilt import tools_condition, ToolNode
 
 from browsergym.core.action.highlevel import HighLevelActionSet
 from browsergym.experiments import AbstractAgentArgs, Agent
@@ -72,13 +71,6 @@ class DemoAgent(Agent):
         use_html: bool,
         use_axtree: bool,
         use_screenshot: bool,
-        system_message: str = """\
-# Instructions
-
-Review the current state of the page and all other information to find the best
-possible next action to accomplish your goal. Your answer will be interpreted
-and executed by a program, make sure to follow the formatting instructions.
-"""
     ) -> None:
         super().__init__()
         self.model_name = model_name
@@ -86,7 +78,6 @@ and executed by a program, make sure to follow the formatting instructions.
         self.use_html = use_html
         self.use_axtree = use_axtree
         self.use_screenshot = use_screenshot
-        self.system_message = system_message
 
         self.model_info = {
             "model_info": {
@@ -183,7 +174,13 @@ and executed by a program, make sure to follow the formatting instructions.
             system_msgs.append(
                 {
                     "type": "text",
-                    "text": self.system_message,
+                    "text": f"""\
+# Instructions
+
+Review the current state of the page and all other information to find the best
+possible next action to accomplish your goal. Your answer will be interpreted
+and executed by a program, make sure to follow the formatting instructions.
+""",
                 }
             )
             # append goal
@@ -368,7 +365,7 @@ You will now think step by step and produce your next best action. Reflect on yo
 
         # create and run the graph
         graph = self._create_workflow()
-        display(IPythonImage(graph.get_graph().draw_mermaid_png()))
+        # display(IPythonImage(graph.get_graph().draw_mermaid_png()))
         response = graph.invoke(initial_state)
 
         # get the predicted action
@@ -397,13 +394,6 @@ class DemoAgentArgs(AbstractAgentArgs):
     use_html: bool = False
     use_axtree: bool = True
     use_screenshot: bool = False
-    system_message: str = """\
-# Instructions
-
-Review the current state of the page and all other information to find the best
-possible next action to accomplish your goal. Your answer will be interpreted
-and executed by a program, make sure to follow the formatting instructions.
-"""
 
     def make_agent(self):
         return DemoAgent(
@@ -412,6 +402,5 @@ and executed by a program, make sure to follow the formatting instructions.
             demo_mode=self.demo_mode,
             use_html=self.use_html,
             use_axtree=self.use_axtree,
-            use_screenshot=self.use_screenshot,
-            system_message=self.system_message
+            use_screenshot=self.use_screenshot
         )

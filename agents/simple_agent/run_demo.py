@@ -62,6 +62,18 @@ def parse_args():
         default=False,
         help="Use screenshot in the agent's observation space.",
     )
+    parser.add_argument(
+        "--system_message",
+        type=str,
+        default="""\
+# Instructions
+
+Review the current state of the page and all other information to find the best
+possible next action to accomplish your goal. Your answer will be interpreted
+and executed by a program, make sure to follow the formatting instructions.
+""",
+        help="System message to be used by the agent.",
+    )
 
     return parser.parse_args()
 
@@ -85,6 +97,7 @@ https://github.com/ServiceNow/AgentLab"""
         use_html=args.use_html,
         use_axtree=args.use_axtree,
         use_screenshot=args.use_screenshot,
+        system_message=args.system_message,
     )
 
     # setting up environment config

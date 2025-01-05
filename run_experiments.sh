@@ -9,6 +9,13 @@ USE_AXTREE=true
 USE_SCREENSHOT=false
 RESULTS_DIR="./results"
 
+# Add default system message after other default values
+SYSTEM_MESSAGE="""# Instructions
+
+Review the current state of the page and all other information to find the best
+possible next action to accomplish your goal. Your answer will be interpreted
+and executed by a program, make sure to follow the formatting instructions."""
+
 # Array of task names
 TASKS=(
     'workarena.servicenow.order-apple-mac-book-pro15'
@@ -32,6 +39,7 @@ function show_help {
     echo "  -h, --html           Use HTML (default: false)"
     echo "  -a, --axtree         Use AXTree (default: true)"
     echo "  -s, --screenshot     Use screenshot (default: false)"
+    echo "  --system-message    Custom system message for the agent"
     echo "  --help              Show this help message"
 }
 
@@ -62,6 +70,10 @@ while [[ $# -gt 0 ]]; do
             USE_SCREENSHOT="$2"
             shift 2
             ;;
+        --system-message)
+            SYSTEM_MESSAGE="$2"
+            shift 2
+            ;;
         --help)
             show_help
             exit 0
@@ -81,6 +93,7 @@ echo "Visual effects: $VISUAL_EFFECTS"
 echo "Use HTML: $USE_HTML"
 echo "Use AXTree: $USE_AXTREE"
 echo "Use Screenshot: $USE_SCREENSHOT"
+echo "System message: $SYSTEM_MESSAGE"
 
 # Function to get random task
 function get_random_task {
@@ -93,13 +106,14 @@ for ((i=1; i<=$TOTAL_RUNS; i++)); do
     TASK=$(get_random_task)
     echo "Run $i/$TOTAL_RUNS: Running task $TASK"
     
-    python3 demo_agent/run_demo.py \
+    python3 agents/simple_agent/run_demo.py \
         --task_name "$TASK" \
         --model_name "$MODEL_NAME" \
         --visual_effects "$VISUAL_EFFECTS" \
         --use_html "$USE_HTML" \
         --use_axtree "$USE_AXTREE" \
-        --use_screenshot "$USE_SCREENSHOT"
+        --use_screenshot "$USE_SCREENSHOT" \
+        --system_message "$SYSTEM_MESSAGE"
     
     # Check if the run was successful
     if [ $? -ne 0 ]; then
