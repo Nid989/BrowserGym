@@ -14,7 +14,8 @@ SYSTEM_MESSAGE="""# Instructions
 
 Review the current state of the page and all other information to find the best
 possible next action to accomplish your goal. Your answer will be interpreted
-and executed by a program, make sure to follow the formatting instructions."""
+and executed by a program, make sure to follow the formatting instructions. 
+Exempt from visiting any external websites which are not provided explicitly."""
 
 # Array of task names
 TASKS=(
@@ -123,7 +124,9 @@ done
 
 # Generate analysis after all runs are complete
 echo "Generating experiment analysis..."
-python3 experiments/logging/trace_formatter.py --results_dir "$RESULTS_DIR"
+python3 experiments/logging/trace_formatter.py \
+    --results_dir "$RESULTS_DIR" \
+    --system_message "$SYSTEM_MESSAGE"
 
 echo "All experiments and analysis complete!" 
 

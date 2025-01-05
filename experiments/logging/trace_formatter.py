@@ -142,12 +142,13 @@ def setup_logger(debug_mode: bool = False):
     
     return logger
 
-def log_experiment_details(exp_dir: str | Path, debug_mode: bool = False):
+def log_experiment_details(exp_dir: str | Path, system_message: str = None, debug_mode: bool = False):
     """
     Log experiment details in a structured markdown format.
     
     Args:
         exp_dir: Path to the experiment directory
+        system_message: Custom system message to use in templates
         debug_mode: If True, enables debug logging
     """
     logger = setup_logger(debug_mode)
@@ -284,7 +285,7 @@ def log_experiment_details(exp_dir: str | Path, debug_mode: bool = False):
             
             f.write("## System Message - Template (Task Mode)\n\n")
             f.write("```\n")
-            f.write(get_system_message_template(chat_mode=False))
+            f.write(get_system_message_template(chat_mode=False, system_message=system_message))
             f.write("\n```\n\n")
 
             # Action Space Template
@@ -313,12 +314,13 @@ if __name__ == "__main__":
     parser.add_argument("--exp_dir", type=str, help="Path to single experiment directory")
     parser.add_argument("--results_dir", type=str, default="./result", help="Path to results directory containing multiple experiments")
     parser.add_argument("--debug", action="store_true", help="Enable debug mode logging")
+    parser.add_argument("--system_message", type=str, help="Custom system message to use in templates")
     
     args = parser.parse_args()
     
     if args.exp_dir:
         # Process single experiment directory
-        log_experiment_details(Path(args.exp_dir), debug_mode=args.debug)
+        log_experiment_details(Path(args.exp_dir), system_message=args.system_message, debug_mode=args.debug)
     else:
         # Process all experiment directories under results_dir
         results_dir = Path(args.results_dir)
@@ -338,6 +340,6 @@ if __name__ == "__main__":
         for exp_dir in exp_dirs:
             print(f"Processing {exp_dir.name}...")
             try:
-                log_experiment_details(exp_dir, debug_mode=args.debug)
+                log_experiment_details(exp_dir, system_message=args.system_message, debug_mode=args.debug)
             except Exception as e:
                 print(f"Error processing {exp_dir.name}: {e}")
