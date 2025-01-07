@@ -13,6 +13,8 @@ from typing import Dict, List, Optional
 
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from langchain_openai import ChatOpenAI
+from langchain_anthropic import ChatAnthropic
+from langchain_groq import ChatGroq
 from langgraph.graph import START, END, StateGraph, MessagesState
 from langgraph.prebuilt import tools_condition, ToolNode
 
@@ -67,6 +69,7 @@ class DemoAgent(Agent):
     def __init__(
         self,
         model_name: str,
+        model_provider: str,
         chat_mode: bool,
         demo_mode: str,
         use_html: bool,
@@ -82,6 +85,7 @@ and executed by a program, make sure to follow the formatting instructions.
     ) -> None:
         super().__init__()
         self.model_name = model_name
+        self.model_provider = model_provider
         self.chat_mode = chat_mode
         self.use_html = use_html
         self.use_axtree = use_axtree
@@ -127,7 +131,15 @@ and executed by a program, make sure to follow the formatting instructions.
         return graph
 
     def _predict(self, state: MessagesState) -> MessagesState:
-        llm = ChatOpenAI(model=self.model_name, temperature=0.0)
+        if self.model_provider == "openai":
+            llm = ChatOpenAI(model=self.model_name, temperature=0.0)
+        elif self.model_provider == "anthropic":
+            llm = ChatAnthropic(model=self.model_name, temperature=0.0)
+        elif self.model_provider == "groq":
+            llm = ChatGroq(model=self.model_name, temperature=0.0)
+        else:
+            raise ValueError(f"Unsupported model provider: {self.model_provider}")
+        
         response = llm.invoke(state['messages'])
         return {'messages': [response]}
 
@@ -391,7 +403,8 @@ class DemoAgentArgs(AbstractAgentArgs):
     internal states of the agent.
     """
 
-    model_name: str = "gpt-4o-mini"
+    model_name: str = "gpt-4"
+    model_provider: str = "openai"
     chat_mode: bool = False
     demo_mode: str = "off"
     use_html: bool = False
@@ -408,6 +421,7 @@ and executed by a program, make sure to follow the formatting instructions.
     def make_agent(self):
         return DemoAgent(
             model_name=self.model_name,
+            model_provider=self.model_provider,
             chat_mode=self.chat_mode,
             demo_mode=self.demo_mode,
             use_html=self.use_html,

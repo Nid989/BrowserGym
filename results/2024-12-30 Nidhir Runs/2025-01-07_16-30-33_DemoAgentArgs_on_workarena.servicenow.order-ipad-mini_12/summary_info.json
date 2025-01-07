@@ -1,0 +1,22 @@
+{
+    "n_steps": 10,
+    "cum_reward": 1,
+    "cum_raw_reward": 0,
+    "err_msg": null,
+    "stack_trace": null,
+    "stats.cum_steps": 11,
+    "stats.cum_n_token_last_action": 1623,
+    "stats.max_n_token_last_action": 251,
+    "stats.cum_n_token_last_action_error": 1752,
+    "stats.max_n_token_last_action_error": 855,
+    "stats.cum_n_token_axtree_txt": 33884,
+    "stats.max_n_token_axtree_txt": 5800,
+    "stats.cum_n_token_pruned_html": 281968,
+    "stats.max_n_token_pruned_html": 37330,
+    "stats.cum_step_elapsed": 66.77704906463623,
+    "stats.max_step_elapsed": 26.661078929901123,
+    "stats.cum_agent_elapsed": 50.369996070861816,
+    "stats.max_agent_elapsed": 6.368451833724976,
+    "terminated": true,
+    "truncated": false
+}

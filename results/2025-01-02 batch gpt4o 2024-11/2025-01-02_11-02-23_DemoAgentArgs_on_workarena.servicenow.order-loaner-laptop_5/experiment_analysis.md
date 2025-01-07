@@ -378,6 +378,11 @@ RootWebArea 'Catalog | ServiceNow', url='https://dev282647.service-now.com/now/n
 click('All')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: All)
+No path found for bid: All
+
 ##### Outcome including errors
 
 Error: ValueError: Could not find element with bid "All"
@@ -684,6 +689,11 @@ RootWebArea 'Catalog | ServiceNow', url='https://dev282647.service-now.com/now/n
 click('All')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: All)
+No path found for bid: All
+
 ##### Outcome including errors
 
 Error: ValueError: Could not find element with bid "All"
@@ -694,6 +704,24 @@ Error: ValueError: Could not find element with bid "All"
 
 ```
 focus('a88')
+```
+
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
 ```
 
 ##### Outcome including errors
@@ -1011,6 +1039,11 @@ RootWebArea 'Catalog | ServiceNow', url='https://dev282647.service-now.com/now/n
 click('All')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: All)
+No path found for bid: All
+
 ##### Outcome including errors
 
 Error: ValueError: Could not find element with bid "All"
@@ -1023,6 +1056,24 @@ Error: ValueError: Could not find element with bid "All"
 focus('a88')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1033,6 +1084,24 @@ No errors reported
 
 ```
 fill('a88', 'Loaner Laptop')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
 ```
 
 ##### Outcome including errors
@@ -1252,6 +1321,11 @@ RootWebArea 'ServiceNow', url='https://dev282647.service-now.com/now/nav/ui/clas
 click('All')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: All)
+No path found for bid: All
+
 ##### Outcome including errors
 
 Error: ValueError: Could not find element with bid "All"
@@ -1262,6 +1336,24 @@ Error: ValueError: Could not find element with bid "All"
 
 ```
 focus('a88')
+```
+
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
 ```
 
 ##### Outcome including errors
@@ -1276,6 +1368,24 @@ No errors reported
 fill('a88', 'Loaner Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1286,6 +1396,20 @@ No errors reported
 
 ```
 click('a564')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a564)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a504] listbox: ''
+          [a562] LayoutTable: ''
+            [a564] option: 'Loaner Laptop'
 ```
 
 ##### Outcome including errors
@@ -1481,6 +1605,11 @@ RootWebArea 'Loaner Laptop | ServiceNow', url='https://dev282647.service-now.com
 click('All')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: All)
+No path found for bid: All
+
 ##### Outcome including errors
 
 Error: ValueError: Could not find element with bid "All"
@@ -1491,6 +1620,24 @@ Error: ValueError: Could not find element with bid "All"
 
 ```
 focus('a88')
+```
+
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
 ```
 
 ##### Outcome including errors
@@ -1505,6 +1652,24 @@ No errors reported
 fill('a88', 'Loaner Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1517,6 +1682,20 @@ No errors reported
 click('a564')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a564)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a504] listbox: ''
+          [a562] LayoutTable: ''
+            [a564] option: 'Loaner Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1527,6 +1706,27 @@ No errors reported
 
 ```
 click('a146')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a146)
+Path to element:
+```
+[] RootWebArea: 'ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'ServiceNow'
+        [a102] table: ''
+          [a103] rowgroup: ''
+            [a104] row: ''
+              [a105] cell: 'Catalog Search Results'
+                [a108] main: 'Catalog Search Results'
+                  [a138] table: ''
+                    [a139] rowgroup: ''
+                      [a140] row: ''
+                        [a144] cell: 'Loaner Laptop'
+                          [a146] link: 'Loaner Laptop'
 ```
 
 ##### Outcome including errors
@@ -1728,6 +1928,11 @@ RootWebArea 'Loaner Laptop | ServiceNow', url='https://dev282647.service-now.com
 click('All')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: All)
+No path found for bid: All
+
 ##### Outcome including errors
 
 Error: ValueError: Could not find element with bid "All"
@@ -1738,6 +1943,24 @@ Error: ValueError: Could not find element with bid "All"
 
 ```
 focus('a88')
+```
+
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
 ```
 
 ##### Outcome including errors
@@ -1752,6 +1975,24 @@ No errors reported
 fill('a88', 'Loaner Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1762,6 +2003,20 @@ No errors reported
 
 ```
 click('a564')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a564)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a504] listbox: ''
+          [a562] LayoutTable: ''
+            [a564] option: 'Loaner Laptop'
 ```
 
 ##### Outcome including errors
@@ -1776,6 +2031,27 @@ No errors reported
 click('a146')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a146)
+Path to element:
+```
+[] RootWebArea: 'ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'ServiceNow'
+        [a102] table: ''
+          [a103] rowgroup: ''
+            [a104] row: ''
+              [a105] cell: 'Catalog Search Results'
+                [a108] main: 'Catalog Search Results'
+                  [a138] table: ''
+                    [a139] rowgroup: ''
+                      [a140] row: ''
+                        [a144] cell: 'Loaner Laptop'
+                          [a146] link: 'Loaner Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1786,6 +2062,27 @@ No errors reported
 
 ```
 select_option('a179', '2 weeks')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: a179)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a149] table: ''
+            [a150] rowgroup: ''
+              [a151] row: ''
+                [a152] cell: ''
+                  [a153] table: ''
+                    [a155] rowgroup: ''
+                      [a170] row: ''
+                        [a171] cell: 'How long do you need it for ? 1 day'
+                          [a179] combobox: 'How long do you need it for ?'
 ```
 
 ##### Outcome including errors
@@ -1984,6 +2281,11 @@ RootWebArea 'Loaner Laptop | ServiceNow', url='https://dev282647.service-now.com
 click('All')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: All)
+No path found for bid: All
+
 ##### Outcome including errors
 
 Error: ValueError: Could not find element with bid "All"
@@ -1994,6 +2296,24 @@ Error: ValueError: Could not find element with bid "All"
 
 ```
 focus('a88')
+```
+
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
 ```
 
 ##### Outcome including errors
@@ -2008,6 +2328,24 @@ No errors reported
 fill('a88', 'Loaner Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2018,6 +2356,20 @@ No errors reported
 
 ```
 click('a564')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a564)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a504] listbox: ''
+          [a562] LayoutTable: ''
+            [a564] option: 'Loaner Laptop'
 ```
 
 ##### Outcome including errors
@@ -2032,6 +2384,27 @@ No errors reported
 click('a146')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a146)
+Path to element:
+```
+[] RootWebArea: 'ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'ServiceNow'
+        [a102] table: ''
+          [a103] rowgroup: ''
+            [a104] row: ''
+              [a105] cell: 'Catalog Search Results'
+                [a108] main: 'Catalog Search Results'
+                  [a138] table: ''
+                    [a139] rowgroup: ''
+                      [a140] row: ''
+                        [a144] cell: 'Loaner Laptop'
+                          [a146] link: 'Loaner Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2044,6 +2417,27 @@ No errors reported
 select_option('a179', '2 weeks')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: a179)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a149] table: ''
+            [a150] rowgroup: ''
+              [a151] row: ''
+                [a152] cell: ''
+                  [a153] table: ''
+                    [a155] rowgroup: ''
+                      [a170] row: ''
+                        [a171] cell: 'How long do you need it for ? 1 day'
+                          [a179] combobox: 'How long do you need it for ?'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2054,6 +2448,27 @@ No errors reported
 
 ```
 fill('a169', 'By the end of the month')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a169)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a149] table: ''
+            [a150] rowgroup: ''
+              [a151] row: ''
+                [a152] cell: ''
+                  [a153] table: ''
+                    [a155] rowgroup: ''
+                      [a159] row: ''
+                        [a160] cell: 'When do you need it ? When do you need it ?'
+                          [a169] textbox: 'When do you need it ?'
 ```
 
 ##### Outcome including errors
@@ -2252,6 +2667,11 @@ RootWebArea 'Loaner Laptop | ServiceNow', url='https://dev282647.service-now.com
 click('All')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: All)
+No path found for bid: All
+
 ##### Outcome including errors
 
 Error: ValueError: Could not find element with bid "All"
@@ -2262,6 +2682,24 @@ Error: ValueError: Could not find element with bid "All"
 
 ```
 focus('a88')
+```
+
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
 ```
 
 ##### Outcome including errors
@@ -2276,6 +2714,24 @@ No errors reported
 fill('a88', 'Loaner Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2286,6 +2742,20 @@ No errors reported
 
 ```
 click('a564')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a564)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a504] listbox: ''
+          [a562] LayoutTable: ''
+            [a564] option: 'Loaner Laptop'
 ```
 
 ##### Outcome including errors
@@ -2300,6 +2770,27 @@ No errors reported
 click('a146')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a146)
+Path to element:
+```
+[] RootWebArea: 'ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'ServiceNow'
+        [a102] table: ''
+          [a103] rowgroup: ''
+            [a104] row: ''
+              [a105] cell: 'Catalog Search Results'
+                [a108] main: 'Catalog Search Results'
+                  [a138] table: ''
+                    [a139] rowgroup: ''
+                      [a140] row: ''
+                        [a144] cell: 'Loaner Laptop'
+                          [a146] link: 'Loaner Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2310,6 +2801,27 @@ No errors reported
 
 ```
 select_option('a179', '2 weeks')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: a179)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a149] table: ''
+            [a150] rowgroup: ''
+              [a151] row: ''
+                [a152] cell: ''
+                  [a153] table: ''
+                    [a155] rowgroup: ''
+                      [a170] row: ''
+                        [a171] cell: 'How long do you need it for ? 1 day'
+                          [a179] combobox: 'How long do you need it for ?'
 ```
 
 ##### Outcome including errors
@@ -2324,6 +2836,27 @@ No errors reported
 fill('a169', 'By the end of the month')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a169)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a149] table: ''
+            [a150] rowgroup: ''
+              [a151] row: ''
+                [a152] cell: ''
+                  [a153] table: ''
+                    [a155] rowgroup: ''
+                      [a159] row: ''
+                        [a160] cell: 'When do you need it ? When do you need it ?'
+                          [a169] textbox: 'When do you need it ?'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2334,6 +2867,20 @@ No errors reported
 
 ```
 select_option('a217', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: a217)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a196] region: 'Order this Item'
+            [a217] combobox: 'Quantity'
 ```
 
 ##### Outcome including errors
@@ -2537,6 +3084,11 @@ RootWebArea 'Loaner Laptop | ServiceNow', url='https://dev282647.service-now.com
 click('All')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: All)
+No path found for bid: All
+
 ##### Outcome including errors
 
 Error: ValueError: Could not find element with bid "All"
@@ -2547,6 +3099,24 @@ Error: ValueError: Could not find element with bid "All"
 
 ```
 focus('a88')
+```
+
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
 ```
 
 ##### Outcome including errors
@@ -2561,6 +3131,24 @@ No errors reported
 fill('a88', 'Loaner Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2571,6 +3159,20 @@ No errors reported
 
 ```
 click('a564')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a564)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a504] listbox: ''
+          [a562] LayoutTable: ''
+            [a564] option: 'Loaner Laptop'
 ```
 
 ##### Outcome including errors
@@ -2585,6 +3187,27 @@ No errors reported
 click('a146')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a146)
+Path to element:
+```
+[] RootWebArea: 'ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'ServiceNow'
+        [a102] table: ''
+          [a103] rowgroup: ''
+            [a104] row: ''
+              [a105] cell: 'Catalog Search Results'
+                [a108] main: 'Catalog Search Results'
+                  [a138] table: ''
+                    [a139] rowgroup: ''
+                      [a140] row: ''
+                        [a144] cell: 'Loaner Laptop'
+                          [a146] link: 'Loaner Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2595,6 +3218,27 @@ No errors reported
 
 ```
 select_option('a179', '2 weeks')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: a179)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a149] table: ''
+            [a150] rowgroup: ''
+              [a151] row: ''
+                [a152] cell: ''
+                  [a153] table: ''
+                    [a155] rowgroup: ''
+                      [a170] row: ''
+                        [a171] cell: 'How long do you need it for ? 1 day'
+                          [a179] combobox: 'How long do you need it for ?'
 ```
 
 ##### Outcome including errors
@@ -2609,6 +3253,27 @@ No errors reported
 fill('a169', 'By the end of the month')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a169)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a149] table: ''
+            [a150] rowgroup: ''
+              [a151] row: ''
+                [a152] cell: ''
+                  [a153] table: ''
+                    [a155] rowgroup: ''
+                      [a159] row: ''
+                        [a160] cell: 'When do you need it ? When do you need it ?'
+                          [a169] textbox: 'When do you need it ?'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2621,6 +3286,20 @@ No errors reported
 select_option('a217', '3')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: a217)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a196] region: 'Order this Item'
+            [a217] combobox: 'Quantity'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2631,6 +3310,20 @@ No errors reported
 
 ```
 click('a258')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a258)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a196] region: 'Order this Item'
+            [a258] button: 'Order Now'
 ```
 
 ##### Outcome including errors
@@ -2803,6 +3496,11 @@ RootWebArea 'Order Status: REQ0010010 | ServiceNow', url='https://dev282647.serv
 click('All')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: All)
+No path found for bid: All
+
 ##### Outcome including errors
 
 Error: ValueError: Could not find element with bid "All"
@@ -2813,6 +3511,24 @@ Error: ValueError: Could not find element with bid "All"
 
 ```
 focus('a88')
+```
+
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
 ```
 
 ##### Outcome including errors
@@ -2827,6 +3543,24 @@ No errors reported
 fill('a88', 'Loaner Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a88)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a59] navigation: ''
+          [a60] table: ''
+            [a61] rowgroup: ''
+              [a62] row: ''
+                [a67] cell: 'Catalog'
+                  [a69] search: 'Catalog'
+                    [a88] combobox: 'Search catalog'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2837,6 +3571,20 @@ No errors reported
 
 ```
 click('a564')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a564)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a504] listbox: ''
+          [a562] LayoutTable: ''
+            [a564] option: 'Loaner Laptop'
 ```
 
 ##### Outcome including errors
@@ -2851,6 +3599,27 @@ No errors reported
 click('a146')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a146)
+Path to element:
+```
+[] RootWebArea: 'ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'ServiceNow'
+        [a102] table: ''
+          [a103] rowgroup: ''
+            [a104] row: ''
+              [a105] cell: 'Catalog Search Results'
+                [a108] main: 'Catalog Search Results'
+                  [a138] table: ''
+                    [a139] rowgroup: ''
+                      [a140] row: ''
+                        [a144] cell: 'Loaner Laptop'
+                          [a146] link: 'Loaner Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2861,6 +3630,27 @@ No errors reported
 
 ```
 select_option('a179', '2 weeks')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: a179)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a149] table: ''
+            [a150] rowgroup: ''
+              [a151] row: ''
+                [a152] cell: ''
+                  [a153] table: ''
+                    [a155] rowgroup: ''
+                      [a170] row: ''
+                        [a171] cell: 'How long do you need it for ? 1 day'
+                          [a179] combobox: 'How long do you need it for ?'
 ```
 
 ##### Outcome including errors
@@ -2875,6 +3665,27 @@ No errors reported
 fill('a169', 'By the end of the month')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a169)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a149] table: ''
+            [a150] rowgroup: ''
+              [a151] row: ''
+                [a152] cell: ''
+                  [a153] table: ''
+                    [a155] rowgroup: ''
+                      [a159] row: ''
+                        [a160] cell: 'When do you need it ? When do you need it ?'
+                          [a169] textbox: 'When do you need it ?'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2885,6 +3696,20 @@ No errors reported
 
 ```
 select_option('a217', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: a217)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a196] region: 'Order this Item'
+            [a217] combobox: 'Quantity'
 ```
 
 ##### Outcome including errors
@@ -2899,6 +3724,20 @@ No errors reported
 click('a258')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a258)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a196] region: 'Order this Item'
+            [a258] button: 'Order Now'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2909,6 +3748,20 @@ No errors reported
 
 ```
 click('a260')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a260)
+Path to element:
+```
+[] RootWebArea: 'Loaner Laptop | ServiceNow'
+  [165] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Loaner Laptop | ServiceNow'
+        [a127] region: 'Loaner Laptop'
+          [a196] region: 'Order this Item'
+            [a260] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors

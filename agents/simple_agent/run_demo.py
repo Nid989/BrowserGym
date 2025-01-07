@@ -27,6 +27,13 @@ def parse_args():
         help="OpenAI model name.",
     )
     parser.add_argument(
+        "--model_provider",
+        type=str,
+        default="openai",
+        choices=["openai", "anthropic", "groq"],
+        help="Model provider to use (openai, anthropic, or groq).",
+    )
+    parser.add_argument(
         "--task_name",
         type=str,
         default="openended",
@@ -74,6 +81,12 @@ and executed by a program, make sure to follow the formatting instructions.
 """,
         help="System message to be used by the agent.",
     )
+    parser.add_argument(
+        "--max_steps",
+        type=int,
+        default=100,
+        help="Maximum number of steps for the environment.",
+    )
 
     return parser.parse_args()
 
@@ -92,6 +105,7 @@ https://github.com/ServiceNow/AgentLab"""
     # setting up agent config
     agent_args = DemoAgentArgs(
         model_name=args.model_name,
+        model_provider=args.model_provider,
         chat_mode=False,
         demo_mode="default" if args.visual_effects else "off",
         use_html=args.use_html,
@@ -104,7 +118,7 @@ https://github.com/ServiceNow/AgentLab"""
     env_args = EnvArgs(
         task_name=args.task_name,
         task_seed=None,
-        max_steps=100,
+        max_steps=args.max_steps,
         headless=False,  # keep the browser open
         # use_chrome=args.use_chrome,
         # viewport={"width": 1500, "height": 1280},  # can be played with if needed

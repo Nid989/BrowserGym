@@ -30,7 +30,7 @@ class PastAction:
         formatted_text.append(f"#### PastAction{str(self.step).zfill(3)}\n\n")
         formatted_text.append("##### Selected Action in the BrowserGym format\n\n")
         formatted_text.append(f"```\n{self.action}\n```\n\n")
-        
+
         # DOM Tree Breadcrumb (only if we have paths)
         if self.breadcrumb_paths:
             formatted_text.append("##### DOM Tree Breadcrumb\n\n")
@@ -92,7 +92,7 @@ class PastActionTracker:
                 for bid, label in bid_info:
                     path = get_path_to_bid(root, bid)
                     breadcrumb_paths.append((bid, label, path))
-        
+
         # Store the action with the previous step number
         action = PastAction(
             step=previous_step,

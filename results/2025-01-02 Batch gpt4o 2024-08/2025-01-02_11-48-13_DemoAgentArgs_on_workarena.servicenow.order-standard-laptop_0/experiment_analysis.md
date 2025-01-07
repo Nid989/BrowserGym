@@ -17,7 +17,7 @@
 # 2 - Instance Type
 
 
-##  InstanceStep000
+## InstanceStep000
 
 
 ### State of the World

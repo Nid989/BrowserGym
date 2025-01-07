@@ -784,6 +784,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1031,6 +1051,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1041,6 +1081,27 @@ No errors reported
 
 ```
 click('a330')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
 ```
 
 ##### Outcome including errors
@@ -1297,6 +1358,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1309,6 +1390,27 @@ No errors reported
 click('a330')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1319,6 +1421,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -1607,6 +1732,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1619,6 +1764,27 @@ No errors reported
 click('a330')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1629,6 +1795,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -1929,6 +2118,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1941,6 +2150,27 @@ No errors reported
 click('a330')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -1951,6 +2181,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -2014,6 +2267,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -2306,6 +2582,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2318,6 +2614,27 @@ No errors reported
 click('a330')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2328,6 +2645,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -2393,6 +2733,29 @@ No errors reported
 click('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -2442,6 +2805,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a197")
 
 ```
 focus('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -2693,6 +3079,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2705,6 +3111,27 @@ No errors reported
 click('a330')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2715,6 +3142,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -2780,6 +3230,29 @@ No errors reported
 click('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -2831,6 +3304,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a197")
 focus('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2841,6 +3337,29 @@ No errors reported
 
 ```
 press('a197', ' ')
+```
+
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -3094,6 +3613,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -3106,6 +3645,27 @@ No errors reported
 click('a330')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -3116,6 +3676,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -3181,6 +3764,29 @@ No errors reported
 click('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -3232,6 +3838,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a197")
 focus('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -3244,6 +3873,29 @@ No errors reported
 press('a197', ' ')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -3254,6 +3906,29 @@ No errors reported
 
 ```
 click('a218')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
 ```
 
 ##### Outcome including errors
@@ -3544,6 +4219,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -3556,6 +4251,27 @@ No errors reported
 click('a330')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -3566,6 +4282,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -3631,6 +4370,29 @@ No errors reported
 click('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -3682,6 +4444,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a197")
 focus('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -3694,6 +4479,29 @@ No errors reported
 press('a197', ' ')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -3704,6 +4512,29 @@ No errors reported
 
 ```
 click('a218')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
 ```
 
 ##### Outcome including errors
@@ -3755,6 +4586,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a218")
 
 ```
 focus('a218')
+```
+
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
 ```
 
 ##### Outcome including errors
@@ -4004,6 +4858,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4016,6 +4890,27 @@ No errors reported
 click('a330')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4026,6 +4921,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -4091,6 +5009,29 @@ No errors reported
 click('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -4142,6 +5083,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a197")
 focus('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4154,6 +5118,29 @@ No errors reported
 press('a197', ' ')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4164,6 +5151,29 @@ No errors reported
 
 ```
 click('a218')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
 ```
 
 ##### Outcome including errors
@@ -4217,6 +5227,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a218")
 focus('a218')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4227,6 +5260,29 @@ No errors reported
 
 ```
 press('a218', ' ')
+```
+
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
 ```
 
 ##### Outcome including errors
@@ -4480,6 +5536,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4492,6 +5568,27 @@ No errors reported
 click('a330')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4502,6 +5599,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -4567,6 +5687,29 @@ No errors reported
 click('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -4618,6 +5761,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a197")
 focus('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4630,6 +5796,29 @@ No errors reported
 press('a197', ' ')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4640,6 +5829,29 @@ No errors reported
 
 ```
 click('a218')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
 ```
 
 ##### Outcome including errors
@@ -4693,6 +5905,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a218")
 focus('a218')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4705,6 +5940,29 @@ No errors reported
 press('a218', ' ')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4715,6 +5973,27 @@ No errors reported
 
 ```
 fill('a231', 'Slack, Trello, Salesforce, QuickBooks, Zoom, Asana, HubSpot')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a231)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a222] row: ''
+                        [a223] cell: 'Additional software requirements Additional software requirements'
+                          [a231] textbox: 'Additional software requirements'
 ```
 
 ##### Outcome including errors
@@ -4968,6 +6247,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4980,6 +6279,27 @@ No errors reported
 click('a330')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4990,6 +6310,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -5055,6 +6398,29 @@ No errors reported
 click('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -5106,6 +6472,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a197")
 focus('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5118,6 +6507,29 @@ No errors reported
 press('a197', ' ')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5128,6 +6540,29 @@ No errors reported
 
 ```
 click('a218')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
 ```
 
 ##### Outcome including errors
@@ -5181,6 +6616,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a218")
 focus('a218')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5191,6 +6649,29 @@ No errors reported
 
 ```
 press('a218', ' ')
+```
+
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
 ```
 
 ##### Outcome including errors
@@ -5205,6 +6686,27 @@ No errors reported
 fill('a231', 'Slack, Trello, Salesforce, QuickBooks, Zoom, Asana, HubSpot')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a231)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a222] row: ''
+                        [a223] cell: 'Additional software requirements Additional software requirements'
+                          [a231] textbox: 'Additional software requirements'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5215,6 +6717,20 @@ No errors reported
 
 ```
 select_option('a265', '2')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: a265)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a244] region: 'Order this Item'
+            [a265] combobox: 'Quantity'
 ```
 
 ##### Outcome including errors
@@ -5416,6 +6932,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5428,6 +6964,27 @@ No errors reported
 click('a330')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5438,6 +6995,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -5503,6 +7083,29 @@ No errors reported
 click('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -5554,6 +7157,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a197")
 focus('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5566,6 +7192,29 @@ No errors reported
 press('a197', ' ')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5576,6 +7225,29 @@ No errors reported
 
 ```
 click('a218')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
 ```
 
 ##### Outcome including errors
@@ -5629,6 +7301,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a218")
 focus('a218')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5639,6 +7334,29 @@ No errors reported
 
 ```
 press('a218', ' ')
+```
+
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
 ```
 
 ##### Outcome including errors
@@ -5653,6 +7371,27 @@ No errors reported
 fill('a231', 'Slack, Trello, Salesforce, QuickBooks, Zoom, Asana, HubSpot')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a231)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a222] row: ''
+                        [a223] cell: 'Additional software requirements Additional software requirements'
+                          [a231] textbox: 'Additional software requirements'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5665,6 +7404,20 @@ No errors reported
 select_option('a265', '2')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: a265)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a244] region: 'Order this Item'
+            [a265] combobox: 'Quantity'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5675,6 +7428,20 @@ No errors reported
 
 ```
 click('a306')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a306)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a244] region: 'Order this Item'
+            [a306] button: 'Order Now'
 ```
 
 ##### Outcome including errors
@@ -5872,6 +7639,26 @@ No errors reported
 click('a252')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a252)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Catalog'
+        [a92] table: ''
+          [a93] rowgroup: ''
+            [a97] row: ''
+              [a240] cell: 'Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close Edit Widget Edit Widget Preferences Close'
+                [a243] table: ''
+                  [a244] rowgroup: ''
+                    [a245] row: ''
+                      [a251] heading: 'Hardware'
+                        [a252] link: 'Hardware'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5884,6 +7671,27 @@ No errors reported
 click('a330')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a330)
+Path to element:
+```
+[] RootWebArea: 'Catalog | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Hardware | ServiceNow'
+        [a113] table: ''
+          [a114] rowgroup: ''
+            [a115] row: ''
+              [a116] cell: 'Category Items'
+                [a117] region: 'Category Items'
+                  [a322] table: ''
+                    [a323] rowgroup: ''
+                      [a324] row: ''
+                        [a328] cell: 'Sales Laptop'
+                          [a330] link: 'Sales Laptop'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5894,6 +7702,29 @@ No errors reported
 
 ```
 click('a197')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
 ```
 
 ##### Outcome including errors
@@ -5959,6 +7790,29 @@ No errors reported
 click('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -6010,6 +7864,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a197")
 focus('a197')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -6022,6 +7899,29 @@ No errors reported
 press('a197', ' ')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a197)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a196] LayoutTable: ''
+                              [a197] checkbox: 'Microsoft Powerpoint'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -6032,6 +7932,29 @@ No errors reported
 
 ```
 click('a218')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
 ```
 
 ##### Outcome including errors
@@ -6085,6 +8008,29 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a218")
 focus('a218')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Focused Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -6095,6 +8041,29 @@ No errors reported
 
 ```
 press('a218', ' ')
+```
+
+##### DOM Tree Breadcrumb
+
+**Pressed Element** (bid: a218)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a182] row: ''
+                        [a183] cell: ''
+                          [a186] group: ''
+                            [a217] LayoutTable: ''
+                              [a218] checkbox: 'Siebel Client'
 ```
 
 ##### Outcome including errors
@@ -6109,6 +8078,27 @@ No errors reported
 fill('a231', 'Slack, Trello, Salesforce, QuickBooks, Zoom, Asana, HubSpot')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: a231)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a172] table: ''
+            [a173] rowgroup: ''
+              [a174] row: ''
+                [a175] cell: ''
+                  [a176] table: ''
+                    [a178] rowgroup: ''
+                      [a222] row: ''
+                        [a223] cell: 'Additional software requirements Additional software requirements'
+                          [a231] textbox: 'Additional software requirements'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -6121,6 +8111,20 @@ No errors reported
 select_option('a265', '2')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: a265)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a244] region: 'Order this Item'
+            [a265] combobox: 'Quantity'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -6131,6 +8135,20 @@ No errors reported
 
 ```
 click('a306')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: a306)
+Path to element:
+```
+[] RootWebArea: 'Sales Laptop | ServiceNow'
+  [202] main: ''
+    [a] Iframe: 'Main Content'
+      [] RootWebArea: 'Sales Laptop | ServiceNow'
+        [a128] region: 'Sales Laptop'
+          [a244] region: 'Order this Item'
+            [a306] button: 'Order Now'
 ```
 
 ##### Outcome including errors
