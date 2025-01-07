@@ -24,7 +24,7 @@ def extract_bids_from_action(action: str) -> List[Tuple[str, str]]:
     Returns list of tuples: (bid, label)
     """
     # Handle drag_and_drop specially
-    drag_drop_match = re.match(r"drag_and_drop\('([a-zA-Z0-9]+)',\s*'([a-zA-Z0-9]+)'", action)
+    drag_drop_match = re.match(r"drag_and_drop\(['\"]([a-zA-Z0-9]+)['\"],\s*['\"]([a-zA-Z0-9]+)['\"]", action)
     if drag_drop_match:
         return [
             (drag_drop_match.group(1), "Source Element"),
@@ -33,15 +33,15 @@ def extract_bids_from_action(action: str) -> List[Tuple[str, str]]:
     
     # Handle single bid actions
     single_bid_patterns = [
-        (r"fill\('([a-zA-Z0-9]+)'", "Input Element"),
-        (r"select_option\('([a-zA-Z0-9]+)'", "Select Element"),
-        (r"click\('([a-zA-Z0-9]+)'", "Clicked Element"),
-        (r"dblclick\('([a-zA-Z0-9]+)'", "Double-clicked Element"),
-        (r"hover\('([a-zA-Z0-9]+)'", "Hovered Element"),
-        (r"press\('([a-zA-Z0-9]+)'", "Pressed Element"),
-        (r"focus\('([a-zA-Z0-9]+)'", "Focused Element"),
-        (r"clear\('([a-zA-Z0-9]+)'", "Cleared Element"),
-        (r"upload_file\('([a-zA-Z0-9]+)'", "Upload Element"),
+        (r"fill\(['\"]([a-zA-Z0-9]+)['\"]", "Input Element"),
+        (r"select_option\(['\"]([a-zA-Z0-9]+)['\"]", "Select Element"),
+        (r"click\(['\"]([a-zA-Z0-9]+)['\"]", "Clicked Element"),
+        (r"dblclick\(['\"]([a-zA-Z0-9]+)['\"]", "Double-clicked Element"),
+        (r"hover\(['\"]([a-zA-Z0-9]+)['\"]", "Hovered Element"),
+        (r"press\(['\"]([a-zA-Z0-9]+)['\"]", "Pressed Element"),
+        (r"focus\(['\"]([a-zA-Z0-9]+)['\"]", "Focused Element"),
+        (r"clear\(['\"]([a-zA-Z0-9]+)['\"]", "Cleared Element"),
+        (r"upload_file\(['\"]([a-zA-Z0-9]+)['\"]", "Upload Element"),
     ]
     
     for pattern, label in single_bid_patterns:

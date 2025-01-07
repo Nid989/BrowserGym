@@ -1501,6 +1501,16 @@ No errors reported
 click('1002')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1002)
+Path to element:
+```
+[] RootWebArea: 'Apple'
+  [966] main: ''
+    [1002] link: 'Shop - Apple Watch'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -2739,6 +2749,16 @@ No errors reported
 click('1002')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1002)
+Path to element:
+```
+[] RootWebArea: 'Apple'
+  [966] main: ''
+    [1002] link: 'Shop - Apple Watch'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -2761,6 +2781,18 @@ waiting for get_by_test_id("1002")
 
 ```
 click('979')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 979)
+Path to element:
+```
+[] RootWebArea: 'Buy Apple Watch - Apple'
+  [857] main: ''
+    [932] list: 'All Models'
+      [933] listitem: ''
+        [979] link: 'Buy - Apple\xa0Watch Series\xa010'
 ```
 
 ##### Outcome including errors
@@ -4009,6 +4041,16 @@ No errors reported
 click('1002')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1002)
+Path to element:
+```
+[] RootWebArea: 'Apple'
+  [966] main: ''
+    [1002] link: 'Shop - Apple Watch'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -4031,6 +4073,18 @@ waiting for get_by_test_id("1002")
 
 ```
 click('979')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 979)
+Path to element:
+```
+[] RootWebArea: 'Buy Apple Watch - Apple'
+  [857] main: ''
+    [932] list: 'All Models'
+      [933] listitem: ''
+        [979] link: 'Buy - Apple\xa0Watch Series\xa010'
 ```
 
 ##### Outcome including errors
@@ -4907,6 +4961,16 @@ No errors reported
 click('1002')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1002)
+Path to element:
+```
+[] RootWebArea: 'Apple'
+  [966] main: ''
+    [1002] link: 'Shop - Apple Watch'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -4929,6 +4993,18 @@ waiting for get_by_test_id("1002")
 
 ```
 click('979')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 979)
+Path to element:
+```
+[] RootWebArea: 'Buy Apple Watch - Apple'
+  [857] main: ''
+    [932] list: 'All Models'
+      [933] listitem: ''
+        [979] link: 'Buy - Apple\xa0Watch Series\xa010'
 ```
 
 ##### Outcome including errors
@@ -6171,6 +6247,16 @@ No errors reported
 click('1002')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1002)
+Path to element:
+```
+[] RootWebArea: 'Apple'
+  [966] main: ''
+    [1002] link: 'Shop - Apple Watch'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -6193,6 +6279,18 @@ waiting for get_by_test_id("1002")
 
 ```
 click('979')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 979)
+Path to element:
+```
+[] RootWebArea: 'Buy Apple Watch - Apple'
+  [857] main: ''
+    [932] list: 'All Models'
+      [933] listitem: ''
+        [979] link: 'Buy - Apple\xa0Watch Series\xa010'
 ```
 
 ##### Outcome including errors
@@ -6229,6 +6327,18 @@ No errors reported
 
 ```
 click('1060')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1060)
+Path to element:
+```
+[] RootWebArea: 'Buy Apple Watch - Apple'
+  [857] main: ''
+    [932] list: 'All Models'
+      [1021] listitem: ''
+        [1060] link: 'Buy - Apple Watch SE'
 ```
 
 ##### Outcome including errors
@@ -7449,6 +7559,16 @@ No errors reported
 click('1002')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1002)
+Path to element:
+```
+[] RootWebArea: 'Apple'
+  [966] main: ''
+    [1002] link: 'Shop - Apple Watch'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -7471,6 +7591,18 @@ waiting for get_by_test_id("1002")
 
 ```
 click('979')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 979)
+Path to element:
+```
+[] RootWebArea: 'Buy Apple Watch - Apple'
+  [857] main: ''
+    [932] list: 'All Models'
+      [933] listitem: ''
+        [979] link: 'Buy - Apple\xa0Watch Series\xa010'
 ```
 
 ##### Outcome including errors
@@ -7507,6 +7639,18 @@ No errors reported
 
 ```
 click('1060')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1060)
+Path to element:
+```
+[] RootWebArea: 'Buy Apple Watch - Apple'
+  [857] main: ''
+    [932] list: 'All Models'
+      [1021] listitem: ''
+        [1060] link: 'Buy - Apple Watch SE'
 ```
 
 ##### Outcome including errors

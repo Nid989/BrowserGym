@@ -2274,6 +2274,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -3337,6 +3349,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4230,6 +4254,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4252,6 +4288,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -4950,6 +4998,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4974,6 +5034,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4984,6 +5056,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -5835,6 +5919,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5859,6 +5955,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5869,6 +5977,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -5893,6 +6013,16 @@ waiting for get_by_test_id("2657")
 
 ```
 click('1301')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -6972,6 +7102,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -6996,6 +7138,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -7006,6 +7160,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -7032,6 +7198,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -7054,6 +7230,19 @@ waiting for get_by_test_id("1301")
 
 ```
 click('1792')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
 ```
 
 ##### Outcome including errors
@@ -7935,6 +8124,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -7959,6 +8160,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -7969,6 +8182,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -7995,6 +8220,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -8019,6 +8254,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -8029,6 +8277,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -8729,6 +8989,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -8753,6 +9025,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -8763,6 +9047,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -8789,6 +9085,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -8813,6 +9119,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -8825,6 +9144,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -8835,6 +9166,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -9674,6 +10017,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -9698,6 +10053,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -9708,6 +10075,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -9734,6 +10113,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -9758,6 +10147,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -9768,6 +10170,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -9782,6 +10196,18 @@ No errors reported
 click('2657')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -9792,6 +10218,16 @@ No errors reported
 
 ```
 click('1302')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1302)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1302] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -10859,6 +11295,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -10883,6 +11331,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -10893,6 +11353,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -10919,6 +11391,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -10943,6 +11425,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -10953,6 +11448,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -10967,6 +11474,18 @@ No errors reported
 click('2657')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -10979,6 +11498,16 @@ No errors reported
 click('1302')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1302)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1302] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -10989,6 +11518,19 @@ No errors reported
 
 ```
 click('1792')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
 ```
 
 ##### Outcome including errors
@@ -11708,6 +12250,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -11732,6 +12286,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -11742,6 +12308,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -11768,6 +12346,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -11792,6 +12380,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -11802,6 +12403,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -11816,6 +12429,18 @@ No errors reported
 click('2657')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -11826,6 +12451,16 @@ No errors reported
 
 ```
 click('1302')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1302)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1302] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -11840,6 +12475,19 @@ No errors reported
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -11850,6 +12498,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -12728,6 +13388,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -12752,6 +13424,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -12762,6 +13446,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -12788,6 +13484,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -12812,6 +13518,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -12822,6 +13541,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -12836,6 +13567,18 @@ No errors reported
 click('2657')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -12846,6 +13589,16 @@ No errors reported
 
 ```
 click('1302')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1302)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1302] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -12860,6 +13613,19 @@ No errors reported
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -12870,6 +13636,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -12894,6 +13672,16 @@ waiting for get_by_test_id("1440")
 
 ```
 click('1341')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -13974,6 +14762,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -13998,6 +14798,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -14008,6 +14820,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -14034,6 +14858,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -14058,6 +14892,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -14068,6 +14915,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -14082,6 +14941,18 @@ No errors reported
 click('2657')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -14092,6 +14963,16 @@ No errors reported
 
 ```
 click('1302')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1302)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1302] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -14106,6 +14987,19 @@ No errors reported
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -14116,6 +15010,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -14142,6 +15048,16 @@ waiting for get_by_test_id("1440")
 click('1341')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -14165,6 +15081,19 @@ waiting for get_by_test_id("1341")
 
 ```
 click('1843')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1843)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1798] contentinfo: 'Footer'
+    [1832] navigation: 'Breadcrumbs'
+      [1837] list: ''
+        [1842] listitem: ''
+          [1843] link: 'Buy MacBook Pro'
 ```
 
 ##### Outcome including errors
@@ -14882,6 +15811,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -14906,6 +15847,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -14916,6 +15869,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -14942,6 +15907,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -14966,6 +15941,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -14976,6 +15964,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -14990,6 +15990,18 @@ No errors reported
 click('2657')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -15000,6 +16012,16 @@ No errors reported
 
 ```
 click('1302')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1302)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1302] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -15014,6 +16036,19 @@ No errors reported
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -15024,6 +16059,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -15048,6 +16095,16 @@ waiting for get_by_test_id("1440")
 
 ```
 click('1341')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -15075,6 +16132,19 @@ waiting for get_by_test_id("1341")
 click('1843')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1843)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1798] contentinfo: 'Footer'
+    [1832] navigation: 'Breadcrumbs'
+      [1837] list: ''
+        [1842] listitem: ''
+          [1843] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -15085,6 +16155,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -15951,6 +17033,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -15975,6 +17069,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -15985,6 +17091,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -16011,6 +17129,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -16035,6 +17163,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -16045,6 +17186,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -16059,6 +17212,18 @@ No errors reported
 click('2657')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -16069,6 +17234,16 @@ No errors reported
 
 ```
 click('1302')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1302)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1302] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -16083,6 +17258,19 @@ No errors reported
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -16093,6 +17281,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -16117,6 +17317,16 @@ waiting for get_by_test_id("1440")
 
 ```
 click('1341')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -16144,6 +17354,19 @@ waiting for get_by_test_id("1341")
 click('1843')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1843)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1798] contentinfo: 'Footer'
+    [1832] navigation: 'Breadcrumbs'
+      [1837] list: ''
+        [1842] listitem: ''
+          [1843] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -16156,6 +17379,18 @@ No errors reported
 click('1440')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -16166,6 +17401,16 @@ No errors reported
 
 ```
 click('1341')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -17233,6 +18478,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -17257,6 +18514,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -17267,6 +18536,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -17293,6 +18574,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -17317,6 +18608,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -17327,6 +18631,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -17341,6 +18657,18 @@ No errors reported
 click('2657')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -17351,6 +18679,16 @@ No errors reported
 
 ```
 click('1302')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1302)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1302] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -17365,6 +18703,19 @@ No errors reported
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -17375,6 +18726,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -17399,6 +18762,16 @@ waiting for get_by_test_id("1440")
 
 ```
 click('1341')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -17426,6 +18799,19 @@ waiting for get_by_test_id("1341")
 click('1843')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1843)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1798] contentinfo: 'Footer'
+    [1832] navigation: 'Breadcrumbs'
+      [1837] list: ''
+        [1842] listitem: ''
+          [1843] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -17436,6 +18822,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -17450,6 +18848,16 @@ No errors reported
 click('1341')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -17460,6 +18868,19 @@ No errors reported
 
 ```
 click('1843')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1843)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1798] contentinfo: 'Footer'
+    [1832] navigation: 'Breadcrumbs'
+      [1837] list: ''
+        [1842] listitem: ''
+          [1843] link: 'Buy MacBook Pro'
 ```
 
 ##### Outcome including errors
@@ -18177,6 +19598,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -18201,6 +19634,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -18211,6 +19656,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -18237,6 +19694,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -18261,6 +19728,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -18271,6 +19751,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -18285,6 +19777,18 @@ No errors reported
 click('2657')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -18295,6 +19799,16 @@ No errors reported
 
 ```
 click('1302')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1302)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1302] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -18309,6 +19823,19 @@ No errors reported
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -18319,6 +19846,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -18343,6 +19882,16 @@ waiting for get_by_test_id("1440")
 
 ```
 click('1341')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -18370,6 +19919,19 @@ waiting for get_by_test_id("1341")
 click('1843')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1843)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1798] contentinfo: 'Footer'
+    [1832] navigation: 'Breadcrumbs'
+      [1837] list: ''
+        [1842] listitem: ''
+          [1843] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -18380,6 +19942,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -18394,6 +19968,16 @@ No errors reported
 click('1341')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -18406,6 +19990,19 @@ No errors reported
 click('1843')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1843)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1798] contentinfo: 'Footer'
+    [1832] navigation: 'Breadcrumbs'
+      [1837] list: ''
+        [1842] listitem: ''
+          [1843] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -18416,6 +20013,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -19282,6 +20891,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19306,6 +20927,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19316,6 +20949,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -19342,6 +20987,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -19366,6 +21021,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19376,6 +21044,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -19390,6 +21070,18 @@ No errors reported
 click('2657')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19400,6 +21092,16 @@ No errors reported
 
 ```
 click('1302')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1302)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1302] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -19414,6 +21116,19 @@ No errors reported
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19424,6 +21139,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -19448,6 +21175,16 @@ waiting for get_by_test_id("1440")
 
 ```
 click('1341')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -19475,6 +21212,19 @@ waiting for get_by_test_id("1341")
 click('1843')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1843)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1798] contentinfo: 'Footer'
+    [1832] navigation: 'Breadcrumbs'
+      [1837] list: ''
+        [1842] listitem: ''
+          [1843] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19485,6 +21235,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -19499,6 +21261,16 @@ No errors reported
 click('1341')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19509,6 +21281,19 @@ No errors reported
 
 ```
 click('1843')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1843)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1798] contentinfo: 'Footer'
+    [1832] navigation: 'Breadcrumbs'
+      [1837] list: ''
+        [1842] listitem: ''
+          [1843] link: 'Buy MacBook Pro'
 ```
 
 ##### Outcome including errors
@@ -19523,6 +21308,18 @@ No errors reported
 click('1440')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19533,6 +21330,16 @@ No errors reported
 
 ```
 click('1341')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -20397,6 +22204,18 @@ No errors reported
 click('1098')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1098)
+Path to element:
+```
+[] RootWebArea: 'Apple Store Online - Apple'
+  [855] main: ''
+    [1015] list: 'The latest.'
+      [1089] listitem: ''
+        [1098] link: 'MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20421,6 +22240,18 @@ No errors reported
 click('926')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20431,6 +22262,18 @@ No errors reported
 
 ```
 click('2657')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -20457,6 +22300,16 @@ waiting for get_by_test_id("2657")
 click('1301')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1301)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1301] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -20481,6 +22334,19 @@ waiting for get_by_test_id("1301")
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20491,6 +22357,18 @@ No errors reported
 
 ```
 click('926')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 926)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [919] group: 'Select a size:'
+      [921] radiogroup: ''
+        [926] radio: '16-inch'
 ```
 
 ##### Outcome including errors
@@ -20505,6 +22383,18 @@ No errors reported
 click('2657')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 2657)
+Path to element:
+```
+[] RootWebArea: 'Buy 16-inch MacBook Pro - Apple'
+  [893] main: ''
+    [2549] tabpanel: ''
+      [2562] tabpanel: 'All\xa0chips'
+        [2657] button: 'Select Apple M4\xa0Pro with 14-core CPU and 20-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20515,6 +22405,16 @@ No errors reported
 
 ```
 click('1302')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1302)
+Path to element:
+```
+[] RootWebArea: '16-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1302] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -20529,6 +22429,19 @@ No errors reported
 click('1792')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1792)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1747] contentinfo: 'Footer'
+    [1781] navigation: 'Breadcrumbs'
+      [1786] list: ''
+        [1791] listitem: ''
+          [1792] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20539,6 +22452,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -20563,6 +22488,16 @@ waiting for get_by_test_id("1440")
 
 ```
 click('1341')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors
@@ -20590,6 +22525,19 @@ waiting for get_by_test_id("1341")
 click('1843')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1843)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1798] contentinfo: 'Footer'
+    [1832] navigation: 'Breadcrumbs'
+      [1837] list: ''
+        [1842] listitem: ''
+          [1843] link: 'Buy MacBook Pro'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20600,6 +22548,18 @@ No errors reported
 
 ```
 click('1440')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
 ```
 
 ##### Outcome including errors
@@ -20614,6 +22574,16 @@ No errors reported
 click('1341')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20624,6 +22594,19 @@ No errors reported
 
 ```
 click('1843')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1843)
+Path to element:
+```
+[] RootWebArea: 'MacBook Pro Accessories - Apple'
+  [1798] contentinfo: 'Footer'
+    [1832] navigation: 'Breadcrumbs'
+      [1837] list: ''
+        [1842] listitem: ''
+          [1843] link: 'Buy MacBook Pro'
 ```
 
 ##### Outcome including errors
@@ -20638,6 +22621,18 @@ No errors reported
 click('1440')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1440)
+Path to element:
+```
+[] RootWebArea: 'Buy MacBook Pro - Apple'
+  [893] main: ''
+    [930] tabpanel: ''
+      [945] tabpanel: 'All\xa0chips'
+        [1440] button: 'Select Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage 24gb memory'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20648,6 +22643,16 @@ No errors reported
 
 ```
 click('1341')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1341)
+Path to element:
+```
+[] RootWebArea: '14-inch MacBook Pro - Space Black - Apple'
+  [894] main: ''
+    [1341] button: 'Add to Bag'
 ```
 
 ##### Outcome including errors

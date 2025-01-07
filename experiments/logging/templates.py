@@ -1,4 +1,4 @@
-def get_system_message_template(chat_mode: bool) -> str:
+def get_system_message_template(chat_mode: bool, system_message: str = None) -> str:
     """Get the appropriate system message template based on chat mode."""
     if chat_mode:
         return """\
@@ -13,7 +13,7 @@ Review the instructions from the user, the current state of the page and all oth
 to find the best possible next action to accomplish your goal. Your answer will be interpreted
 and executed by a program, make sure to follow the formatting instructions."""
     else:
-        return """\
+        return system_message or """\
 # Instructions
 
 Review the current state of the page and all other information to find the best

@@ -703,6 +703,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -1389,6 +1398,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -1411,6 +1429,16 @@ waiting for get_by_test_id("32")
 
 ```
 fill('150', 'Sales Laptop')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
 ```
 
 ##### Outcome including errors
@@ -2765,6 +2793,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -2789,6 +2826,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -2799,6 +2846,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -4161,6 +4218,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -4185,6 +4251,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -4195,6 +4271,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -4208,6 +4294,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -5623,6 +5714,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -5647,6 +5747,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -5657,6 +5767,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -5670,6 +5790,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -7189,6 +7314,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -7213,6 +7347,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -7223,6 +7367,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -7236,6 +7390,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -7281,6 +7440,18 @@ No errors reported
 
 ```
 click('3515')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -8805,6 +8976,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -8829,6 +9009,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -8839,6 +9029,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -8852,6 +9052,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -8899,6 +9104,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -8909,6 +9126,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -10376,6 +10605,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -10400,6 +10638,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -10410,6 +10658,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -10423,6 +10681,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -10470,6 +10733,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -10480,6 +10755,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -10531,6 +10818,16 @@ waiting for get_by_test_id("3896")
 
 ```
 click('3994')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
 ```
 
 ##### Outcome including errors
@@ -12148,6 +12445,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -12172,6 +12478,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -12182,6 +12498,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -12195,6 +12521,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -12242,6 +12573,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -12252,6 +12595,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -12305,6 +12660,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -12315,6 +12680,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -13957,6 +14334,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -13981,6 +14367,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -13991,6 +14387,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -14004,6 +14410,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -14051,6 +14462,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -14061,6 +14484,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -14114,6 +14549,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -14126,6 +14571,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -14136,6 +14593,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -15721,6 +16190,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -15745,6 +16223,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -15755,6 +16243,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -15768,6 +16266,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -15815,6 +16318,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -15825,6 +16340,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -15878,6 +16405,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -15890,6 +16427,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -15900,6 +16449,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -15951,6 +16512,16 @@ waiting for get_by_test_id("3963")
 
 ```
 click('5259')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
 ```
 
 ##### Outcome including errors
@@ -17581,6 +18152,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -17605,6 +18185,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -17615,6 +18205,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -17628,6 +18228,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -17675,6 +18280,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -17685,6 +18302,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -17738,6 +18367,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -17750,6 +18389,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -17760,6 +18411,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -17813,6 +18476,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -17823,6 +18496,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -19453,6 +20138,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -19477,6 +20171,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19487,6 +20191,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -19500,6 +20214,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -19547,6 +20266,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19557,6 +20288,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -19610,6 +20353,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19622,6 +20375,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19632,6 +20397,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -19685,6 +20462,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19697,6 +20484,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -19707,6 +20506,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -20402,6 +21211,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -20426,6 +21244,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20436,6 +21264,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -20449,6 +21287,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -20496,6 +21339,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20506,6 +21361,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -20559,6 +21426,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20571,6 +21448,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20581,6 +21470,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -20634,6 +21535,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20646,6 +21557,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -20656,6 +21579,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -20707,6 +21640,16 @@ waiting for get_by_test_id("182")
 
 ```
 click('5882')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
 ```
 
 ##### Outcome including errors
@@ -21375,6 +22318,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -21399,6 +22351,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -21409,6 +22371,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -21422,6 +22394,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -21469,6 +22446,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -21479,6 +22468,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -21532,6 +22533,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -21544,6 +22555,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -21554,6 +22577,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -21607,6 +22642,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -21619,6 +22664,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -21629,6 +22686,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -21682,6 +22749,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -21704,6 +22781,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -22406,6 +23495,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -22430,6 +23528,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -22440,6 +23548,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -22453,6 +23571,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -22500,6 +23623,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -22510,6 +23645,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -22563,6 +23710,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -22575,6 +23732,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -22585,6 +23754,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -22638,6 +23819,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -22650,6 +23841,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -22660,6 +23863,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -22713,6 +23926,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -22735,6 +23958,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -22771,6 +24006,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -23385,6 +24632,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -23409,6 +24665,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -23419,6 +24685,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -23432,6 +24708,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -23479,6 +24760,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -23489,6 +24782,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -23542,6 +24847,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -23554,6 +24869,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -23564,6 +24891,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -23617,6 +24956,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -23629,6 +24978,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -23639,6 +25000,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -23692,6 +25063,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -23714,6 +25095,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -23750,6 +25143,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -23801,6 +25206,18 @@ waiting for get_by_test_id("858")
 
 ```
 click('402')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
 ```
 
 ##### Outcome including errors
@@ -24480,6 +25897,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -24504,6 +25930,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -24514,6 +25950,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -24527,6 +25973,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -24574,6 +26025,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -24584,6 +26047,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -24637,6 +26112,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -24649,6 +26134,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -24659,6 +26156,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -24712,6 +26221,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -24724,6 +26243,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -24734,6 +26265,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -24787,6 +26328,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -24809,6 +26360,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -24845,6 +26408,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -24898,6 +26473,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -24908,6 +26495,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -25021,6 +26620,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -25045,6 +26653,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -25055,6 +26673,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -25068,6 +26696,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -25115,6 +26748,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -25125,6 +26770,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -25178,6 +26835,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -25190,6 +26857,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -25200,6 +26879,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -25253,6 +26944,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -25265,6 +26966,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -25275,6 +26988,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -25328,6 +27051,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -25350,6 +27083,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -25386,6 +27131,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -25439,6 +27196,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -25451,6 +27220,18 @@ No errors reported
 select_option('858', '3')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -25461,6 +27242,17 @@ No errors reported
 
 ```
 click('1038')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
 ```
 
 ##### Outcome including errors
@@ -25904,6 +27696,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -25928,6 +27729,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -25938,6 +27749,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -25951,6 +27772,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -25998,6 +27824,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -26008,6 +27846,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -26061,6 +27911,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -26073,6 +27933,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -26083,6 +27955,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -26136,6 +28020,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -26148,6 +28042,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -26158,6 +28064,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -26211,6 +28127,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -26233,6 +28159,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -26269,6 +28207,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -26322,6 +28272,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -26332,6 +28294,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -26346,6 +28320,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -26356,6 +28341,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -26810,6 +28805,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -26834,6 +28838,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -26844,6 +28858,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -26857,6 +28881,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -26904,6 +28933,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -26914,6 +28955,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -26967,6 +29020,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -26979,6 +29042,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -26989,6 +29064,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -27042,6 +29129,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -27054,6 +29151,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -27064,6 +29173,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -27117,6 +29236,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -27139,6 +29268,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -27175,6 +29316,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -27228,6 +29381,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -27238,6 +29403,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -27252,6 +29429,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -27264,6 +29452,16 @@ No errors reported
 click('147')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -27274,6 +29472,16 @@ No errors reported
 
 ```
 click('759')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
 ```
 
 ##### Outcome including errors
@@ -27726,6 +29934,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -27750,6 +29967,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -27760,6 +29987,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -27773,6 +30010,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -27820,6 +30062,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -27830,6 +30084,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -27883,6 +30149,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -27895,6 +30171,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -27905,6 +30193,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -27958,6 +30258,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -27970,6 +30280,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -27980,6 +30302,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -28033,6 +30365,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -28055,6 +30397,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -28091,6 +30445,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -28144,6 +30510,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -28154,6 +30532,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -28168,6 +30558,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -28178,6 +30579,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -28192,6 +30603,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -28202,6 +30623,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -28652,6 +31083,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -28676,6 +31116,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -28686,6 +31136,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -28699,6 +31159,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -28746,6 +31211,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -28756,6 +31233,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -28809,6 +31298,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -28821,6 +31320,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -28831,6 +31342,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -28884,6 +31407,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -28896,6 +31429,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -28906,6 +31451,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -28959,6 +31514,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -28981,6 +31546,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -29017,6 +31594,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -29070,6 +31659,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -29080,6 +31681,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -29094,6 +31707,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -29104,6 +31728,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -29118,6 +31752,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -29130,6 +31774,16 @@ No errors reported
 fill('502', 'John')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -29140,6 +31794,16 @@ No errors reported
 
 ```
 fill('508', 'Doe')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
 ```
 
 ##### Outcome including errors
@@ -29596,6 +32260,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -29620,6 +32293,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -29630,6 +32313,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -29643,6 +32336,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -29690,6 +32388,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -29700,6 +32410,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -29753,6 +32475,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -29765,6 +32497,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -29775,6 +32519,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -29828,6 +32584,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -29840,6 +32606,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -29850,6 +32628,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -29903,6 +32691,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -29925,6 +32723,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -29961,6 +32771,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -30014,6 +32836,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -30024,6 +32858,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -30038,6 +32884,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -30048,6 +32905,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -30062,6 +32929,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -30072,6 +32949,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -30086,6 +32973,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -30096,6 +32993,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -30547,6 +33454,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -30571,6 +33487,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -30581,6 +33507,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -30594,6 +33530,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -30641,6 +33582,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -30651,6 +33604,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -30704,6 +33669,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -30716,6 +33691,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -30726,6 +33713,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -30779,6 +33778,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -30791,6 +33800,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -30801,6 +33822,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -30854,6 +33885,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -30876,6 +33917,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -30912,6 +33965,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -30965,6 +34030,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -30975,6 +34052,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -30989,6 +34078,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -30999,6 +34099,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -31013,6 +34123,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -31023,6 +34143,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -31037,6 +34167,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -31049,6 +34189,16 @@ No errors reported
 fill('521', '123 Main Street')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -31059,6 +34209,16 @@ No errors reported
 
 ```
 fill('531', 'Springfield')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
 ```
 
 ##### Outcome including errors
@@ -31511,6 +34671,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -31535,6 +34704,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -31545,6 +34724,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -31558,6 +34747,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -31605,6 +34799,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -31615,6 +34821,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -31668,6 +34886,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -31680,6 +34908,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -31690,6 +34930,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -31743,6 +34995,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -31755,6 +35017,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -31765,6 +35039,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -31818,6 +35102,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -31840,6 +35134,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -31876,6 +35182,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -31929,6 +35247,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -31939,6 +35269,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -31953,6 +35295,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -31963,6 +35316,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -31977,6 +35340,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -31987,6 +35360,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -32001,6 +35384,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -32011,6 +35404,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -32025,6 +35428,16 @@ No errors reported
 fill('531', 'Springfield')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -32035,6 +35448,16 @@ No errors reported
 
 ```
 select_option('538', 'ME')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 538)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [538] combobox: 'Please select a state.'
 ```
 
 ##### Outcome including errors
@@ -32485,6 +35908,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -32509,6 +35941,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -32519,6 +35961,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -32532,6 +35984,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -32579,6 +36036,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -32589,6 +36058,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -32642,6 +36123,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -32654,6 +36145,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -32664,6 +36167,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -32717,6 +36232,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -32729,6 +36254,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -32739,6 +36276,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -32792,6 +36339,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -32814,6 +36371,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -32850,6 +36419,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -32903,6 +36484,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -32913,6 +36506,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -32927,6 +36532,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -32937,6 +36553,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -32951,6 +36577,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -32961,6 +36597,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -32975,6 +36621,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -32985,6 +36641,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -32999,6 +36665,16 @@ No errors reported
 fill('531', 'Springfield')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33011,6 +36687,16 @@ No errors reported
 select_option('538', 'ME')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 538)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [538] combobox: 'Please select a state.'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33021,6 +36707,16 @@ No errors reported
 
 ```
 fill('604', '04401')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 604)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [604] textbox: 'ZIP Code'
 ```
 
 ##### Outcome including errors
@@ -33473,6 +37169,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -33497,6 +37202,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33507,6 +37222,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -33520,6 +37245,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -33567,6 +37297,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33577,6 +37319,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -33630,6 +37384,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33642,6 +37406,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33652,6 +37428,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -33705,6 +37493,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33717,6 +37515,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33727,6 +37537,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -33780,6 +37600,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -33802,6 +37632,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -33838,6 +37680,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -33891,6 +37745,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33901,6 +37767,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -33915,6 +37793,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33925,6 +37814,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -33939,6 +37838,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33949,6 +37858,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -33963,6 +37882,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33973,6 +37902,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -33987,6 +37926,16 @@ No errors reported
 fill('531', 'Springfield')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -33997,6 +37946,16 @@ No errors reported
 
 ```
 select_option('538', 'ME')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 538)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [538] combobox: 'Please select a state.'
 ```
 
 ##### Outcome including errors
@@ -34011,6 +37970,16 @@ No errors reported
 fill('604', '04401')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 604)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [604] textbox: 'ZIP Code'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -34021,6 +37990,17 @@ No errors reported
 
 ```
 fill('740', 'johndoe@example.com')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 740)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [737] LabelText: ''
+      [740] textbox: 'Email Address Please enter an email address.'
 ```
 
 ##### Outcome including errors
@@ -34473,6 +38453,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -34497,6 +38486,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -34507,6 +38506,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -34520,6 +38529,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -34567,6 +38581,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -34577,6 +38603,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -34630,6 +38668,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -34642,6 +38690,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -34652,6 +38712,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -34705,6 +38777,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -34717,6 +38799,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -34727,6 +38821,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -34780,6 +38884,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -34802,6 +38916,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -34838,6 +38964,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -34891,6 +39029,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -34901,6 +39051,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -34915,6 +39077,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -34925,6 +39098,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -34939,6 +39122,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -34949,6 +39142,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -34963,6 +39166,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -34973,6 +39186,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -34987,6 +39210,16 @@ No errors reported
 fill('531', 'Springfield')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -34997,6 +39230,16 @@ No errors reported
 
 ```
 select_option('538', 'ME')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 538)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [538] combobox: 'Please select a state.'
 ```
 
 ##### Outcome including errors
@@ -35011,6 +39254,16 @@ No errors reported
 fill('604', '04401')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 604)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [604] textbox: 'ZIP Code'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -35023,6 +39276,17 @@ No errors reported
 fill('740', 'johndoe@example.com')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 740)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [737] LabelText: ''
+      [740] textbox: 'Email Address Please enter an email address.'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -35033,6 +39297,17 @@ No errors reported
 
 ```
 fill('745', '555-123-4567')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
 ```
 
 ##### Outcome including errors
@@ -35486,6 +39761,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -35510,6 +39794,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -35520,6 +39814,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -35533,6 +39837,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -35580,6 +39889,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -35590,6 +39911,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -35643,6 +39976,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -35655,6 +39998,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -35665,6 +40020,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -35718,6 +40085,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -35730,6 +40107,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -35740,6 +40129,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -35793,6 +40192,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -35815,6 +40224,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -35851,6 +40272,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -35904,6 +40337,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -35914,6 +40359,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -35928,6 +40385,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -35938,6 +40406,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -35952,6 +40430,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -35962,6 +40450,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -35976,6 +40474,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -35986,6 +40494,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -36000,6 +40518,16 @@ No errors reported
 fill('531', 'Springfield')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -36010,6 +40538,16 @@ No errors reported
 
 ```
 select_option('538', 'ME')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 538)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [538] combobox: 'Please select a state.'
 ```
 
 ##### Outcome including errors
@@ -36024,6 +40562,16 @@ No errors reported
 fill('604', '04401')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 604)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [604] textbox: 'ZIP Code'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -36034,6 +40582,17 @@ No errors reported
 
 ```
 fill('740', 'johndoe@example.com')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 740)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [737] LabelText: ''
+      [740] textbox: 'Email Address Please enter an email address.'
 ```
 
 ##### Outcome including errors
@@ -36048,6 +40607,17 @@ No errors reported
 fill('745', '555-123-4567')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
+```
+
 ##### Outcome including errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
@@ -36058,6 +40628,17 @@ Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 ```
 fill('745', '555-123-4567')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
 ```
 
 ##### Outcome including errors
@@ -36512,6 +41093,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -36536,6 +41126,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -36546,6 +41146,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -36559,6 +41169,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -36606,6 +41221,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -36616,6 +41243,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -36669,6 +41308,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -36681,6 +41330,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -36691,6 +41352,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -36744,6 +41417,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -36756,6 +41439,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -36766,6 +41461,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -36819,6 +41524,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -36841,6 +41556,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -36877,6 +41604,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -36930,6 +41669,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -36940,6 +41691,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -36954,6 +41717,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -36964,6 +41738,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -36978,6 +41762,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -36988,6 +41782,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -37002,6 +41806,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -37012,6 +41826,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -37026,6 +41850,16 @@ No errors reported
 fill('531', 'Springfield')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -37036,6 +41870,16 @@ No errors reported
 
 ```
 select_option('538', 'ME')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 538)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [538] combobox: 'Please select a state.'
 ```
 
 ##### Outcome including errors
@@ -37050,6 +41894,16 @@ No errors reported
 fill('604', '04401')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 604)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [604] textbox: 'ZIP Code'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -37060,6 +41914,17 @@ No errors reported
 
 ```
 fill('740', 'johndoe@example.com')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 740)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [737] LabelText: ''
+      [740] textbox: 'Email Address Please enter an email address.'
 ```
 
 ##### Outcome including errors
@@ -37074,6 +41939,17 @@ No errors reported
 fill('745', '555-123-4567')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
+```
+
 ##### Outcome including errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
@@ -37086,6 +41962,17 @@ Error: ValueError: Received a multi-action, only single-actions are allowed.
 fill('745', '555-123-4567')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -37096,6 +41983,16 @@ No errors reported
 
 ```
 click('759')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
 ```
 
 ##### Outcome including errors
@@ -37548,6 +42445,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -37572,6 +42478,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -37582,6 +42498,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -37595,6 +42521,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -37642,6 +42573,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -37652,6 +42595,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -37705,6 +42660,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -37717,6 +42682,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -37727,6 +42704,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -37780,6 +42769,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -37792,6 +42791,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -37802,6 +42813,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -37855,6 +42876,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -37877,6 +42908,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -37913,6 +42956,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -37966,6 +43021,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -37976,6 +43043,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -37990,6 +43069,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38000,6 +43090,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -38014,6 +43114,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38024,6 +43134,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -38038,6 +43158,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38048,6 +43178,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -38062,6 +43202,16 @@ No errors reported
 fill('531', 'Springfield')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38072,6 +43222,16 @@ No errors reported
 
 ```
 select_option('538', 'ME')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 538)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [538] combobox: 'Please select a state.'
 ```
 
 ##### Outcome including errors
@@ -38086,6 +43246,16 @@ No errors reported
 fill('604', '04401')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 604)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [604] textbox: 'ZIP Code'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38096,6 +43266,17 @@ No errors reported
 
 ```
 fill('740', 'johndoe@example.com')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 740)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [737] LabelText: ''
+      [740] textbox: 'Email Address Please enter an email address.'
 ```
 
 ##### Outcome including errors
@@ -38110,6 +43291,17 @@ No errors reported
 fill('745', '555-123-4567')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
+```
+
 ##### Outcome including errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
@@ -38120,6 +43312,17 @@ Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 ```
 fill('745', '555-123-4567')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
 ```
 
 ##### Outcome including errors
@@ -38134,6 +43337,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38144,6 +43357,16 @@ No errors reported
 
 ```
 click('759')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
 ```
 
 ##### Outcome including errors
@@ -38535,6 +43758,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -38559,6 +43791,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38569,6 +43811,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -38582,6 +43834,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -38629,6 +43886,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38639,6 +43908,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -38692,6 +43973,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38704,6 +43995,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38714,6 +44017,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -38767,6 +44082,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38779,6 +44104,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38789,6 +44126,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -38842,6 +44189,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -38864,6 +44221,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -38900,6 +44269,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -38953,6 +44334,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38963,6 +44356,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -38977,6 +44382,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -38987,6 +44403,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -39001,6 +44427,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39011,6 +44447,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -39025,6 +44471,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39035,6 +44491,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -39049,6 +44515,16 @@ No errors reported
 fill('531', 'Springfield')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39059,6 +44535,16 @@ No errors reported
 
 ```
 select_option('538', 'ME')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 538)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [538] combobox: 'Please select a state.'
 ```
 
 ##### Outcome including errors
@@ -39073,6 +44559,16 @@ No errors reported
 fill('604', '04401')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 604)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [604] textbox: 'ZIP Code'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39083,6 +44579,17 @@ No errors reported
 
 ```
 fill('740', 'johndoe@example.com')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 740)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [737] LabelText: ''
+      [740] textbox: 'Email Address Please enter an email address.'
 ```
 
 ##### Outcome including errors
@@ -39097,6 +44604,17 @@ No errors reported
 fill('745', '555-123-4567')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
+```
+
 ##### Outcome including errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
@@ -39107,6 +44625,17 @@ Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 ```
 fill('745', '555-123-4567')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
 ```
 
 ##### Outcome including errors
@@ -39121,6 +44650,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39133,6 +44672,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39143,6 +44692,16 @@ No errors reported
 
 ```
 click('613')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 613)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [613] button: 'Apply'
 ```
 
 ##### Outcome including errors
@@ -39523,6 +45082,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -39547,6 +45115,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39557,6 +45135,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -39570,6 +45158,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -39617,6 +45210,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39627,6 +45232,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -39680,6 +45297,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39692,6 +45319,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39702,6 +45341,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -39755,6 +45406,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39767,6 +45428,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39777,6 +45450,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -39830,6 +45513,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -39852,6 +45545,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -39888,6 +45593,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -39941,6 +45658,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39951,6 +45680,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -39965,6 +45706,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39975,6 +45727,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -39989,6 +45751,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -39999,6 +45771,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -40013,6 +45795,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40023,6 +45815,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -40037,6 +45839,16 @@ No errors reported
 fill('531', 'Springfield')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40047,6 +45859,16 @@ No errors reported
 
 ```
 select_option('538', 'ME')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 538)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [538] combobox: 'Please select a state.'
 ```
 
 ##### Outcome including errors
@@ -40061,6 +45883,16 @@ No errors reported
 fill('604', '04401')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 604)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [604] textbox: 'ZIP Code'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40071,6 +45903,17 @@ No errors reported
 
 ```
 fill('740', 'johndoe@example.com')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 740)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [737] LabelText: ''
+      [740] textbox: 'Email Address Please enter an email address.'
 ```
 
 ##### Outcome including errors
@@ -40085,6 +45928,17 @@ No errors reported
 fill('745', '555-123-4567')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
+```
+
 ##### Outcome including errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
@@ -40095,6 +45949,17 @@ Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 ```
 fill('745', '555-123-4567')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
 ```
 
 ##### Outcome including errors
@@ -40109,6 +45974,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40119,6 +45994,16 @@ No errors reported
 
 ```
 click('759')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
 ```
 
 ##### Outcome including errors
@@ -40133,6 +46018,16 @@ No errors reported
 click('613')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 613)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [613] button: 'Apply'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40143,6 +46038,18 @@ No errors reported
 
 ```
 click('1436')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1436)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [1406] dialog: ''
+      [1409] document: ''
+        [1436] button: 'Keep Address as Entered'
 ```
 
 ##### Outcome including errors
@@ -40523,6 +46430,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -40547,6 +46463,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40557,6 +46483,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -40570,6 +46506,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -40617,6 +46558,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40627,6 +46580,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -40680,6 +46645,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40692,6 +46667,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40702,6 +46689,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -40755,6 +46754,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40767,6 +46776,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40777,6 +46798,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -40830,6 +46861,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -40852,6 +46893,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -40888,6 +46941,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -40941,6 +47006,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40951,6 +47028,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -40965,6 +47054,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40975,6 +47075,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -40989,6 +47099,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -40999,6 +47119,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -41013,6 +47143,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41023,6 +47163,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -41037,6 +47187,16 @@ No errors reported
 fill('531', 'Springfield')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41047,6 +47207,16 @@ No errors reported
 
 ```
 select_option('538', 'ME')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 538)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [538] combobox: 'Please select a state.'
 ```
 
 ##### Outcome including errors
@@ -41061,6 +47231,16 @@ No errors reported
 fill('604', '04401')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 604)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [604] textbox: 'ZIP Code'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41071,6 +47251,17 @@ No errors reported
 
 ```
 fill('740', 'johndoe@example.com')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 740)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [737] LabelText: ''
+      [740] textbox: 'Email Address Please enter an email address.'
 ```
 
 ##### Outcome including errors
@@ -41085,6 +47276,17 @@ No errors reported
 fill('745', '555-123-4567')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
+```
+
 ##### Outcome including errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
@@ -41095,6 +47297,17 @@ Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 ```
 fill('745', '555-123-4567')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
 ```
 
 ##### Outcome including errors
@@ -41109,6 +47322,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41119,6 +47342,16 @@ No errors reported
 
 ```
 click('759')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
 ```
 
 ##### Outcome including errors
@@ -41133,6 +47366,16 @@ No errors reported
 click('613')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 613)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [613] button: 'Apply'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41145,6 +47388,18 @@ No errors reported
 click('1436')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1436)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [1406] dialog: ''
+      [1409] document: ''
+        [1436] button: 'Keep Address as Entered'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41155,6 +47410,16 @@ No errors reported
 
 ```
 click('759')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
 ```
 
 ##### Outcome including errors
@@ -41535,6 +47800,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -41559,6 +47833,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41569,6 +47853,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -41582,6 +47876,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -41629,6 +47928,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41639,6 +47950,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -41692,6 +48015,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41704,6 +48037,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41714,6 +48059,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -41767,6 +48124,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41779,6 +48146,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41789,6 +48168,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -41842,6 +48231,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -41864,6 +48263,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -41900,6 +48311,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -41953,6 +48376,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41963,6 +48398,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -41977,6 +48424,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -41987,6 +48445,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -42001,6 +48469,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42011,6 +48489,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -42025,6 +48513,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42035,6 +48533,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -42049,6 +48557,16 @@ No errors reported
 fill('531', 'Springfield')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42059,6 +48577,16 @@ No errors reported
 
 ```
 select_option('538', 'ME')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 538)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [538] combobox: 'Please select a state.'
 ```
 
 ##### Outcome including errors
@@ -42073,6 +48601,16 @@ No errors reported
 fill('604', '04401')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 604)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [604] textbox: 'ZIP Code'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42083,6 +48621,17 @@ No errors reported
 
 ```
 fill('740', 'johndoe@example.com')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 740)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [737] LabelText: ''
+      [740] textbox: 'Email Address Please enter an email address.'
 ```
 
 ##### Outcome including errors
@@ -42097,6 +48646,17 @@ No errors reported
 fill('745', '555-123-4567')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
+```
+
 ##### Outcome including errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
@@ -42107,6 +48667,17 @@ Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 ```
 fill('745', '555-123-4567')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
 ```
 
 ##### Outcome including errors
@@ -42121,6 +48692,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42131,6 +48712,16 @@ No errors reported
 
 ```
 click('759')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
 ```
 
 ##### Outcome including errors
@@ -42145,6 +48736,16 @@ No errors reported
 click('613')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 613)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [613] button: 'Apply'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42155,6 +48756,18 @@ No errors reported
 
 ```
 click('1436')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1436)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [1406] dialog: ''
+      [1409] document: ''
+        [1436] button: 'Keep Address as Entered'
 ```
 
 ##### Outcome including errors
@@ -42169,6 +48782,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42179,6 +48802,16 @@ No errors reported
 
 ```
 click('759')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
 ```
 
 ##### Outcome including errors
@@ -42561,6 +49194,15 @@ No errors reported
 click('32')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 32)
+Path to element:
+```
+[] RootWebArea: 'Best Buy International: Select your Country - Best Buy'
+  [32] link: 'United States United States'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -42585,6 +49227,16 @@ waiting for get_by_test_id("32")
 fill('150', 'Sales Laptop')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 150)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [150] textbox: 'Type to search. Navigate forward to hear suggestions'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42595,6 +49247,16 @@ No errors reported
 
 ```
 click('157')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 157)
+Path to element:
+```
+[] RootWebArea: 'Best Buy | Official Online Store | Shop Now & Save'
+  [132] banner: ''
+    [157] button: 'submit search'
 ```
 
 ##### Outcome including errors
@@ -42608,6 +49270,11 @@ No errors reported
 ```
 click('1486')
 ```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1486)
+No path found for bid: 1486
 
 ##### Outcome including errors
 
@@ -42655,6 +49322,18 @@ No errors reported
 click('3515')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3515)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1475] listitem: ''
+        [3515] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42665,6 +49344,18 @@ No errors reported
 
 ```
 click('3896')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -42718,6 +49409,16 @@ waiting for get_by_test_id("3896")
 click('3994')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3994)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [3992] dialog: ''
+    [3994] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42730,6 +49431,18 @@ No errors reported
 click('3896')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3896)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1626] listitem: ''
+        [3896] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42740,6 +49453,18 @@ No errors reported
 
 ```
 click('3963')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
 ```
 
 ##### Outcome including errors
@@ -42793,6 +49518,16 @@ waiting for get_by_test_id("3963")
 click('5259')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5259)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5257] dialog: ''
+    [5259] button: 'Continue shopping'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42805,6 +49540,18 @@ No errors reported
 click('3963')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 3963)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [283] main: ''
+    [1474] list: ''
+      [1706] listitem: ''
+        [3963] button: 'Add to Cart'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42815,6 +49562,16 @@ No errors reported
 
 ```
 click('182')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 182)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [117] banner: ''
+    [182] link: 'Cart, 3 items'
 ```
 
 ##### Outcome including errors
@@ -42868,6 +49625,16 @@ waiting for get_by_test_id("182")
 click('5882')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 5882)
+Path to element:
+```
+[] RootWebArea: 'sales laptop - Best Buy'
+  [5878] dialog: ''
+    [5882] button: 'Go to cart'
+```
+
 ##### Outcome including errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
@@ -42890,6 +49657,18 @@ waiting for get_by_test_id("5882")
 
 ```
 select_option('612', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 612)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [537] listitem: ''
+        [612] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -42926,6 +49705,18 @@ waiting for get_by_test_id("612")
 
 ```
 click('858')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -42979,6 +49770,18 @@ waiting for get_by_test_id("858")
 click('402')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 402)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [375] dialog: ''
+      [378] document: ''
+        [402] button: 'Close'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -42989,6 +49792,18 @@ No errors reported
 
 ```
 select_option('858', '3')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 858)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [509] list: ''
+      [790] listitem: ''
+        [858] combobox: 'Item Quantity'
 ```
 
 ##### Outcome including errors
@@ -43003,6 +49818,17 @@ No errors reported
 click('1038')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1038)
+Path to element:
+```
+[] RootWebArea: 'Cart - Best Buy'
+  [347] main: ''
+    [1006] region: 'order summary'
+      [1038] button: 'Checkout'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -43013,6 +49839,16 @@ No errors reported
 
 ```
 click('147')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 147)
+Path to element:
+```
+[] RootWebArea: 'Sign In to Best Buy'
+  [84] main: ''
+    [147] button: 'Continue as Guest'
 ```
 
 ##### Outcome including errors
@@ -43027,6 +49863,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -43037,6 +49883,16 @@ No errors reported
 
 ```
 fill('502', 'John')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 502)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [502] textbox: ''
 ```
 
 ##### Outcome including errors
@@ -43051,6 +49907,16 @@ No errors reported
 fill('508', 'Doe')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 508)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [508] textbox: 'Last Name'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -43061,6 +49927,16 @@ No errors reported
 
 ```
 fill('521', '123 Main Street')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 521)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [521] combobox: 'Address'
 ```
 
 ##### Outcome including errors
@@ -43075,6 +49951,16 @@ No errors reported
 fill('531', 'Springfield')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 531)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [531] textbox: 'City'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -43085,6 +49971,16 @@ No errors reported
 
 ```
 select_option('538', 'ME')
+```
+
+##### DOM Tree Breadcrumb
+
+**Select Element** (bid: 538)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [538] combobox: 'Please select a state.'
 ```
 
 ##### Outcome including errors
@@ -43099,6 +49995,16 @@ No errors reported
 fill('604', '04401')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 604)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [604] textbox: 'ZIP Code'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -43109,6 +50015,17 @@ No errors reported
 
 ```
 fill('740', 'johndoe@example.com')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 740)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [737] LabelText: ''
+      [740] textbox: 'Email Address Please enter an email address.'
 ```
 
 ##### Outcome including errors
@@ -43123,6 +50040,17 @@ No errors reported
 fill('745', '555-123-4567')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
+```
+
 ##### Outcome including errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
@@ -43133,6 +50061,17 @@ Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 ```
 fill('745', '555-123-4567')
+```
+
+##### DOM Tree Breadcrumb
+
+**Input Element** (bid: 745)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [742] LabelText: ''
+      [745] textbox: 'Phone Number Please enter a phone number.'
 ```
 
 ##### Outcome including errors
@@ -43147,6 +50086,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -43157,6 +50106,16 @@ No errors reported
 
 ```
 click('759')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
 ```
 
 ##### Outcome including errors
@@ -43171,6 +50130,16 @@ No errors reported
 click('613')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 613)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [613] button: 'Apply'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -43181,6 +50150,18 @@ No errors reported
 
 ```
 click('1436')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 1436)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [1406] dialog: ''
+      [1409] document: ''
+        [1436] button: 'Keep Address as Entered'
 ```
 
 ##### Outcome including errors
@@ -43195,6 +50176,16 @@ No errors reported
 click('759')
 ```
 
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
+```
+
 ##### Outcome including errors
 
 No errors reported
@@ -43205,6 +50196,16 @@ No errors reported
 
 ```
 click('759')
+```
+
+##### DOM Tree Breadcrumb
+
+**Clicked Element** (bid: 759)
+Path to element:
+```
+[] RootWebArea: 'Checkout – Best Buy'
+  [367] main: ''
+    [759] button: 'Continue to Payment Information'
 ```
 
 ##### Outcome including errors

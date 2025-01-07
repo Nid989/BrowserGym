@@ -156,3 +156,7 @@ bg_wl_data/
 # dump -- @nid989
 related_papers
 obs_outputs
+docker-compose.yml
+weaviate.ipynb
+agents/rag_agent/test.py
+agents/rag_agent/test2.py
