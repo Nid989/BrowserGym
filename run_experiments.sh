@@ -144,6 +144,10 @@ python3 experiments/logging/trace_formatter.py \
     --results_dir "$RESULTS_DIR" \
     --system_message "$SYSTEM_MESSAGE"
 
+# generating summary statistics
+echo "Generating summary statistics..."
+python3 experiments/statistics/summary_statistics_report.py "$RESULTS_DIR"
+
 echo "All experiments and analysis complete!" 
 
 # # Basic run with default values (using OpenAI GPT-4)
