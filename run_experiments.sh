@@ -176,3 +176,14 @@ echo "All experiments and analysis complete!"
 
 # # Show help
 # ./run_experiments.sh --help
+
+# # Run with RAG agent
+# python3 agents/rag_agent/run_demo.py \
+#     --model_provider "openai" \
+#     --model_name "gpt-4" \
+#     --task_name "workarena.servicenow.order-apple-mac-book-pro15" \
+#     --visual_effects true \
+#     --use_html false \
+#     --use_axtree true \
+#     --use_screenshot false \
+#     --max_steps 100

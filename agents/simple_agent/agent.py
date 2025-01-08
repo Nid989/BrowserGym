@@ -95,6 +95,7 @@ and executed by a program, make sure to follow the formatting instructions.
         self.model_info = {
             "model_info": {
                 "model_name": model_name,
+                "model_provider": model_provider,
                 "temperature": 0.0,
             }
         }
