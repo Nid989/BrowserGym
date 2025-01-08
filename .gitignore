@@ -2,6 +2,9 @@
 .idea/
 docs/src/generated/
 
+# Custom folders to ignore
+results_analysis/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -62,7 +65,7 @@ coverage.xml
 # Django stuff:
 *.log
 # Allow .log files under results directory
-!results/**/*.log    
+!results/**/*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal

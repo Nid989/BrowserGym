@@ -17,16 +17,16 @@ SYSTEM_MESSAGE="""# Instructions
 Review the current state of the page and all other information to find the best
 possible next action to accomplish your goal. Your answer will be interpreted
 and executed by a program, make sure to follow the formatting instructions.
-Exempt from visiting any external websites which are not provided explicitly."""
+Do not visite any external websites outside from the servicenow.com domain unless they are provided explicitly."""
 
 # Array of task names
 TASKS=(
-    'workarena.servicenow.order-apple-mac-book-pro15'
-    'workarena.servicenow.order-apple-watch'
+#    'workarena.servicenow.order-apple-mac-book-pro15'
+#    'workarena.servicenow.order-apple-watch'
     'workarena.servicenow.order-developer-laptop'
-    'workarena.servicenow.order-development-laptop-p-c'
-    'workarena.servicenow.order-ipad-mini'
-    'workarena.servicenow.order-ipad-pro'
+#    'workarena.servicenow.order-development-laptop-p-c'
+#    'workarena.servicenow.order-ipad-mini'
+#    'workarena.servicenow.order-ipad-pro'
     'workarena.servicenow.order-loaner-laptop'
     'workarena.servicenow.order-sales-laptop'
     'workarena.servicenow.order-standard-laptop'
