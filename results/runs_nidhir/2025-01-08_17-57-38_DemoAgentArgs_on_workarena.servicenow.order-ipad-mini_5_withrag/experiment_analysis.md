@@ -5,6 +5,7 @@
 
 * **Derived Goal**:
   Go to the hardware store and order 2 "iPad mini" with configuration {'Choose the colour': 'Space Grey', 'Choose the storage': '64'}
+
 ## Run Parameters
 
 * **Date of Instance Run**: 2025-01-08 17:57:38
@@ -19,7 +20,6 @@
 
 
 ## InstanceStep000
-
 
 ### State of the World
 
@@ -315,7 +315,6 @@ I will click on the link with the bid 'a413' which corresponds to the "iPad mini
 
 ## InstanceStep001
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -546,13 +545,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a413')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a413)
 Path to element:
@@ -568,7 +567,7 @@ Path to element:
                 [a413] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -583,7 +582,6 @@ I will first select the quantity of 2 from the dropdown menu.
 ```
 
 ## InstanceStep002
-
 
 ### State of the World
 
@@ -815,13 +813,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a413')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a413)
 Path to element:
@@ -837,19 +835,19 @@ Path to element:
                 [a413] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a282', '2')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a282)
 Path to element:
@@ -863,7 +861,7 @@ Path to element:
             [a282] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -878,7 +876,6 @@ I will click on the "Order Now" button with the bid 'a323'.
 ```
 
 ## InstanceStep003
-
 
 ### State of the World
 
@@ -941,13 +938,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a413')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a413)
 Path to element:
@@ -963,19 +960,19 @@ Path to element:
                 [a413] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a282', '2')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a282)
 Path to element:
@@ -989,19 +986,19 @@ Path to element:
             [a282] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a323')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a323)
 Path to element:
@@ -1015,7 +1012,7 @@ Path to element:
             [a323] button: 'Order Now'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1030,7 +1027,6 @@ Since the current page does not show any elements related to changing the quanti
 ```
 
 ## InstanceStep004
-
 
 ### State of the World
 
@@ -1182,13 +1178,13 @@ RootWebArea 'Order Status: REQ0010062 | ServiceNow', url='https://dev282647.serv
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a413')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a413)
 Path to element:
@@ -1204,19 +1200,19 @@ Path to element:
                 [a413] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a282', '2')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a282)
 Path to element:
@@ -1230,19 +1226,19 @@ Path to element:
             [a282] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a323')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a323)
 Path to element:
@@ -1256,19 +1252,19 @@ Path to element:
             [a323] button: 'Order Now'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 200)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 

@@ -5,6 +5,7 @@
 
 * **Derived Goal**:
   Go to the hardware store and order 1 "iPad mini" with configuration {'Choose the colour': 'Pink', 'Choose the storage': '64'}
+
 ## Run Parameters
 
 * **Date of Instance Run**: 2025-01-07 16:30:33
@@ -18,7 +19,6 @@
 
 
 ## InstanceStep000
-
 
 ### State of the World
 
@@ -323,7 +323,6 @@ This will take me to the hardware catalog section where I should be able to find
 ```
 
 ## InstanceStep001
-
 
 ### State of the World
 
@@ -698,13 +697,13 @@ RootWebArea 'Catalog | ServiceNow', url='https://dev282647.service-now.com/now/n
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -725,7 +724,7 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -752,7 +751,6 @@ This will take me to the iPad mini product page where I can select the specific 
 ```
 
 ## InstanceStep002
-
 
 ### State of the World
 
@@ -968,13 +966,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -995,19 +993,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -1028,7 +1026,7 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1059,7 +1057,6 @@ This will change the color selection to Pink. Since the 64GB storage is already 
 
 ## InstanceStep003
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -1274,13 +1271,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -1301,19 +1298,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -1334,19 +1331,19 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -1369,7 +1366,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -1437,7 +1434,6 @@ This should select the Pink color option. After this succeeds, since the 64GB st
 
 ## InstanceStep004
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -1652,13 +1648,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -1679,19 +1675,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -1712,19 +1708,19 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -1747,7 +1743,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -1792,13 +1788,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -1821,7 +1817,7 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
@@ -1852,7 +1848,6 @@ This should select the Pink color option. After this succeeds, we can proceed wi
 
 ## InstanceStep005
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -2067,13 +2062,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -2094,19 +2089,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -2127,19 +2122,19 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -2162,7 +2157,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2207,13 +2202,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -2236,19 +2231,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -2271,7 +2266,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
@@ -2302,7 +2297,6 @@ Let me think about this step by step:
 
 ## InstanceStep006
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -2517,13 +2511,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -2544,19 +2538,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -2577,19 +2571,19 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -2612,7 +2606,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2657,13 +2651,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -2686,19 +2680,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -2721,19 +2715,19 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -2756,7 +2750,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2832,7 +2826,6 @@ This should successfully select the Pink color option since we're clicking the e
 
 ## InstanceStep007
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -3047,13 +3040,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -3074,19 +3067,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -3107,19 +3100,19 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -3142,7 +3135,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3187,13 +3180,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -3216,19 +3209,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -3251,19 +3244,19 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -3286,7 +3279,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3331,13 +3324,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -3360,7 +3353,7 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
@@ -3390,7 +3383,6 @@ Let me think about this step by step:
 ```
 
 ## InstanceStep008
-
 
 ### State of the World
 
@@ -3606,13 +3598,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -3633,19 +3625,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -3666,19 +3658,19 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -3701,7 +3693,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3746,13 +3738,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -3775,19 +3767,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -3810,19 +3802,19 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -3845,7 +3837,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3890,13 +3882,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -3919,19 +3911,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction007
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -3954,7 +3946,7 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -3989,7 +3981,6 @@ Let me think step by step:
 ```
 
 ## InstanceStep009
-
 
 ### State of the World
 
@@ -4206,13 +4197,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -4233,19 +4224,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -4266,19 +4257,19 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -4301,7 +4292,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4346,13 +4337,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -4375,19 +4366,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -4410,19 +4401,19 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -4445,7 +4436,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4490,13 +4481,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -4519,19 +4510,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction007
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -4554,19 +4545,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction008
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a296')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a296)
 Path to element:
@@ -4580,7 +4571,7 @@ Path to element:
             [a296] button: 'Order Now'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -4613,7 +4604,6 @@ Let me think step by step:
 ```
 
 ## InstanceStep010
-
 
 ### State of the World
 
@@ -4770,13 +4760,13 @@ RootWebArea 'Order Status: REQ0010055 | ServiceNow', url='https://dev282647.serv
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -4797,19 +4787,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -4830,19 +4820,19 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -4865,7 +4855,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4910,13 +4900,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -4939,19 +4929,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -4974,19 +4964,19 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -5009,7 +4999,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -5054,13 +5044,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -5083,19 +5073,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
 #### PastAction007
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -5118,19 +5108,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction008
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a296')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a296)
 Path to element:
@@ -5144,19 +5134,19 @@ Path to element:
             [a296] button: 'Order Now'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction009
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 report_infeasible("I cannot complete the order because both the 'Order Now' and 'Add to Cart' buttons are disabled in the interface, even though all required configurations have been selected correctly.")
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 

@@ -5,6 +5,7 @@
 
 * **Derived Goal**:
   Answer the following question using the knowledge base: "What's the exact amount of water, in gallons, that office #456 utilizes each year? Provide the answer in gallons."
+
 ## Run Parameters
 
 * **Date of Instance Run**: 2024-12-18 12:51:50
@@ -18,7 +19,6 @@
 
 
 ## InstanceStep000
-
 
 ### State of the World
 
@@ -90,7 +90,6 @@ Let's proceed with filling the search input with the query "water usage office #
 ```
 
 ## InstanceStep001
-
 
 ### State of the World
 
@@ -269,13 +268,13 @@ RootWebArea 'Knowledge Home - Knowledge Portal | ServiceNow', focused, url='http
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 fill('112', 'water usage office #456')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Input Element** (bid: 112)
 Path to element:
@@ -286,7 +285,7 @@ Path to element:
       [112] combobox: 'Search'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -301,7 +300,6 @@ I will now click the search button to execute the search query.
 ```
 
 ## InstanceStep002
-
 
 ### State of the World
 
@@ -488,13 +486,13 @@ RootWebArea 'Knowledge Home - Knowledge Portal | ServiceNow', focused, url='http
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 fill('112', 'water usage office #456')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Input Element** (bid: 112)
 Path to element:
@@ -505,24 +503,24 @@ Path to element:
       [112] combobox: 'Search'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('123')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: 123)
 No path found for bid: 123
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -537,7 +535,6 @@ To proceed, I will press Enter to see if it brings up any additional search resu
 ```
 
 ## InstanceStep003
-
 
 ### State of the World
 
@@ -612,13 +609,13 @@ RootWebArea 'Search Results | water usage office #456 | ServiceNow', focused, ur
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 fill('112', 'water usage office #456')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Input Element** (bid: 112)
 Path to element:
@@ -629,36 +626,36 @@ Path to element:
       [112] combobox: 'Search'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('123')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: 123)
 No path found for bid: 123
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 press('112', 'Enter')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Pressed Element** (bid: 112)
 Path to element:
@@ -669,7 +666,7 @@ Path to element:
       [112] combobox: 'Search'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -684,7 +681,6 @@ I will scroll down the page to see if any search results have appeared that coul
 ```
 
 ## InstanceStep004
-
 
 ### State of the World
 
@@ -952,13 +948,13 @@ RootWebArea 'Search Results | water usage office #456 | ServiceNow', focused, ur
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 fill('112', 'water usage office #456')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Input Element** (bid: 112)
 Path to element:
@@ -969,36 +965,36 @@ Path to element:
       [112] combobox: 'Search'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('123')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: 123)
 No path found for bid: 123
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 press('112', 'Enter')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Pressed Element** (bid: 112)
 Path to element:
@@ -1009,19 +1005,19 @@ Path to element:
       [112] combobox: 'Search'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 200)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1036,7 +1032,6 @@ To find the exact amount of water utilized by office #456 each year, I will open
 ```
 
 ## InstanceStep005
-
 
 ### State of the World
 
@@ -1105,13 +1100,13 @@ RootWebArea 'General Knowledge - Article 81', focused, url='https://dev282647.se
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 fill('112', 'water usage office #456')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Input Element** (bid: 112)
 Path to element:
@@ -1122,36 +1117,36 @@ Path to element:
       [112] combobox: 'Search'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('123')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: 123)
 No path found for bid: 123
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 press('112', 'Enter')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Pressed Element** (bid: 112)
 Path to element:
@@ -1162,31 +1157,31 @@ Path to element:
       [112] combobox: 'Search'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 200)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('320')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: 320)
 Path to element:
@@ -1198,7 +1193,7 @@ Path to element:
         [320] button: 'Open in new tab'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1213,7 +1208,6 @@ I will now send this information to the user.
 ```
 
 ## InstanceStep006
-
 
 ### State of the World
 
@@ -1284,13 +1278,13 @@ RootWebArea 'General Knowledge - Article 81', focused, url='https://dev282647.se
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 fill('112', 'water usage office #456')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Input Element** (bid: 112)
 Path to element:
@@ -1301,36 +1295,36 @@ Path to element:
       [112] combobox: 'Search'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('123')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: 123)
 No path found for bid: 123
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 press('112', 'Enter')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Pressed Element** (bid: 112)
 Path to element:
@@ -1341,31 +1335,31 @@ Path to element:
       [112] combobox: 'Search'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 200)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('320')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: 320)
 Path to element:
@@ -1377,19 +1371,19 @@ Path to element:
         [320] button: 'Open in new tab'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 send_msg_to_user('The exact amount of water that office #456 utilizes each year is 50,000 gallons.')
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 

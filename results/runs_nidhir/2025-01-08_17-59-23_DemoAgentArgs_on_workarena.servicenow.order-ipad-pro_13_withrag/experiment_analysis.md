@@ -5,6 +5,7 @@
 
 * **Derived Goal**:
   Go to the hardware store and order 10 "iPad pro" with configuration {'Choose the colour': 'Silver', 'Choose the storage': '256'}
+
 ## Run Parameters
 
 * **Date of Instance Run**: 2025-01-08 17:59:23
@@ -19,7 +20,6 @@
 
 
 ## InstanceStep000
-
 
 ### State of the World
 
@@ -314,7 +314,6 @@ I will click on the "Hardware" link to proceed to the hardware catalog.
 ```
 
 ## InstanceStep001
-
 
 ### State of the World
 
@@ -689,13 +688,13 @@ RootWebArea 'Catalog | ServiceNow', url='https://dev282647.service-now.com/now/n
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -716,7 +715,7 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -731,7 +730,6 @@ I will click on the "iPad pro" link to proceed to the iPad Pro configuration pag
 ```
 
 ## InstanceStep002
-
 
 ### State of the World
 
@@ -948,13 +946,13 @@ RootWebArea 'iPad pro | ServiceNow', url='https://dev282647.service-now.com/now/
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -975,19 +973,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a268')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a268)
 Path to element:
@@ -1008,7 +1006,7 @@ Path to element:
                           [a268] link: 'iPad pro'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1026,7 +1024,6 @@ I will start by selecting the "Silver" color option.
 
 ## InstanceStep003
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -1242,13 +1239,13 @@ RootWebArea 'iPad pro | ServiceNow', url='https://dev282647.service-now.com/now/
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -1269,19 +1266,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a268')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a268)
 Path to element:
@@ -1302,19 +1299,19 @@ Path to element:
                           [a268] link: 'iPad pro'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -1337,7 +1334,7 @@ Path to element:
                               [a184] radio: '\uf137 Silver'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -1396,7 +1393,6 @@ I will click on the label for the "Silver" color option to select it.
 
 ## InstanceStep004
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -1612,13 +1608,13 @@ RootWebArea 'iPad pro | ServiceNow', url='https://dev282647.service-now.com/now/
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -1639,19 +1635,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a268')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a268)
 Path to element:
@@ -1672,19 +1668,19 @@ Path to element:
                           [a268] link: 'iPad pro'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -1707,7 +1703,7 @@ Path to element:
                               [a184] radio: '\uf137 Silver'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -1752,13 +1748,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -1781,7 +1777,7 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1799,7 +1795,6 @@ I will start by selecting the "256 GB" storage option.
 
 ## InstanceStep005
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -2015,13 +2010,13 @@ RootWebArea 'iPad pro | ServiceNow', url='https://dev282647.service-now.com/now/
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -2042,19 +2037,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a268')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a268)
 Path to element:
@@ -2075,19 +2070,19 @@ Path to element:
                           [a268] link: 'iPad pro'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -2110,7 +2105,7 @@ Path to element:
                               [a184] radio: '\uf137 Silver'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2155,13 +2150,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -2184,19 +2179,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a203')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a203)
 Path to element:
@@ -2219,7 +2214,7 @@ Path to element:
                               [a203] radio: '\uf137 256 GB [add $100.00]'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2277,7 +2272,6 @@ I will click on the label for the "256 GB" storage option to select it.
 ```
 
 ## InstanceStep006
-
 
 ### State of the World
 
@@ -2494,13 +2488,13 @@ RootWebArea 'iPad pro | ServiceNow', url='https://dev282647.service-now.com/now/
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -2521,19 +2515,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a268')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a268)
 Path to element:
@@ -2554,19 +2548,19 @@ Path to element:
                           [a268] link: 'iPad pro'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -2589,7 +2583,7 @@ Path to element:
                               [a184] radio: '\uf137 Silver'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2634,13 +2628,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -2663,19 +2657,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a203')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a203)
 Path to element:
@@ -2698,7 +2692,7 @@ Path to element:
                               [a203] radio: '\uf137 256 GB [add $100.00]'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2743,13 +2737,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a203")
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a204')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a204)
 Path to element:
@@ -2772,7 +2766,7 @@ Path to element:
                               [a204] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -2789,7 +2783,6 @@ I will select the quantity of 10 from the dropdown menu.
 ```
 
 ## InstanceStep007
-
 
 ### State of the World
 
@@ -3007,13 +3000,13 @@ RootWebArea 'iPad pro | ServiceNow', url='https://dev282647.service-now.com/now/
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -3034,19 +3027,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a268')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a268)
 Path to element:
@@ -3067,19 +3060,19 @@ Path to element:
                           [a268] link: 'iPad pro'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -3102,7 +3095,7 @@ Path to element:
                               [a184] radio: '\uf137 Silver'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3147,13 +3140,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -3176,19 +3169,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a203')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a203)
 Path to element:
@@ -3211,7 +3204,7 @@ Path to element:
                               [a203] radio: '\uf137 256 GB [add $100.00]'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3256,13 +3249,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a203")
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a204')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a204)
 Path to element:
@@ -3285,19 +3278,19 @@ Path to element:
                               [a204] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a244', '10')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a244)
 Path to element:
@@ -3311,7 +3304,7 @@ Path to element:
             [a244] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -3328,7 +3321,6 @@ I will click on the "Order Now" button to proceed with the order.
 ```
 
 ## InstanceStep008
-
 
 ### State of the World
 
@@ -3490,13 +3482,13 @@ RootWebArea 'Order Status: REQ0010063 | ServiceNow', focused, url='https://dev28
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a269')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -3517,19 +3509,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a268')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a268)
 Path to element:
@@ -3550,19 +3542,19 @@ Path to element:
                           [a268] link: 'iPad pro'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a184')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -3585,7 +3577,7 @@ Path to element:
                               [a184] radio: '\uf137 Silver'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3630,13 +3622,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a185')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -3659,19 +3651,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a203')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a203)
 Path to element:
@@ -3694,7 +3686,7 @@ Path to element:
                               [a203] radio: '\uf137 256 GB [add $100.00]'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3739,13 +3731,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a203")
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a204')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a204)
 Path to element:
@@ -3768,19 +3760,19 @@ Path to element:
                               [a204] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a244', '10')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a244)
 Path to element:
@@ -3794,19 +3786,19 @@ Path to element:
             [a244] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction007
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a285')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a285)
 Path to element:
@@ -3820,7 +3812,7 @@ Path to element:
             [a285] button: 'Order Now'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 

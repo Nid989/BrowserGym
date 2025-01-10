@@ -5,6 +5,7 @@
 
 * **Derived Goal**:
   Go to the hardware store and order 2 "iPad pro" with configuration {'Choose the colour': 'Space Grey', 'Choose the storage': '128'}
+
 ## Run Parameters
 
 * **Date of Instance Run**: 2025-01-05 15:27:22
@@ -18,7 +19,6 @@
 
 
 ## InstanceStep000
-
 
 ### State of the World
 
@@ -313,7 +313,6 @@ I will proceed by clicking on the "Hardware" link.
 ```
 
 ## InstanceStep001
-
 
 ### State of the World
 
@@ -688,13 +687,13 @@ RootWebArea 'Catalog | ServiceNow', url='https://dev282647.service-now.com/now/n
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -714,7 +713,7 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -729,7 +728,6 @@ I will proceed by clicking on the "iPad pro" link.
 ```
 
 ## InstanceStep002
-
 
 ### State of the World
 
@@ -946,13 +944,13 @@ RootWebArea 'iPad pro | ServiceNow', url='https://dev282647.service-now.com/now/
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -972,19 +970,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a268')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a268)
 Path to element:
@@ -1005,7 +1003,7 @@ Path to element:
                           [a268] link: 'iPad pro'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1018,7 +1016,6 @@ To order 2 iPad Pros with the specified configuration, I need to adjust the quan
 ```
 
 ## InstanceStep003
-
 
 ### State of the World
 
@@ -1235,13 +1232,13 @@ RootWebArea 'iPad pro | ServiceNow', url='https://dev282647.service-now.com/now/
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -1261,19 +1258,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a268')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a268)
 Path to element:
@@ -1294,19 +1291,19 @@ Path to element:
                           [a268] link: 'iPad pro'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a244', '2')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a244)
 Path to element:
@@ -1320,7 +1317,7 @@ Path to element:
             [a244] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1335,7 +1332,6 @@ I will proceed by clicking the "Order Now" button.
 ```
 
 ## InstanceStep004
-
 
 ### State of the World
 
@@ -1554,13 +1550,13 @@ RootWebArea 'iPad pro | ServiceNow', url='https://dev282647.service-now.com/now/
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -1580,19 +1576,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a268')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a268)
 Path to element:
@@ -1613,19 +1609,19 @@ Path to element:
                           [a268] link: 'iPad pro'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a244', '2')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a244)
 Path to element:
@@ -1639,19 +1635,19 @@ Path to element:
             [a244] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a285')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a285)
 Path to element:
@@ -1665,7 +1661,7 @@ Path to element:
             [a285] button: 'Order Now'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1684,7 +1680,6 @@ I will scroll down the page to see if there are any additional fields or error m
 ```
 
 ## InstanceStep005
-
 
 ### State of the World
 
@@ -1847,13 +1842,13 @@ RootWebArea 'Order Status: REQ0010054 | ServiceNow', url='https://dev282647.serv
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -1873,19 +1868,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a268')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a268)
 Path to element:
@@ -1906,19 +1901,19 @@ Path to element:
                           [a268] link: 'iPad pro'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a244', '2')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a244)
 Path to element:
@@ -1932,19 +1927,19 @@ Path to element:
             [a244] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a285')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a285)
 Path to element:
@@ -1958,19 +1953,19 @@ Path to element:
             [a285] button: 'Order Now'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 200)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 

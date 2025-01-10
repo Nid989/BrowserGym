@@ -5,6 +5,7 @@
 
 * **Derived Goal**:
   Go to the hardware store and order 2 "Standard Laptop" with configuration {'Additional software requirements': 'Trello, Salesforce, Microsoft Office 365, Google Workspace, Asana', 'Adobe Acrobat': True, 'Adobe Photoshop': True}
+
 ## Run Parameters
 
 * **Date of Instance Run**: 2024-12-19 11:45:55
@@ -18,7 +19,6 @@
 
 
 ## InstanceStep000
-
 
 ### State of the World
 
@@ -313,7 +313,6 @@ I will proceed by clicking on the "Hardware" link.
 ```
 
 ## InstanceStep001
-
 
 ### State of the World
 
@@ -688,13 +687,13 @@ RootWebArea 'Catalog | ServiceNow', url='https://dev282647.service-now.com/now/n
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -714,7 +713,7 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -730,7 +729,6 @@ I will proceed by clicking on the "Standard Laptop" link.
 
 ## InstanceStep002
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -929,13 +927,13 @@ RootWebArea 'Standard Laptop | ServiceNow', url='https://dev282647.service-now.c
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -955,19 +953,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a408')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a408)
 Path to element:
@@ -988,7 +986,7 @@ Path to element:
                           [a408] link: 'Standard Laptop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1004,7 +1002,6 @@ I will proceed by clicking the checkbox for "Adobe Acrobat" to select it.
 
 ## InstanceStep003
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -1203,13 +1200,13 @@ RootWebArea 'Standard Laptop | ServiceNow', url='https://dev282647.service-now.c
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -1229,19 +1226,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a408')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a408)
 Path to element:
@@ -1262,19 +1259,19 @@ Path to element:
                           [a408] link: 'Standard Laptop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -1297,7 +1294,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -1354,7 +1351,6 @@ I will proceed by scrolling the page slightly downwards.
 
 ## InstanceStep004
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -1553,13 +1549,13 @@ RootWebArea 'Standard Laptop | ServiceNow', url='https://dev282647.service-now.c
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -1579,19 +1575,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a408')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a408)
 Path to element:
@@ -1612,19 +1608,19 @@ Path to element:
                           [a408] link: 'Standard Laptop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -1647,7 +1643,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -1692,13 +1688,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a183")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 100)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1712,7 +1708,6 @@ To order 2 "Standard Laptop" with the specified configuration, I need to configu
 
 ## InstanceStep005
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -1911,13 +1906,13 @@ RootWebArea 'Standard Laptop | ServiceNow', url='https://dev282647.service-now.c
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -1937,19 +1932,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a408')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a408)
 Path to element:
@@ -1970,19 +1965,19 @@ Path to element:
                           [a408] link: 'Standard Laptop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -2005,7 +2000,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2050,25 +2045,25 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a183")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 100)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -2091,7 +2086,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2146,7 +2141,6 @@ Since scrolling did not resolve the issue, I will try to click the checkbox for 
 
 ## InstanceStep006
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -2345,13 +2339,13 @@ RootWebArea 'Standard Laptop | ServiceNow', url='https://dev282647.service-now.c
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -2371,19 +2365,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a408')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a408)
 Path to element:
@@ -2404,19 +2398,19 @@ Path to element:
                           [a408] link: 'Standard Laptop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -2439,7 +2433,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2484,25 +2478,25 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a183")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 100)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -2525,7 +2519,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2570,13 +2564,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a183")
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a190')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a190)
 Path to element:
@@ -2599,7 +2593,7 @@ Path to element:
                               [a190] checkbox: 'Adobe Photoshop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2653,7 +2647,6 @@ Since both checkboxes are being intercepted, I will try to fill the "Additional 
 ```
 
 ## InstanceStep007
-
 
 ### State of the World
 
@@ -2855,13 +2848,13 @@ RootWebArea 'Standard Laptop | ServiceNow', url='https://dev282647.service-now.c
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -2881,19 +2874,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a408')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a408)
 Path to element:
@@ -2914,19 +2907,19 @@ Path to element:
                           [a408] link: 'Standard Laptop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -2949,7 +2942,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2994,25 +2987,25 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a183")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 100)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -3035,7 +3028,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3080,13 +3073,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a183")
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a190')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a190)
 Path to element:
@@ -3109,7 +3102,7 @@ Path to element:
                               [a190] checkbox: 'Adobe Photoshop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3154,13 +3147,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a190")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 fill('a203', 'Trello, Salesforce, Microsoft Office 365, Google Workspace, Asana')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Input Element** (bid: a203)
 Path to element:
@@ -3181,7 +3174,7 @@ Path to element:
                           [a203] textbox: 'Additional software requirements'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -3196,7 +3189,6 @@ Since the checkboxes are still unchecked, I will attempt to select the quantity 
 ```
 
 ## InstanceStep008
-
 
 ### State of the World
 
@@ -3399,13 +3391,13 @@ RootWebArea 'Standard Laptop | ServiceNow', url='https://dev282647.service-now.c
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -3425,19 +3417,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a408')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a408)
 Path to element:
@@ -3458,19 +3450,19 @@ Path to element:
                           [a408] link: 'Standard Laptop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -3493,7 +3485,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3538,25 +3530,25 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a183")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 100)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -3579,7 +3571,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3624,13 +3616,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a183")
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a190')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a190)
 Path to element:
@@ -3653,7 +3645,7 @@ Path to element:
                               [a190] checkbox: 'Adobe Photoshop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3698,13 +3690,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a190")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 fill('a203', 'Trello, Salesforce, Microsoft Office 365, Google Workspace, Asana')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Input Element** (bid: a203)
 Path to element:
@@ -3725,19 +3717,19 @@ Path to element:
                           [a203] textbox: 'Additional software requirements'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction007
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a237', '2')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a237)
 Path to element:
@@ -3751,7 +3743,7 @@ Path to element:
             [a237] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -3768,7 +3760,6 @@ I will proceed by clicking the "Order Now" button with bid `a278`.
 ```
 
 ## InstanceStep009
-
 
 ### State of the World
 
@@ -3972,13 +3963,13 @@ RootWebArea 'Standard Laptop | ServiceNow', url='https://dev282647.service-now.c
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -3998,19 +3989,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a408')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a408)
 Path to element:
@@ -4031,19 +4022,19 @@ Path to element:
                           [a408] link: 'Standard Laptop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -4066,7 +4057,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4111,25 +4102,25 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a183")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 100)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -4152,7 +4143,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4197,13 +4188,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a183")
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a190')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a190)
 Path to element:
@@ -4226,7 +4217,7 @@ Path to element:
                               [a190] checkbox: 'Adobe Photoshop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4271,13 +4262,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a190")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 fill('a203', 'Trello, Salesforce, Microsoft Office 365, Google Workspace, Asana')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Input Element** (bid: a203)
 Path to element:
@@ -4298,19 +4289,19 @@ Path to element:
                           [a203] textbox: 'Additional software requirements'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction007
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a237', '2')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a237)
 Path to element:
@@ -4324,19 +4315,19 @@ Path to element:
             [a237] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction008
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a278')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a278)
 Path to element:
@@ -4350,7 +4341,7 @@ Path to element:
             [a278] button: 'Order Now'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -4367,7 +4358,6 @@ To resolve this, I will try to scroll the page further downwards to see if it he
 ```
 
 ## InstanceStep010
-
 
 ### State of the World
 
@@ -4530,13 +4520,13 @@ RootWebArea 'Order Status: REQ0010005 | ServiceNow', url='https://dev282647.serv
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -4556,19 +4546,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a408')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a408)
 Path to element:
@@ -4589,19 +4579,19 @@ Path to element:
                           [a408] link: 'Standard Laptop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -4624,7 +4614,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4669,25 +4659,25 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a183")
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 100)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a183')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a183)
 Path to element:
@@ -4710,7 +4700,7 @@ Path to element:
                               [a183] checkbox: 'Adobe Acrobat'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4755,13 +4745,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a183")
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a190')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a190)
 Path to element:
@@ -4784,7 +4774,7 @@ Path to element:
                               [a190] checkbox: 'Adobe Photoshop'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4829,13 +4819,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a190")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 fill('a203', 'Trello, Salesforce, Microsoft Office 365, Google Workspace, Asana')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Input Element** (bid: a203)
 Path to element:
@@ -4856,19 +4846,19 @@ Path to element:
                           [a203] textbox: 'Additional software requirements'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction007
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a237', '2')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a237)
 Path to element:
@@ -4882,19 +4872,19 @@ Path to element:
             [a237] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction008
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a278')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a278)
 Path to element:
@@ -4908,19 +4898,19 @@ Path to element:
             [a278] button: 'Order Now'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction009
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 200)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 

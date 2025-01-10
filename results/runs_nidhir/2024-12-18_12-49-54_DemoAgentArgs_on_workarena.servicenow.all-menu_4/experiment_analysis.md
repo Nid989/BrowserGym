@@ -5,6 +5,7 @@
 
 * **Derived Goal**:
   Navigate to the "SLAs > My Work" module of the "Service Desk" application.
+
 ## Run Parameters
 
 * **Date of Instance Run**: 2024-12-18 12:49:54
@@ -18,7 +19,6 @@
 
 
 ## InstanceStep000
-
 
 ### State of the World
 
@@ -83,7 +83,6 @@ The next logical step is to click on the "All" button to open the main menu, whi
 ```
 
 ## InstanceStep001
-
 
 ### State of the World
 
@@ -339,13 +338,13 @@ RootWebArea 'Home | ServiceNow', focused, url='https://dev282647.service-now.com
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('79')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: 79)
 Path to element:
@@ -355,7 +354,7 @@ Path to element:
     [79] button: 'All'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -368,7 +367,6 @@ The previous action was to click on the "All" button to open the main menu. Now 
 ```
 
 ## InstanceStep002
-
 
 ### State of the World
 
@@ -628,13 +626,13 @@ RootWebArea 'Shared admin dashboard | ServiceNow', focused, url='https://dev2826
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('79')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: 79)
 Path to element:
@@ -644,19 +642,19 @@ Path to element:
     [79] button: 'All'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 fill('224', 'Service Desk')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Input Element** (bid: 224)
 Path to element:
@@ -668,7 +666,7 @@ Path to element:
         [224] textbox: 'Enter search term to filter All menu'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -683,7 +681,6 @@ To navigate to the "SLAs > My Work" module of the "Service Desk" application, I 
 ```
 
 ## InstanceStep003
-
 
 ### State of the World
 
@@ -851,13 +848,13 @@ RootWebArea 'Task SLAs | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('79')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: 79)
 Path to element:
@@ -867,19 +864,19 @@ Path to element:
     [79] button: 'All'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 fill('224', 'Service Desk')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Input Element** (bid: 224)
 Path to element:
@@ -891,19 +888,19 @@ Path to element:
         [224] textbox: 'Enter search term to filter All menu'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('363')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: 363)
 Path to element:
@@ -919,7 +916,7 @@ Path to element:
                 [363] link: 'My Work'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 

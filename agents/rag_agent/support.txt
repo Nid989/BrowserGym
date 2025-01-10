@@ -1,12 +1,12 @@
-## Action000
+### Action000
 
-### Selected Action in the BrowserGym format
+#### Predicted Action
 
 ```
 click('a269')
 ```
 
-### DOM Tree Breadcrumb
+#### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a269)
 Path to element:
@@ -27,19 +27,19 @@ Path to element:
                           [a269] link: 'Hardware. Order from a variety of hardware to meet your business needs, including phones, tablets and laptops.'
 ```
 
-### Outcome including errors
+#### Encountered Errors
 
 No errors reported
 
-## Action001
+### Action001
 
-### Selected Action in the BrowserGym format
+#### Predicted Action
 
 ```
 click('a212')
 ```
 
-### DOM Tree Breadcrumb
+#### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -60,19 +60,19 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-### Outcome including errors
+#### Encountered Errors
 
 No errors reported
 
-## Action002
+### Action002
 
-### Selected Action in the BrowserGym format
+#### Predicted Action
 
 ```
 click('a184')
 ```
 
-### DOM Tree Breadcrumb
+#### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -95,7 +95,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-### Outcome including errors
+#### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -138,15 +138,15 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
   -   waiting 500ms
 
 
-## Action003
+### Action003
 
-### Selected Action in the BrowserGym format
+#### Predicted Action
 
 ```
 click('a185')
 ```
 
-### DOM Tree Breadcrumb
+#### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -169,19 +169,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-### Outcome including errors
+#### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
-## Action004
+### Action004
 
-### Selected Action in the BrowserGym format
+#### Predicted Action
 
 ```
 click('a184')
 ```
 
-### DOM Tree Breadcrumb
+#### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -204,19 +204,19 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-### Outcome including errors
+#### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
-## Action005
+### Action005
 
-### Selected Action in the BrowserGym format
+#### Predicted Action
 
 ```
 click('a184')
 ```
 
-### DOM Tree Breadcrumb
+#### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a184)
 Path to element:
@@ -239,7 +239,7 @@ Path to element:
                               [a184] radio: '\uf137 Pink'
 ```
 
-### Outcome including errors
+#### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -282,15 +282,15 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a184")
   -   waiting 500ms
 
 
-## Action006
+### Action006
 
-### Selected Action in the BrowserGym format
+#### Predicted Action
 
 ```
 click('a185')
 ```
 
-### DOM Tree Breadcrumb
+#### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -313,19 +313,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-### Outcome including errors
+#### Encountered Errors
 
 Error: ValueError: Received a multi-action, only single-actions are allowed.
 
-## Action007
+### Action007
 
-### Selected Action in the BrowserGym format
+#### Predicted Action
 
 ```
 click('a185')
 ```
 
-### DOM Tree Breadcrumb
+#### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a185)
 Path to element:
@@ -348,19 +348,19 @@ Path to element:
                               [a185] LabelText: ''
 ```
 
-### Outcome including errors
+#### Encountered Errors
 
 No errors reported
 
-## Action008
+### Action008
 
-### Selected Action in the BrowserGym format
+#### Predicted Action
 
 ```
 click('a296')
 ```
 
-### DOM Tree Breadcrumb
+#### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a296)
 Path to element:
@@ -374,18 +374,18 @@ Path to element:
             [a296] button: 'Order Now'
 ```
 
-### Outcome including errors
+#### Encountered Errors
 
 No errors reported
 
-## Action009
+### Action009
 
-### Selected Action in the BrowserGym format
+#### Predicted Action
 
 ```
 report_infeasible("I cannot complete the order because both the 'Order Now' and 'Add to Cart' buttons are disabled in the interface, even though all required configurations have been selected correctly.")
 ```
 
-### Outcome including errors
+#### Encountered Errors
 
 No errors reported

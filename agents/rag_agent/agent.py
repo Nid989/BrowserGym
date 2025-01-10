@@ -343,9 +343,15 @@ I found the information requested by the user, I will send it to the chat.
             {
                 "type": "text", 
                 "text": f"""\
-# Support Examples 
-You will be provided with a successful trace. It includes a series of actions taken by the agent. With every actions, you will be provided with a abstracted Axtree and encountered error if it exists. 
+# Support Example
 
+You are given a successful trace of a task, broken down into multiple steps (timesteps). Each step includes:
+
+(1) The predicted action to be taken.
+(2) A breadcrumb-like representation of the "accessibility tree" at that timestep, showing only the relevant elements and their path from the root to the target element.
+(3) Any errors that occurred when the action was performed on the page.
+
+## Trace: 
 {open('agents/rag_agent/support.txt').read()}
 """,
             }

@@ -5,6 +5,7 @@
 
 * **Derived Goal**:
   Go to the hardware store and order 5 "iPad mini" with configuration {'Choose the colour': 'Starlight', 'Choose the storage': '64'}
+
 ## Run Parameters
 
 * **Date of Instance Run**: 2024-12-18 05:51:11
@@ -18,7 +19,6 @@
 
 
 ## InstanceStep000
-
 
 ### State of the World
 
@@ -311,7 +311,6 @@ To accomplish the goal of ordering 5 "iPad mini" with the specified configuratio
 ```
 
 ## InstanceStep001
-
 
 ### State of the World
 
@@ -686,13 +685,13 @@ RootWebArea 'Catalog | ServiceNow', url='https://dev282647.service-now.com/now/n
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -712,7 +711,7 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -725,7 +724,6 @@ To order the "iPad mini" with the specified configuration, I need to navigate to
 ```
 
 ## InstanceStep002
-
 
 ### State of the World
 
@@ -1103,13 +1101,13 @@ RootWebArea 'Hardware | ServiceNow', url='https://dev282647.service-now.com/now/
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -1129,19 +1127,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -1162,7 +1160,7 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1176,7 +1174,6 @@ To proceed with ordering the "iPad mini" with the specified configuration, I nee
 
 ## InstanceStep003
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -1391,13 +1388,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -1417,19 +1414,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -1450,19 +1447,19 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 300)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -1476,7 +1473,6 @@ To order the "iPad mini" with the specified configuration, I need to select the 
 
 ## InstanceStep004
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -1691,13 +1687,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -1717,19 +1713,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -1750,31 +1746,31 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 300)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -1797,7 +1793,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -1852,7 +1848,6 @@ To resolve this, I will try to click on the "Starlight" radio button again, but 
 
 ## InstanceStep005
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -2067,13 +2062,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -2093,19 +2088,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -2126,31 +2121,31 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 300)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -2173,7 +2168,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2218,13 +2213,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 focus('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Focused Element** (bid: a194)
 Path to element:
@@ -2247,7 +2242,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -2261,7 +2256,6 @@ To proceed with ordering the "iPad mini" with the specified configuration, I nee
 
 ## InstanceStep006
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -2476,13 +2470,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -2502,19 +2496,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -2535,31 +2529,31 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 300)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -2582,7 +2576,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2627,13 +2621,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 focus('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Focused Element** (bid: a194)
 Path to element:
@@ -2656,19 +2650,19 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -2691,7 +2685,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -2746,7 +2740,6 @@ To resolve this, I will try to click on the "Starlight" radio button again, but 
 
 ## InstanceStep007
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -2961,13 +2954,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -2987,19 +2980,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -3020,31 +3013,31 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 300)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -3067,7 +3060,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3112,13 +3105,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 focus('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Focused Element** (bid: a194)
 Path to element:
@@ -3141,19 +3134,19 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -3176,7 +3169,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3221,13 +3214,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 50)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -3243,7 +3236,6 @@ Since I have already scrolled slightly to try and make the radio button clickabl
 
 ## InstanceStep008
 
-
 ### State of the World
 
 #### Currently Open Tabs
@@ -3458,13 +3450,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -3484,19 +3476,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -3517,31 +3509,31 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 300)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -3564,7 +3556,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3609,13 +3601,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 focus('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Focused Element** (bid: a194)
 Path to element:
@@ -3638,19 +3630,19 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -3673,7 +3665,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3718,25 +3710,25 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 50)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction007
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -3759,7 +3751,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -3813,7 +3805,6 @@ Since the issue persists, I will try to click on the "Starlight" radio button ag
 ```
 
 ## InstanceStep009
-
 
 ### State of the World
 
@@ -4029,13 +4020,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -4055,19 +4046,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -4088,31 +4079,31 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 300)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -4135,7 +4126,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4180,13 +4171,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 focus('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Focused Element** (bid: a194)
 Path to element:
@@ -4209,19 +4200,19 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -4244,7 +4235,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4289,25 +4280,25 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 50)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction007
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -4330,7 +4321,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4375,13 +4366,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction008
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a195')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a195)
 Path to element:
@@ -4404,7 +4395,7 @@ Path to element:
                               [a195] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -4419,7 +4410,6 @@ The next step is to set the quantity to 5. The accessibility tree shows a combob
 ```
 
 ## InstanceStep010
-
 
 ### State of the World
 
@@ -4635,13 +4625,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -4661,19 +4651,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -4694,31 +4684,31 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 300)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -4741,7 +4731,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4786,13 +4776,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 focus('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Focused Element** (bid: a194)
 Path to element:
@@ -4815,19 +4805,19 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -4850,7 +4840,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4895,25 +4885,25 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 50)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction007
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -4936,7 +4926,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -4981,13 +4971,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction008
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a195')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a195)
 Path to element:
@@ -5010,19 +5000,19 @@ Path to element:
                               [a195] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction009
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a255', '5')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a255)
 Path to element:
@@ -5036,7 +5026,7 @@ Path to element:
             [a255] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
@@ -5051,7 +5041,6 @@ From the accessibility tree, I can see that there is a button labeled "Order Now
 ```
 
 ## InstanceStep011
-
 
 ### State of the World
 
@@ -5268,13 +5257,13 @@ RootWebArea 'iPad mini | ServiceNow', url='https://dev282647.service-now.com/now
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -5294,19 +5283,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -5327,31 +5316,31 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 300)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -5374,7 +5363,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -5419,13 +5408,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 focus('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Focused Element** (bid: a194)
 Path to element:
@@ -5448,19 +5437,19 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -5483,7 +5472,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -5528,25 +5517,25 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 50)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction007
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -5569,7 +5558,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -5614,13 +5603,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction008
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a195')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a195)
 Path to element:
@@ -5643,19 +5632,19 @@ Path to element:
                               [a195] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction009
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a255', '5')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a255)
 Path to element:
@@ -5669,19 +5658,19 @@ Path to element:
             [a255] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction010
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a296')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a296)
 Path to element:
@@ -5695,7 +5684,7 @@ Path to element:
             [a296] button: 'Order Now'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -5722,7 +5711,6 @@ Since the "Order Now" button is disabled, I will first try to click the "Add to 
 ```
 
 ## InstanceStep012
-
 
 ### State of the World
 
@@ -5881,13 +5869,13 @@ RootWebArea 'Order Status: REQ0010004 | ServiceNow', url='https://dev282647.serv
 
 #### PastAction000
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a252')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a252)
 Path to element:
@@ -5907,19 +5895,19 @@ Path to element:
                         [a252] link: 'Hardware'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction001
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a212')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a212)
 Path to element:
@@ -5940,31 +5928,31 @@ Path to element:
                           [a212] link: 'iPad mini'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction002
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 300)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction003
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -5987,7 +5975,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -6032,13 +6020,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction004
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 focus('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Focused Element** (bid: a194)
 Path to element:
@@ -6061,19 +6049,19 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction005
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -6096,7 +6084,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -6141,25 +6129,25 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction006
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 scroll(0, 50)
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction007
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a194')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a194)
 Path to element:
@@ -6182,7 +6170,7 @@ Path to element:
                               [a194] radio: '\uf137 Starlight'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -6227,13 +6215,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a194")
 
 #### PastAction008
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a195')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a195)
 Path to element:
@@ -6256,19 +6244,19 @@ Path to element:
                               [a195] LabelText: ''
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction009
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 select_option('a255', '5')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Select Element** (bid: a255)
 Path to element:
@@ -6282,19 +6270,19 @@ Path to element:
             [a255] combobox: 'Quantity'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 No errors reported
 
 #### PastAction010
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a296')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a296)
 Path to element:
@@ -6308,7 +6296,7 @@ Path to element:
             [a296] button: 'Order Now'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: TimeoutError: Locator.click: Timeout 500ms exceeded.
 Call log:
@@ -6324,13 +6312,13 @@ waiting for get_by_test_id("a").frame_locator(":scope").get_by_test_id("a296")
 
 #### PastAction011
 
-##### Selected Action in the BrowserGym format
+##### Predicted Action
 
 ```
 click('a298')
 ```
 
-##### DOM Tree Breadcrumb
+##### Accessibility Tree -- Breadcrumb
 
 **Clicked Element** (bid: a298)
 Path to element:
@@ -6344,7 +6332,7 @@ Path to element:
             [a298] button: 'Add to Cart'
 ```
 
-##### Outcome including errors
+##### Encountered Errors
 
 Error: ValueError: Could not find element with bid "a298"
 

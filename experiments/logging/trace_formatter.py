@@ -28,12 +28,12 @@ class PastAction:
         
         # Action header and content
         formatted_text.append(f"#### PastAction{str(self.step).zfill(3)}\n\n")
-        formatted_text.append("##### Selected Action in the BrowserGym format\n\n")
+        formatted_text.append("##### Predicted Action\n\n")
         formatted_text.append(f"```\n{self.action}\n```\n\n")
 
         # DOM Tree Breadcrumb (only if we have paths)
         if self.breadcrumb_paths:
-            formatted_text.append("##### DOM Tree Breadcrumb\n\n")
+            formatted_text.append("##### Accessibility Tree -- Breadcrumb\n\n")
             for bid, label, path in self.breadcrumb_paths:
                 formatted_text.append(f"**{label}** (bid: {bid})\n")
                 if path:
@@ -46,7 +46,7 @@ class PastAction:
                     formatted_text.append(f"No path found for bid: {bid}\n\n")
         
         # Outcome/Errors
-        formatted_text.append("##### Outcome including errors\n\n")
+        formatted_text.append("##### Encountered Errors\n\n") # FIXME: should we also incl. outcome if no error encountered?
         if self.error:
             formatted_text.append(f"Error: {self.error}\n\n")
         else:
@@ -196,11 +196,11 @@ def log_experiment_details(exp_dir: str | Path, system_message: str = None, debu
                 if goal_texts:
                     f.write("* **Derived Goal**:\n")
                     for text in goal_texts:
-                        f.write(f"  {text}\n")
+                        f.write(f"  {text}\n\n")
                 else:
-                    f.write("* **Derived Goal**: No text goals found in goal_object\n")
+                    f.write("* **Derived Goal**: No text goals found in goal_object\n\n")
             else:
-                f.write("* **Derived Goal**: No goal information available\n")
+                f.write("* **Derived Goal**: No goal information available\n\n")
 
             f.write("## Run Parameters\n\n")
             
@@ -235,7 +235,7 @@ def log_experiment_details(exp_dir: str | Path, system_message: str = None, debu
                 logger.debug(f"Processing step {step_info.step}")
                 
                 # Instance Step
-                f.write(f"## InstanceStep{str(step_info.step).zfill(3)}\n\n\n")
+                f.write(f"## InstanceStep{str(step_info.step).zfill(3)}\n\n")
                 
                 # State of the World
                 f.write("### State of the World\n\n")
