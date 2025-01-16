@@ -75,10 +75,8 @@ def parse_args():
 def main():
     print(
         """\
---- WARNING ---
-This is a basic agent for demo purposes.
-Visit AgentLab for more capable agents with advanced features.
-https://github.com/ServiceNow/AgentLab"""
+Agent Evaluation Harness starting up...
+Creating simulation environment ..."""
     )
 
     args = parse_args()

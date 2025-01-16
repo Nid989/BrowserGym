@@ -1,11 +1,14 @@
 #!/bin/bash
 
 # Default values
+# MODEL_PROVIDER="anthropic"
+# MODEL_NAME="claude-3-5-sonnet-20241022"
+# claude-3-5-haiku-20241022, claude-3-5-sonnet-20241022
 MODEL_PROVIDER="openai"
 MODEL_NAME="gpt-4o"
-TOTAL_RUNS=1
-MAX_STEPS=100
-VISUAL_EFFECTS=true
+TOTAL_RUNS=100
+MAX_STEPS=50
+VISUAL_EFFECTS=false
 USE_HTML=false
 USE_AXTREE=true
 USE_SCREENSHOT=false
@@ -21,12 +24,12 @@ Do not visite any external websites outside from the servicenow.com domain unles
 
 # Array of task names
 TASKS=(
-#    'workarena.servicenow.order-apple-mac-book-pro15'
+    'workarena.servicenow.order-apple-mac-book-pro15'
 #    'workarena.servicenow.order-apple-watch'
     'workarena.servicenow.order-developer-laptop'
-#    'workarena.servicenow.order-development-laptop-p-c'
-#    'workarena.servicenow.order-ipad-mini'
-#    'workarena.servicenow.order-ipad-pro'
+    'workarena.servicenow.order-development-laptop-p-c'
+    'workarena.servicenow.order-ipad-mini'
+    'workarena.servicenow.order-ipad-pro'
     'workarena.servicenow.order-loaner-laptop'
     'workarena.servicenow.order-sales-laptop'
     'workarena.servicenow.order-standard-laptop'
