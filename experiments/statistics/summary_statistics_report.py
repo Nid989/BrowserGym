@@ -254,7 +254,7 @@ def save_summary(summary: Dict, results_dir: Path):
 # Main function to run the script
 def main():
     parser = argparse.ArgumentParser(description="Analyze experiment results and generate a summary report.")
-    parser.add_argument("results_dir", type=str, nargs="?", default=".", help="Path to the results directory containing experiment subdirectories.")
+    parser.add_argument("--results_dir", type=str, nargs="?", default=".", help="Path to the results directory containing experiment subdirectories.")
     parser.add_argument("--debug", action="store_true", help="Enable debug mode logging for more detailed output.")
 
     args = parser.parse_args()

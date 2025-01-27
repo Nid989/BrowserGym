@@ -159,7 +159,7 @@ echo "All experiments and analysis complete!"
 # # Run with multiple options
 # ./run_experiments.sh \
 #     --provider "openai" \
-#     --model-name "gpt-4" \
+#     --model-name "gpt-4o" \
 #     --runs 3 \
 #     --max-steps 50 \
 #     --visual true \

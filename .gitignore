@@ -163,3 +163,4 @@ docker-compose.yml
 weaviate.ipynb
 agents/rag_agent/test.py
 agents/rag_agent/test2.py
+results_local
