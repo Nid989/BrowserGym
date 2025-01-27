@@ -13,8 +13,10 @@ from typing import Dict, List, Optional
 
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from langchain_openai import ChatOpenAI
+from langchain_openai.chat_models.base import BaseChatOpenAI
 from langchain_anthropic import ChatAnthropic
 from langchain_groq import ChatGroq
+from langchain_ollama import ChatOllama
 from langgraph.graph import START, END, StateGraph, MessagesState
 from langgraph.prebuilt import tools_condition, ToolNode
 
@@ -138,6 +140,15 @@ and executed by a program, make sure to follow the formatting instructions.
             llm = ChatAnthropic(model=self.model_name, temperature=0.0)
         elif self.model_provider == "groq":
             llm = ChatGroq(model=self.model_name, temperature=0.0)
+        elif self.model_provider == "deepseek":
+            llm = BaseChatOpenAI(
+                model=self.model_name,
+                openai_api_base='https://api.deepseek.com',
+                temperature=0.0,
+                max_tokens=1024
+            )
+        elif self.model_provider == "ollama":
+            llm = ChatOllama(model=self.model_name, temperature=0.0)
         else:
             raise ValueError(f"Unsupported model provider: {self.model_provider}")
         

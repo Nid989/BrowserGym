@@ -30,8 +30,8 @@ def parse_args():
         "--model_provider",
         type=str,
         default="openai",
-        choices=["openai", "anthropic", "groq"],
-        help="Model provider to use (openai, anthropic, or groq).",
+        choices=["openai", "anthropic", "groq", "deepseek", "ollama"],
+        help="Model provider to use (openai, anthropic, groq, deepseek, or ollama).",
     )
     parser.add_argument(
         "--task_name",
@@ -94,7 +94,7 @@ and executed by a program, make sure to follow the formatting instructions.
 def main():
     print(
         """\
-Agent Evaluation Harness starting up...
+Agent Evaluation Harness starting up ...
 Creating simulation environment ..."""
     )
 

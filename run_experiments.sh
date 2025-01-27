@@ -36,7 +36,7 @@ TASKS=(
 function show_help {
     echo "Usage: $0 [options]"
     echo "Options:"
-    echo "  -p, --provider       Model provider (openai, anthropic, groq) (default: openai)"
+    echo "  -p, --provider       Model provider (openai, anthropic, groq, deepseek, ollama) (default: openai)"
     echo "  -m, --model-name     Model name (default: gpt-4)"
     echo "  -r, --runs           Total number of runs (default: 1)"
     echo "  -v, --visual         Enable visual effects (default: true)"
@@ -187,3 +187,17 @@ echo "All experiments and analysis complete!"
 #     --use_axtree true \
 #     --use_screenshot false \
 #     --max_steps 100
+
+# Add a DeepSeek example in the comments
+# # Run with DeepSeek
+# ./run_experiments.sh \
+#     --provider "deepseek" \
+#     --model-name "deepseek-chat" \
+#     --runs 1
+
+# Add an Ollama example in the comments
+# # Run with Ollama
+# ./run_experiments.sh \
+#     --provider "ollama" \
+#     --model-name "deepseek-r1:14b" \
+#     --runs 1
