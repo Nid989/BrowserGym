@@ -22,9 +22,9 @@ This guide provides instructions for setting up a ServiceNow environment for Wor
 
 4. Set up the following environment variables in your terminal:
    ```bash
-   export SNOW_INSTANCE_URL="https://dev182361.service-now.com"
+   export SNOW_INSTANCE_URL="https://dev201251.service-now.com/"
    export SNOW_INSTANCE_UNAME="admin"
-   export SNOW_INSTANCE_PWD="TYmnY29u*Xd+"
+   export SNOW_INSTANCE_PWD="7tzYS@M1lZs-"
    ```
 
 5. Log into your instance via browser using the admin credentials
@@ -62,9 +62,9 @@ For subsequent development sessions, follow these steps to reactivate your envir
 
 2. Set environment variables in your terminal:
    ```bash
-   export SNOW_INSTANCE_URL="https://dev182361.service-now.com"
+   export SNOW_INSTANCE_URL="https://dev201251.service-now.com/"
    export SNOW_INSTANCE_UNAME="admin"
-   export SNOW_INSTANCE_PWD="TYmnY29u*Xd+"
+   export SNOW_INSTANCE_PWD="7tzYS@M1lZs-"
    ```
 
 3. Set up OpenAI API key:
