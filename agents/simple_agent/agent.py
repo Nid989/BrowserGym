@@ -135,12 +135,18 @@ and executed by a program, make sure to follow the formatting instructions.
 
     def _predict(self, state: MessagesState) -> MessagesState:
         if self.model_provider == "openai":
-            llm = ChatOpenAI(model=self.model_name, temperature=0.0)
+            llm = ChatOpenAI(model=self.model_name, temperature=0.0) # works 
         elif self.model_provider == "anthropic":
-            llm = ChatAnthropic(model=self.model_name, temperature=0.0)
-        elif self.model_provider == "groq":
-            llm = ChatGroq(model=self.model_name, temperature=0.0)
-        elif self.model_provider == "deepseek":
+            llm = ChatAnthropic(model=self.model_name, temperature=0.0) # works 
+        elif self.model_provider == "groq": # does not work
+            llm = ChatGroq(
+                model=self.model_name, 
+                temperature=0.0,     
+                max_tokens=None,
+                timeout=None,
+                max_retries=2,
+            )
+        elif self.model_provider == "deepseek": # not tested yet
             llm = BaseChatOpenAI(
                 model=self.model_name,
                 openai_api_key=os.environ["DEEPSEEK_API_KEY"],
@@ -148,7 +154,7 @@ and executed by a program, make sure to follow the formatting instructions.
                 temperature=0.0
             )
         elif self.model_provider == "ollama":
-            llm = ChatOllama(model=self.model_name, temperature=0.0)
+            llm = ChatOllama(model=self.model_name, temperature=0.0) # works 
         else:
             raise ValueError(f"Unsupported model provider: {self.model_provider}")
         
@@ -383,6 +389,31 @@ You will now think step by step and produce your next best action. Reflect on yo
         full_prompt_txt = "\n".join(prompt_text_strings)
         logger.info(full_prompt_txt)
 
+        # For Groq models, we need to concatenate the content into a single string
+        if self.model_provider == "groq":
+            # Check for any image content and raise exception if found
+            for msg in system_msgs + user_msgs:
+                if isinstance(msg, dict) and "image_url" in msg:
+                    raise ValueError("ChatGroq does not support image inputs. Please use a different model provider for image processing.")
+            
+            # Concatenate system messages
+            system_content = "\n".join(
+                msg["text"] if isinstance(msg, dict) and "text" in msg 
+                else str(msg) for msg in system_msgs
+            )
+            
+            # Concatenate user messages
+            user_content = "\n".join(
+                msg["text"] if isinstance(msg, dict) and "text" in msg 
+                else str(msg) for msg in user_msgs
+            )
+            
+            return [
+                SystemMessage(content=system_content),
+                HumanMessage(content=user_content)
+            ]
+        
+        # For other models, return the original format
         return [SystemMessage(content=system_msgs), HumanMessage(content=user_msgs)]
 
     def get_action(self, obs: dict) -> tuple[str, dict]:
