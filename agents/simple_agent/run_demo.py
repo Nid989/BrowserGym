@@ -87,6 +87,12 @@ and executed by a program, make sure to follow the formatting instructions.
         default=100,
         help="Maximum number of steps for the environment.",
     )
+    parser.add_argument(
+        "--results_dir",
+        type=str,
+        default="./results",
+        help="Directory for storing results",
+    )
 
     return parser.parse_args()
 
@@ -134,8 +140,8 @@ Creating simulation environment ..."""
         agent_args=agent_args,
     )
 
-    # running and logging results
-    exp_args.prepare("./results")
+    # Update to use custom results directory
+    exp_args.prepare(args.results_dir)
     exp_args.run()
 
     # loading and printing results
