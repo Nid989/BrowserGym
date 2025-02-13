@@ -13,7 +13,7 @@ USE_HTML=false
 USE_AXTREE=true
 USE_SCREENSHOT=false
 RESULTS_DIR="./results"
-PARALLEL_TASKS=1 # Add new default value after other defaults
+PARALLEL_TASKS=5 # Add new default value after other defaults
 
 # Add default system message after other default values
 SYSTEM_MESSAGE="""# Instructions
