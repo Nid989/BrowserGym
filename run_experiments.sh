@@ -1,18 +1,19 @@
 #!/bin/bash
 
 # Default values
+# MODEL_PROVIDER="anthropic"
+# MODEL_NAME="claude-3-5-sonnet-20241022"
+# claude-3-5-haiku-20241022, claude-3-5-sonnet-20241022
 MODEL_PROVIDER="openai"
-MODEL_NAME="gpt-4"
+MODEL_NAME="gpt-4o"
 TOTAL_RUNS=1
-MAX_STEPS=100
+MAX_STEPS=50
 VISUAL_EFFECTS=true
 USE_HTML=false
 USE_AXTREE=true
 USE_SCREENSHOT=false
 RESULTS_DIR="./results"
-
-# Add new default value after other defaults
-PARALLEL_TASKS=1
+PARALLEL_TASKS=1 # Add new default value after other defaults
 
 # Add default system message after other default values
 SYSTEM_MESSAGE="""# Instructions
@@ -20,7 +21,7 @@ SYSTEM_MESSAGE="""# Instructions
 Review the current state of the page and all other information to find the best
 possible next action to accomplish your goal. Your answer will be interpreted
 and executed by a program, make sure to follow the formatting instructions. 
-Exempt from visiting any external websites which are not provided explicitly."""
+Do not visit any external websites outside from the servicenow.com domain unless they are provided explicitly."""
 
 # Array of task names
 TASKS=(
