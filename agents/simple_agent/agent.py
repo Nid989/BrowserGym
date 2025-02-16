@@ -453,7 +453,7 @@ class DemoAgentArgs(AbstractAgentArgs):
     internal states of the agent.
     """
 
-    model_name: str = "gpt-4"
+    model_name: str = "gpt-4o"
     model_provider: str = "openai"
     chat_mode: bool = False
     demo_mode: str = "off"
