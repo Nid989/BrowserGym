@@ -30,8 +30,8 @@ def parse_args():
         "--model_provider",
         type=str,
         default="openai",
-        choices=["openai", "anthropic", "groq", "deepseek", "ollama"],
-        help="Model provider to use (openai, anthropic, groq, deepseek, or ollama).",
+        choices=["openai", "anthropic", "groq", "deepseek", "ollama", "google"],
+        help="Model provider to use (openai, anthropic, groq, deepseek, google, or ollama).",
     )
     parser.add_argument(
         "--task_name",

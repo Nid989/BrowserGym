@@ -17,6 +17,7 @@ from langchain_openai.chat_models.base import BaseChatOpenAI
 from langchain_anthropic import ChatAnthropic
 from langchain_groq import ChatGroq
 from langchain_ollama import ChatOllama
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langgraph.graph import START, END, StateGraph, MessagesState
 from langgraph.prebuilt import tools_condition, ToolNode
 
@@ -135,10 +136,10 @@ and executed by a program, make sure to follow the formatting instructions.
 
     def _predict(self, state: MessagesState) -> MessagesState:
         if self.model_provider == "openai":
-            llm = ChatOpenAI(model=self.model_name, temperature=0.0) # works 
+            llm = ChatOpenAI(model=self.model_name, temperature=0.0)
         elif self.model_provider == "anthropic":
-            llm = ChatAnthropic(model=self.model_name, temperature=0.0) # works 
-        elif self.model_provider == "groq": # does not work
+            llm = ChatAnthropic(model=self.model_name, temperature=0.0)
+        elif self.model_provider == "groq":
             llm = ChatGroq(
                 model=self.model_name, 
                 temperature=0.0,     
@@ -146,7 +147,13 @@ and executed by a program, make sure to follow the formatting instructions.
                 timeout=None,
                 max_retries=2,
             )
-        elif self.model_provider == "deepseek": # not tested yet
+        elif self.model_provider == "google":
+            llm = ChatGoogleGenerativeAI(
+                model=self.model_name,
+                temperature=0.0,
+                convert_system_message_to_human=True
+            )
+        elif self.model_provider == "deepseek":
             llm = BaseChatOpenAI(
                 model=self.model_name,
                 openai_api_key=os.environ["DEEPSEEK_API_KEY"],
@@ -154,7 +161,7 @@ and executed by a program, make sure to follow the formatting instructions.
                 temperature=0.0
             )
         elif self.model_provider == "ollama":
-            llm = ChatOllama(model=self.model_name, temperature=0.0) # works 
+            llm = ChatOllama(model=self.model_name, temperature=0.0)
         else:
             raise ValueError(f"Unsupported model provider: {self.model_provider}")
         

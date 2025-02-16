@@ -40,7 +40,7 @@ TASKS=(
 function show_help {
     echo "Usage: $0 [options]"
     echo "Options:"
-    echo "  -p, --provider       Model provider (openai, anthropic, groq, deepseek, ollama) (default: openai)"
+    echo "  -p, --provider       Model provider (openai, anthropic, groq, deepseek, ollama, google) (default: openai)"
     echo "  -m, --model-name     Model name (default: gpt-4)"
     echo "  -r, --runs           Total number of runs (default: 1)"
     echo "  -v, --visual         Enable visual effects (default: true)"
@@ -240,4 +240,11 @@ echo "All experiments and analysis complete!"
 #     --provider "openai" \
 #     --model-name "gpt-4" \
 #     --results-dir "./custom_results" \
+#     --runs 1
+
+# Add a Google example in the comments
+# # Run with Google Gemini
+# ./run_experiments.sh \
+#     --provider "google" \
+#     --model-name "gemini-1.5-pro" \
 #     --runs 1
