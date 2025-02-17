@@ -1,0 +1,64 @@
+### Workflow: Order iPad Mini from ServiceNow Catalog
+
+1. Navigate to Hardware Category
+   - Two valid approaches:
+     * Action: `click(link="Hardware")`
+     * Alternative: `click(link="Hardware. Order from a variety of hardware...")`
+   - Location: Main catalog navigation
+   - ✅ Success Pattern: Both approaches work reliably
+
+2. Select iPad Mini
+   - Action: `click(link="iPad mini")`
+   - Location: "Category Items" region
+   - ✅ Success Pattern: Direct link click is reliable
+
+3. Configure Product Options
+   Important: Configuration must be done in correct order!
+
+   a. Color Selection
+   - Action: `click(label="[color_option]")` 
+   - Available options: Pink, Purple, Space Grey, Starlight
+   - ⚠️ Known Issues:
+     * Direct radio button clicks often fail due to intercepting div elements
+     * Use label clicks instead of direct radio input clicks
+     * Ensure element is in viewport before clicking
+
+   b. Storage Selection
+   - Action: `click(label="[storage_option]")`
+   - Options: 64GB (default), 256GB (+$150)
+   - ⚠️ Same interaction issues as color selection
+   - 💡 Best Practice: Click label element instead of radio button
+
+4. Set Quantity
+   - Action: `select(dropdown="Quantity", value=desired_number)`
+   - Location: "Order this Item" section
+   - ✅ Success Pattern: Dropdown interaction is reliable
+   - Note: Verify selection before proceeding
+
+5. Complete Order
+   - Action: `click(button="Order Now")`
+   - Location: Bottom of order form
+   - ✅ Success Pattern: Button is consistently clickable
+   - Validation: Order confirmation message will appear
+
+### Critical Implementation Notes:
+
+1. Element Interaction Strategy:
+   - Prefer label/parent element clicks over direct radio inputs
+   - Use proper selectors: `label`, `button`, `link` over raw element IDs
+   - Handle intercepting div elements by targeting correct clickable areas
+
+2. Viewport Management:
+   - Ensure elements are fully visible before interaction
+   - Scroll if needed: `scroll(0, needed_offset)`
+   - Verify element interactability after scrolling
+
+3. Error Prevention:
+   - Always verify mandatory fields (color, storage) before order submission
+   - Handle potential timeout errors with retry logic
+   - Validate selections before proceeding to next step
+
+4. UI Peculiarities:
+   - Radio buttons have intercepting div layers
+   - Some elements require scrolling into view
+   - Form follows strict sequential order of configuration
