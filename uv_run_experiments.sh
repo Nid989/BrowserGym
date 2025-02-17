@@ -4,9 +4,10 @@
 # MODEL_PROVIDER="anthropic"
 # MODEL_NAME="claude-3-5-sonnet-20241022"
 # claude-3-5-haiku-20241022, claude-3-5-sonnet-20241022
+# o3-mini-2025-01-31 or gpt-4o
 MODEL_PROVIDER="openai"
-MODEL_NAME="gpt-4o"
-TOTAL_RUNS=30
+MODEL_NAME="chatgpt-4o-latest"
+TOTAL_RUNS=500
 MAX_STEPS=50
 VISUAL_EFFECTS=false
 USE_HTML=false
@@ -25,12 +26,12 @@ Do not visit any external websites outside from the servicenow.com domain unless
 
 # Array of task names
 TASKS=(
-    'workarena.servicenow.order-apple-mac-book-pro15'
-    'workarena.servicenow.order-apple-watch'
+    # 'workarena.servicenow.order-apple-mac-book-pro15'
+    # 'workarena.servicenow.order-apple-watch'
     'workarena.servicenow.order-developer-laptop'
-    'workarena.servicenow.order-development-laptop-p-c'
-    'workarena.servicenow.order-ipad-mini'
-    'workarena.servicenow.order-ipad-pro'
+    # 'workarena.servicenow.order-development-laptop-p-c'
+    # 'workarena.servicenow.order-ipad-mini'
+    # 'workarena.servicenow.order-ipad-pro'
     'workarena.servicenow.order-loaner-laptop'
     'workarena.servicenow.order-sales-laptop'
     'workarena.servicenow.order-standard-laptop'
@@ -241,6 +242,7 @@ echo "All experiments and analysis complete!"
 #     --model-name "gpt-4" \
 #     --results-dir "./custom_results" \
 #     --runs 1
+<<<<<<< Updated upstream
 
 # Add a Google example in the comments
 # # Run with Google Gemini
@@ -248,3 +250,5 @@ echo "All experiments and analysis complete!"
 #     --provider "google" \
 #     --model-name "gemini-1.5-pro" \
 #     --runs 1
+=======
+>>>>>>> Stashed changes
