@@ -25,15 +25,15 @@ Do not visit any external websites outside from the servicenow.com domain unless
 
 # Array of task names
 TASKS=(
-    'workarena.servicenow.order-apple-mac-book-pro15'
-    'workarena.servicenow.order-apple-watch'
-    'workarena.servicenow.order-developer-laptop'
-    'workarena.servicenow.order-development-laptop-p-c'
+    # 'workarena.servicenow.order-apple-mac-book-pro15'
+    # 'workarena.servicenow.order-apple-watch'
+    # 'workarena.servicenow.order-developer-laptop'
+    # 'workarena.servicenow.order-development-laptop-p-c'
     'workarena.servicenow.order-ipad-mini'
     'workarena.servicenow.order-ipad-pro'
-    'workarena.servicenow.order-loaner-laptop'
-    'workarena.servicenow.order-sales-laptop'
-    'workarena.servicenow.order-standard-laptop'
+    # 'workarena.servicenow.order-loaner-laptop'
+    # 'workarena.servicenow.order-sales-laptop'
+    # 'workarena.servicenow.order-standard-laptop'
 )
 
 # Help function

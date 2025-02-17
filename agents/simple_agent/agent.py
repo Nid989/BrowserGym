@@ -136,7 +136,10 @@ and executed by a program, make sure to follow the formatting instructions.
 
     def _predict(self, state: MessagesState) -> MessagesState:
         if self.model_provider == "openai":
-            llm = ChatOpenAI(model=self.model_name, temperature=0.0)
+            # Set temperature=1 for all o-series models
+            is_o_series = any(self.model_name.startswith(prefix) for prefix in ["o1", "o3"])
+            temperature = 1.0 if is_o_series else 0.0
+            llm = ChatOpenAI(model=self.model_name, temperature=temperature)
         elif self.model_provider == "anthropic":
             llm = ChatAnthropic(model=self.model_name, temperature=0.0)
         elif self.model_provider == "groq":
