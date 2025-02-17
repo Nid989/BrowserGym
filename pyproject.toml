@@ -128,6 +128,7 @@ dependencies = [
     "agent>=0.1.2",
     "langchain-groq>=0.2.1",
     "langchain-ollama>=0.2.1",
+    "langchain-google-genai>=2.0.7",
 ]
 
 [tool.black]

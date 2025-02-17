@@ -1,14 +1,13 @@
 #!/bin/bash
 
 # Default values
-# MODEL_PROVIDER="anthropic"
-# MODEL_NAME="claude-3-5-sonnet-20241022"
-# claude-3-5-haiku-20241022, claude-3-5-sonnet-20241022
+# MODEL_PROVIDER="anthropic", "openai", "google"
+# MODEL_NAME=o3-mini-2025-01-31, claude-3-5-sonnet-20241022, claude-3-5-haiku-20241022, claude-3-5-sonnet-20241022, chatgpt-4o-latest, gemini-2.0-flash-thinking-exp, gemini-2.0-flash, gemini-2.0-flash-lite-preview-02-05
 # o3-mini-2025-01-31 or gpt-4o
 MODEL_PROVIDER="openai"
-MODEL_NAME="chatgpt-4o-latest"
-TOTAL_RUNS=500
-MAX_STEPS=50
+MODEL_NAME="o3-mini-2025-01-31"
+TOTAL_RUNS=50
+MAX_STEPS=20
 VISUAL_EFFECTS=false
 USE_HTML=false
 USE_AXTREE=true
