@@ -14,6 +14,7 @@ USE_AXTREE=true
 USE_SCREENSHOT=false
 RESULTS_DIR="./results"
 PARALLEL_TASKS=1 # Add new default value after other defaults
+AGENT_TYPE="simple"  # Add new default value for agent type
 
 # Add default system message after other default values
 SYSTEM_MESSAGE="""# Instructions
@@ -30,7 +31,7 @@ TASKS=(
     # 'workarena.servicenow.order-developer-laptop'
     # 'workarena.servicenow.order-development-laptop-p-c'
     'workarena.servicenow.order-ipad-mini'
-    'workarena.servicenow.order-ipad-pro'
+    # 'workarena.servicenow.order-ipad-pro'
     # 'workarena.servicenow.order-loaner-laptop'
     # 'workarena.servicenow.order-sales-laptop'
     # 'workarena.servicenow.order-standard-laptop'
@@ -51,6 +52,7 @@ function show_help {
     echo "  --max-steps         Maximum number of steps (default: 100)"
     echo "  -j, --jobs           Number of parallel tasks (default: 1)"
     echo "  -d, --results-dir    Directory for results (default: ./results)"
+    echo "  --agent-type         Type of agent to use (simple or workflow) (default: simple)"
     echo "  --help              Show this help message"
 }
 
@@ -101,6 +103,10 @@ while [[ $# -gt 0 ]]; do
             RESULTS_DIR="$2"
             shift 2
             ;;
+        --agent-type)
+            AGENT_TYPE="$2"
+            shift 2
+            ;;
         --help)
             show_help
             exit 0
@@ -114,6 +120,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 echo "Starting experiments with following configuration:"
+echo "Agent type: $AGENT_TYPE"
 echo "Model provider: $MODEL_PROVIDER"
 echo "Model name: $MODEL_NAME"
 echo "Total runs: $TOTAL_RUNS"
@@ -148,9 +155,15 @@ done
 echo "Generated tasks:"
 echo -e "$TASK_LIST"
 
-# Execute tasks in parallel
+# Determine the agent path based on agent type
+AGENT_PATH="agents/simple_agent"
+if [ "$AGENT_TYPE" = "workflow" ]; then
+    AGENT_PATH="agents/workflow_agent"
+fi
+
+# Execute tasks in parallel with dynamic agent path
 echo -e "$TASK_LIST" | grep -v '^$' | parallel -j "$PARALLEL_TASKS" \
-    python3 agents/simple_agent/run_demo.py \
+    python3 ${AGENT_PATH}/run_demo.py \
         --model_provider "$MODEL_PROVIDER" \
         --task_name {} \
         --model_name "$MODEL_NAME" \
@@ -248,3 +261,17 @@ echo "All experiments and analysis complete!"
 #     --provider "google" \
 #     --model-name "gemini-1.5-pro" \
 #     --runs 1
+
+# Add example comments for different agent types
+# # Run with simple agent (default)
+# ./run_experiments.sh
+
+# # Run with workflow agent
+# ./run_experiments.sh --agent-type "workflow"
+
+# # Run workflow agent with specific configuration
+# ./run_experiments.sh \
+#     --agent-type "workflow" \
+#     --provider "openai" \
+#     --model-name "gpt-4" \
+#     --runs 3

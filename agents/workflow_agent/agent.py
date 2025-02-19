@@ -78,6 +78,7 @@ class DemoAgent(Agent):
         use_html: bool,
         use_axtree: bool,
         use_screenshot: bool,
+        task_name: str,
         system_message: str = """\
 # Instructions
 
@@ -94,6 +95,7 @@ and executed by a program, make sure to follow the formatting instructions.
         self.use_axtree = use_axtree
         self.use_screenshot = use_screenshot
         self.system_message = system_message
+        self.task_name = task_name
 
         self.model_info = {
             "model_info": {
@@ -170,6 +172,36 @@ and executed by a program, make sure to follow the formatting instructions.
         
         response = llm.invoke(state['messages'])
         return {'messages': [response]}
+
+    def _load_workflow_guide(self) -> str:
+        """
+        Load the workflow guide for a specific task from resources.
+        
+        Returns:
+            str: The workflow guide text if found, otherwise a default message
+        """
+        if not self.task_name or "workarena.servicenow." not in self.task_name:
+            return "No specific workflow guide available for this task."
+        
+        # Extract the last part of the task name after workarena.servicenow.
+        task_folder = self.task_name.split("workarena.servicenow.")[-1]
+        
+        # Construct path to workflow file
+        workflow_path = os.path.join(
+            os.path.dirname(__file__),
+            "resources",
+            task_folder,
+            "workflow.txt"
+        )
+        
+        try:
+            if os.path.exists(workflow_path):
+                with open(workflow_path, "r") as f:
+                    return f.read()
+        except Exception as e:
+            logger.warning(f"Failed to load workflow guide from {workflow_path}: {str(e)}")
+        
+        return "No specific workflow guide available for this task."
 
     def _build_context(self, obs):
         
@@ -365,86 +397,15 @@ I found the information requested by the user, I will send it to the chat.
                     }
                 )
 
-        # add workflow support as context for predicting actions
+        # Load and add workflow guide
+        workflow_guide = self._load_workflow_guide()
         user_msgs.append(
             {
                 "type": "text",
                 "text": f"""\
 # Guide
 
-The following is a comprehensive workflow guide for ordering an iPad mini through the ServiceNow catalog interface. This guide has been derived from multiple successful interaction patterns and includes known error prevention strategies. Use this as your reference for navigating the interface, selecting options, and completing the order process. The guide includes both high-level navigation steps and specific interaction patterns to handle UI peculiarities and prevent common errors.
-
-Key aspects to note:
-- Each step includes recommended action patterns
-- Error prevention strategies are marked with ⚠️
-- Successful patterns are marked with ✅
-- Alternative approaches are provided where available
-- Critical implementation notes for handling UI interactions
-
-## Workflow: Order iPad Mini from ServiceNow Catalog
-
-1. Navigate to Hardware Category
-   - Two valid approaches:
-     * Action: `click(link="Hardware")`
-     * Alternative: `click(link="Hardware. Order from a variety of hardware...")`
-   - Location: Main catalog navigation
-   - ✅ Success Pattern: Both approaches work reliably
-
-2. Select iPad Mini
-   - Action: `click(link="iPad mini")`
-   - Location: "Category Items" region
-   - ✅ Success Pattern: Direct link click is reliable
-
-3. Configure Product Options
-   Important: Configuration must be done in correct order!
-
-   a. Color Selection
-   - Action: `click(label="[color_option]")` 
-   - Available options: Pink, Purple, Space Grey, Starlight
-   - ⚠️ Known Issues:
-     * Direct radio button clicks often fail due to intercepting div elements
-     * Use label clicks instead of direct radio input clicks
-     * Ensure element is in viewport before clicking
-
-   b. Storage Selection
-   - Action: `click(label="[storage_option]")`
-   - Options: 64GB (default), 256GB (+$150)
-   - ⚠️ Same interaction issues as color selection
-   - 💡 Best Practice: Click label element instead of radio button
-
-4. Set Quantity
-   - Action: `select(dropdown="Quantity", value=desired_number)`
-   - Location: "Order this Item" section
-   - ✅ Success Pattern: Dropdown interaction is reliable
-   - Note: Verify selection before proceeding
-
-5. Complete Order
-   - Action: `click(button="Order Now")`
-   - Location: Bottom of order form
-   - ✅ Success Pattern: Button is consistently clickable
-   - Validation: Order confirmation message will appear
-
-## Critical Implementation Notes:
-
-1. Element Interaction Strategy:
-   - Prefer label/parent element clicks over direct radio inputs
-   - Use proper selectors: `label`, `button`, `link` over raw element IDs
-   - Handle intercepting div elements by targeting correct clickable areas
-
-2. Viewport Management:
-   - Ensure elements are fully visible before interaction
-   - Scroll if needed: `scroll(0, needed_offset)`
-   - Verify element interactability after scrolling
-
-3. Error Prevention:
-   - Always verify mandatory fields (color, storage) before order submission
-   - Handle potential timeout errors with retry logic
-   - Validate selections before proceeding to next step
-
-4. UI Peculiarities:
-   - Radio buttons have intercepting div layers
-   - Some elements require scrolling into view
-   - Form follows strict sequential order of configuration
+{workflow_guide}
 """
             }
         )
@@ -547,6 +508,7 @@ class DemoAgentArgs(AbstractAgentArgs):
     use_html: bool = False
     use_axtree: bool = True
     use_screenshot: bool = False
+    task_name: str = ""
     system_message: str = """\
 # Instructions
 
@@ -564,5 +526,6 @@ and executed by a program, make sure to follow the formatting instructions.
             use_html=self.use_html,
             use_axtree=self.use_axtree,
             use_screenshot=self.use_screenshot,
+            task_name=self.task_name,
             system_message=self.system_message
         )

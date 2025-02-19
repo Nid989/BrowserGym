@@ -116,6 +116,7 @@ Creating simulation environment ..."""
         use_axtree=args.use_axtree,
         use_screenshot=args.use_screenshot,
         system_message=args.system_message,
+        task_name=args.task_name,
     )
 
     # setting up environment config

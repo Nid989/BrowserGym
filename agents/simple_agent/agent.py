@@ -78,6 +78,7 @@ class DemoAgent(Agent):
         use_html: bool,
         use_axtree: bool,
         use_screenshot: bool,
+        task_name: str,
         system_message: str = """\
 # Instructions
 
@@ -94,6 +95,7 @@ and executed by a program, make sure to follow the formatting instructions.
         self.use_axtree = use_axtree
         self.use_screenshot = use_screenshot
         self.system_message = system_message
+        self.task_name = task_name
 
         self.model_info = {
             "model_info": {
@@ -463,6 +465,7 @@ class DemoAgentArgs(AbstractAgentArgs):
     use_html: bool = False
     use_axtree: bool = True
     use_screenshot: bool = False
+    task_name: str = ""
     system_message: str = """\
 # Instructions
 
@@ -480,5 +483,6 @@ and executed by a program, make sure to follow the formatting instructions.
             use_html=self.use_html,
             use_axtree=self.use_axtree,
             use_screenshot=self.use_screenshot,
+            task_name=self.task_name,
             system_message=self.system_message
         )
