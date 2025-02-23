@@ -104,3 +104,21 @@ def extract_action(text: str) -> str:
         print(f"Error parsing action: {e}")
         
     return ""
+
+def extract_thought(text: str) -> str:
+    """Extract thought/explanation from a text containing both reasoning and action command.
+    
+    Args:
+        text (str): Input text containing reasoning and action command in markdown code blocks
+        
+    Returns:
+        str: Extracted thought text (everything except the code blocks)
+    """
+    # Remove content within code blocks (```...```)
+    code_block_pattern = r'```.*?```'
+    thought = re.sub(code_block_pattern, '', text, flags=re.DOTALL)
+    
+    # Clean up any extra whitespace or empty lines
+    thought = '\n'.join(line.strip() for line in thought.splitlines() if line.strip())
+    
+    return thought

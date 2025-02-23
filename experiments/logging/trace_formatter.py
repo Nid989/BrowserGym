@@ -9,6 +9,7 @@ from browsergym.core.action.highlevel import HighLevelActionSet
 from pathfinder import parse_accessibility_tree, get_path_to_bid
 from utils import (
     extract_action, 
+    extract_thought,
     extract_datetime_from_exp_dir, 
     extract_bids_from_action,
     log_metadata
@@ -19,15 +20,24 @@ from templates import get_system_message_template, get_next_action_template
 class PastAction:
     step: int
     action: str
+    thought: str
     breadcrumb_paths: List[Tuple[str, str, List[dict]]]  # List of (bid, label, path)
     error: Optional[str]
+    use_thought: bool = False  # Changed default to False
     
     def format(self) -> str:
         """Format this past action into markdown text."""
         formatted_text = []
         
-        # Action header and content
+        # Action header
         formatted_text.append(f"#### PastAction{str(self.step).zfill(3)}\n\n")
+        
+        # Thought process (if enabled)
+        if self.use_thought:
+            formatted_text.append("##### Applied Reasoning\n\n")
+            formatted_text.append(f"{self.thought}\n\n")
+
+        # Then the action
         formatted_text.append("##### Predicted Action\n\n")
         formatted_text.append(f"```\n{self.action}\n```\n\n")
 
@@ -55,9 +65,10 @@ class PastAction:
         return "".join(formatted_text)
 
 class PastActionTracker:
-    def __init__(self):
+    def __init__(self, use_thought: bool = False):
         self.actions: Dict[int, PastAction] = {}  # Dictionary with step as key
         self.axtrees: Dict[int, str] = {}  # Dictionary to store accessibility trees for each step
+        self.use_thought = use_thought
     
     def add_action(self, step_info) -> None:
         """
@@ -81,6 +92,7 @@ class PastActionTracker:
             return
             
         clean_action = extract_action(last_action)
+        thought_text = extract_thought(last_action) if self.use_thought else ""
         breadcrumb_paths = []
         
         # Use the accessibility tree from the previous step to process the action
@@ -97,8 +109,10 @@ class PastActionTracker:
         action = PastAction(
             step=previous_step,
             action=clean_action,
+            thought=thought_text,
             breadcrumb_paths=breadcrumb_paths,
-            error=step_info.obs.get('last_action_error')
+            error=step_info.obs.get('last_action_error'),
+            use_thought=self.use_thought
         )
         self.actions[previous_step] = action
     
@@ -142,7 +156,12 @@ def setup_logger(debug_mode: bool = False):
     
     return logger
 
-def log_experiment_details(exp_dir: str | Path, system_message: str = None, debug_mode: bool = False):
+def log_experiment_details(
+    exp_dir: str | Path, 
+    system_message: str = None, 
+    debug_mode: bool = False,
+    use_thought: bool = False
+):
     """
     Log experiment details in a structured markdown format.
     
@@ -150,6 +169,7 @@ def log_experiment_details(exp_dir: str | Path, system_message: str = None, debu
         exp_dir: Path to the experiment directory
         system_message: Custom system message to use in templates
         debug_mode: If True, enables debug logging
+        use_thought: If True, includes thought process in the output
     """
     logger = setup_logger(debug_mode)
     
@@ -160,8 +180,8 @@ def log_experiment_details(exp_dir: str | Path, system_message: str = None, debu
 
         steps_info = exp_result.steps_info
 
-        # Create action tracker
-        tracker = PastActionTracker()
+        # Create action tracker with thought parameter
+        tracker = PastActionTracker(use_thought=use_thought)
         
         # Process all steps first to build complete history
         for step_info in steps_info:
@@ -315,12 +335,18 @@ if __name__ == "__main__":
     parser.add_argument("--results_dir", type=str, default="./result", help="Path to results directory containing multiple experiments")
     parser.add_argument("--debug", action="store_true", help="Enable debug mode logging")
     parser.add_argument("--system_message", type=str, help="Custom system message to use in templates")
+    parser.add_argument("--use_thought", action="store_true", default=False, help="Include thought process in the output")
     
     args = parser.parse_args()
     
     if args.exp_dir:
         # Process single experiment directory
-        log_experiment_details(Path(args.exp_dir), system_message=args.system_message, debug_mode=args.debug)
+        log_experiment_details(
+            Path(args.exp_dir), 
+            system_message=args.system_message, 
+            debug_mode=args.debug,
+            use_thought=args.use_thought
+        )
     else:
         # Process all experiment directories under results_dir
         results_dir = Path(args.results_dir)
@@ -340,6 +366,11 @@ if __name__ == "__main__":
         for exp_dir in exp_dirs:
             print(f"Processing {exp_dir.name}...")
             try:
-                log_experiment_details(exp_dir, system_message=args.system_message, debug_mode=args.debug)
+                log_experiment_details(
+                    exp_dir, 
+                    system_message=args.system_message, 
+                    debug_mode=args.debug,
+                    use_thought=args.use_thought
+                )
             except Exception as e:
                 print(f"Error processing {exp_dir.name}: {e}")
