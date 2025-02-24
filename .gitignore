@@ -167,3 +167,5 @@ agents/rag_agent/test2.py
 results_local
 run_analysis.sh
 response_analysis.ipynb
+experiment_ntbks/
+claude-3.5-sonnet.zip
