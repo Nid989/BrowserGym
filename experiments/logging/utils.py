@@ -86,8 +86,8 @@ def extract_action(text: str) -> str:
     if not code_blocks:
         return ""
     
-    # Get the first code block and clean it
-    action_text = code_blocks[0].strip()
+    # Get the last code block and clean it
+    action_text = code_blocks[-1].strip()
     
     try:
         # Parse the action string

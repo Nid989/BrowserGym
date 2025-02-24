@@ -35,7 +35,7 @@ class PastAction:
         # Thought process (if enabled)
         if self.use_thought:
             formatted_text.append("##### Applied Reasoning\n\n")
-            formatted_text.append(f"{self.thought}\n\n")
+            formatted_text.append(f"````\n{self.thought}\n````\n\n")
 
         # Then the action
         formatted_text.append("##### Predicted Action\n\n")
@@ -290,7 +290,7 @@ def log_experiment_details(
                 # Next Action - LLM Reasoning
                 f.write("### Next Action\n\n")
                 if step_info.action:
-                    f.write(f"```\n{step_info.action}\n```\n\n")
+                    f.write(f"````\n{step_info.action}\n````\n\n")
                 else:
                     f.write("No next action available\n\n")
             
