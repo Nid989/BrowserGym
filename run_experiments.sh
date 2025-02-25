@@ -1,19 +1,19 @@
 #!/bin/bash
 
-# Default values
-# MODEL_PROVIDER="anthropic"
-# MODEL_NAME="claude-3-5-sonnet-20241022"
-# claude-3-5-haiku-20241022, claude-3-5-sonnet-20241022
-MODEL_PROVIDER="openai"
-MODEL_NAME="gpt-4o"
+# Values: default, alternatives
+# MODEL_PROVIDER= "openai", "anthropic", "google", "groq"
+MODEL_PROVIDER="anthropic"
+# MODEL_NAME= gpt-4o, chatgpt-4o-latest, o3-mini-2025-01-31, claude-3-5-sonnet-20241022, claude-3-5-haiku-20241022, gemini-2.0-flash-thinking-exp, gemini-2.0-flash, gemini-2.0-flash-lite-preview-02-05
+MODEL_NAME="claude-3-5-sonnet-20241022"
 TOTAL_RUNS=1
 MAX_STEPS=50
-VISUAL_EFFECTS=true
+VISUAL_EFFECTS=false
 USE_HTML=false
 USE_AXTREE=true
 USE_SCREENSHOT=false
 RESULTS_DIR="./results"
-PARALLEL_TASKS=1 # Add new default value after other defaults
+PARALLEL_TASKS=5 # Add new default value after other defaults
+# AGENT_TYPE= simple, workflow
 AGENT_TYPE="simple"  # Add new default value for agent type
 
 # Add default system message after other default values
@@ -21,7 +21,7 @@ SYSTEM_MESSAGE="""# Instructions
 
 Review the current state of the page and all other information to find the best
 possible next action to accomplish your goal. Your answer will be interpreted
-and executed by a program, make sure to follow the formatting instructions. 
+and executed by a program, make sure to follow the formatting instructions.
 Do not visit any external websites outside from the servicenow.com domain unless they are provided explicitly."""
 
 # Array of task names
@@ -185,7 +185,7 @@ python3 experiments/logging/trace_formatter.py \
 echo "Generating summary statistics..."
 python3 experiments/statistics/summary_statistics_report.py --results_dir "$RESULTS_DIR"
 
-echo "All experiments and analysis complete!" 
+echo "All experiments and analysis complete!"
 
 # # Basic run with default values (using OpenAI GPT-4)
 # ./run_experiments.sh
