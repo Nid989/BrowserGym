@@ -174,7 +174,7 @@ def describe_dataframe() -> str:
     try:
         df = DataFrameManager.get_df()
         if df.empty:
-            raise ValueError("DataFrame is empty")
+            return "ERROR: DataFrame is empty"
 
         metadata = ["DataFrame Metadata:"]
 
@@ -249,7 +249,7 @@ def describe_dataframe() -> str:
         return "\n".join(metadata)
     
     except Exception as e:
-        raise ValueError(f"Error analyzing DataFrame: {str(e)}")
+        return f"ERROR: Error analyzing DataFrame: {str(e)}"
     
 @tool
 def query_dataframe(query: str, columns: List[str] = None) -> str:
@@ -290,13 +290,13 @@ def query_dataframe(query: str, columns: List[str] = None) -> str:
         # Validate columns
         missing_cols = [col for col in columns if col not in df.columns]
         if missing_cols:
-            raise ValueError(f"Following columns do not exist in DataFrame: {', '.join(missing_cols)}")
+            return f"ERROR: Following columns do not exist in DataFrame: {', '.join(missing_cols)}"
 
         # Execute query
         try:
             filtered_df = df.query(query)
         except Exception as e:
-            raise ValueError(f"Invalid query syntax: {str(e)}")
+            return f"ERROR: Invalid query syntax: {str(e)}"
 
         # Format results
         result_df = filtered_df[columns]
@@ -308,10 +308,10 @@ def query_dataframe(query: str, columns: List[str] = None) -> str:
         return '\n'.join(result_strings)
 
     except Exception as e:
-        raise ValueError(f"Error processing query: {str(e)}")
+        return f"ERROR: Error processing query: {str(e)}"
 
 @tool
-def retrieve_trace(folder_name: str) -> Optional[str]:
+def retrieve_trace(folder_name: str) -> str:
     """
     Retrieve the execution trace stored in a given folder.
 
@@ -337,9 +337,17 @@ def retrieve_trace(folder_name: str) -> Optional[str]:
         - The execution was unsuccessful.
         - The trace data is missing.
     """
-    if not hasattr(retrieve_trace, '_manager'):
-        retrieve_trace._manager = HistoryManager()
-    return retrieve_trace._manager.get_trace(folder_name)
+    try:
+        if not hasattr(retrieve_trace, '_manager'):
+            retrieve_trace._manager = HistoryManager()
+        
+        result = retrieve_trace._manager.get_trace(folder_name)
+        if result is None:
+            return "ERROR: Trace not found or invalid"
+        return result
+        
+    except Exception as e:
+        return f"ERROR: Error retrieving trace: {str(e)}"
 
 def create_workflow_agent(base_path: Path) -> StateGraph:
     """Create and configure the workflow generation agent."""
