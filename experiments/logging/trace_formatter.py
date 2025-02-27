@@ -16,6 +16,7 @@ from utils import (
 )
 from templates import get_system_message_template, get_next_action_template
 
+
 @dataclass
 class PastAction:
     step: int
