@@ -1,0 +1,85 @@
+### Workflow: Order iPad Mini from ServiceNow Catalog
+
+1. Navigate to iPad Mini Product Page
+   Two valid approaches:
+   a. Direct Navigation:
+   - Action: `click(link="iPad mini")`
+   - Location: Main catalog page
+   - ✅ Success Pattern: Direct link is consistently available
+
+   b. Alternative Navigation through Hardware Category:
+   - Action 1: `click(link="Hardware")` or `click(link="Hardware. Order from a variety of hardware...")`
+   - Action 2: `click(link="iPad mini")`
+   - Location: Category Items region
+   - ✅ Success Pattern: Both paths are reliable
+
+2. Configure Product Options
+   Important: Configuration must be completed in the correct sequence!
+
+   a. Color Selection
+   - Action: `click([color_selection_label])`
+   - Location: "Choose the colour" radiogroup
+   - Required: Yes (Mandatory field)
+   - ⚠️ Implementation Notes:
+     * Use label clicks for reliable interaction
+     * Color selection must be made before storage
+     * Wait for options to be visible before selecting
+
+   b. Storage Configuration
+   - Action: `click([storage_selection_label])`
+   - Location: "Choose the storage" radiogroup
+   - Required: Yes (Mandatory field)
+   - ⚠️ Implementation Notes:
+     * Select storage only after color is chosen
+     * Use label elements for clicking rather than radio buttons
+     * Verify selection before proceeding
+
+3. Set Quantity
+   - Action: `select_option("Quantity", [desired_quantity])`
+   - Location: "Order this Item" section
+   - Type: Dropdown/combobox selection
+   - ✅ Success Pattern: Combobox interaction is consistently reliable
+
+4. Complete Order
+   - Action: `click(button="Order Now")`
+   - Location: Bottom of form in "Order this Item" region
+   - ✅ Success Pattern: Button is reliably clickable when all mandatory fields are completed
+
+5. Order Confirmation
+   - Expected Result: Redirect to order confirmation page
+   - Optional Follow-up: `click(link="Back to Catalog")`
+   - Location: Navigation section of confirmation page
+   - ✅ Success Pattern: Confirmation page reliably appears after successful order
+
+### Critical Implementation Notes:
+
+1. Mandatory Field Requirements:
+   - Color selection is required
+   - Storage selection is required
+   - Both must be completed before order submission
+   - Form validation prevents submission if either is missing
+
+2. Element Interaction Strategy:
+   - Use label clicks for radio button selections
+   - Utilize combobox interface for quantity selection
+   - Ensure elements are visible before interaction
+   - Follow the specific sequence: Color → Storage → Quantity → Order
+
+3. Navigation Patterns:
+   - Both direct and category-based navigation are valid
+   - Category navigation includes a more detailed path but is equally reliable
+   - Back to Catalog option is available after order completion
+
+4. Error Prevention:
+   - Verify each selection before proceeding
+   - Ensure mandatory fields are populated
+   - Check for confirmation page after order submission
+   - Follow the prescribed sequence of actions
+
+5. UI Characteristics:
+   - Form follows a strict sequential order
+   - Radio buttons should be accessed via labels
+   - Quantity selection uses a dropdown interface
+   - Order button becomes active only after all required fields are completed
+
+This workflow has been optimized based on multiple successful execution traces and incorporates best practices for reliable automation of the iPad Mini ordering process.

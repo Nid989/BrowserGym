@@ -1,3 +1,6 @@
+# Constants
+TRACES_PATH = "results_local/claude-3.5-sonnet"
+# TRACES_PATH = "results_workflow_traces"
 """
 Task Workflow Generator
 
@@ -90,7 +93,7 @@ class DataFrameManager:
 class HistoryManager:
     """Manages the retrieval and caching of execution trace histories."""
 
-    def __init__(self, base_path: Path = Path('results_local/claude-3.5-sonnet')):
+    def __init__(self, base_path: Path = Path(TRACES_PATH)):
         self.base_path = base_path
         self._history_cache: Dict[str, str] = {}
         self._is_initialized = False
@@ -412,7 +415,7 @@ def main(task_name: str = "order-ipad-mini", reference_task: str = None):
         os.environ["ANTHROPIC_API_KEY"] = getpass.getpass("Enter ANTHROPIC_API_KEY: ")
 
     # Initialize the workflow agent
-    base_path = Path("./results_local/claude-3.5-sonnet/")
+    base_path = Path(TRACES_PATH)
     agent = create_workflow_agent(base_path)
     
     # # DEBUG: Preview DataFrame contents

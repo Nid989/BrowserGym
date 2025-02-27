@@ -5,6 +5,8 @@ docs/src/generated/
 # Custom folders to ignore
 results_analysis/
 results/
+results_workflow_traces/
+results_local/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
