@@ -154,6 +154,7 @@ def generate_summary_statistics(exp_dirs: List[Path]) -> Dict[str, Dict]:
             "elapsed_time": metadata["elapsed_seconds"],
             "agent_processing_time": summary_info.get("stats.cum_agent_elapsed", 0),
             "cum_reward": cum_reward,
+            "err_msg": summary_info.get("err_msg", "")
         }
 
         summary["total_runs"] += 1
@@ -205,10 +206,10 @@ def save_summary(summary: Dict, results_dir: Path):
         experiment_rows = [
             [format_number(stats['index']), stats['date_time'], stats['task'], format_number(stats['instance']), format_number(stats['n_steps']),
              format_number(stats['tokens_pruned_html']), format_number(stats['elapsed_time']), format_number(stats['agent_processing_time']),
-             "Yes" if stats['cum_reward'] == 1 else "No", experiment]
+             "Yes" if stats['cum_reward'] == 1 else "No", stats['err_msg'], experiment]
             for experiment, stats in sorted(summary["experiments"].items(), key=lambda item: item[1]["date_time"])
         ]
-        write_section(md, "Experiment Details", ["#", "Date & Time", "Task", "Instance", "Steps", "Tokens (Pruned HTML)", "Time Elapsed (s)", "Agent Time (s)", "Success", "Folder Name"], experiment_rows)
+        write_section(md, "Experiment Details", ["#", "Date & Time", "Task", "Instance", "Steps", "Tokens (Pruned HTML)", "Time Elapsed (s)", "Agent Time (s)", "Success", "Error Message", "Folder Name"], experiment_rows)
 
         # Overall summary table
         overall_rows = [
@@ -240,12 +241,12 @@ def save_summary(summary: Dict, results_dir: Path):
 
     with open(csv_file, "w", newline='') as csvf:
         csv_writer = csv.writer(csvf, delimiter=';')
-        csv_writer.writerow(["Index", "Date & Time", "Task", "Instance", "Steps", "Tokens (Pruned HTML)", "Time Elapsed (s)", "Agent Time (s)", "Success", "Folder Name"])
+        csv_writer.writerow(["Index", "Date & Time", "Task", "Instance", "Steps", "Tokens (Pruned HTML)", "Time Elapsed (s)", "Agent Time (s)", "Success", "Error Message", "Folder Name"])
         for experiment, stats in sorted(summary["experiments"].items(), key=lambda item: item[1]["date_time"]):
             csv_writer.writerow([
                 format_number(stats['index']), stats['date_time'], stats['task'], format_number(stats['instance']),
                 format_number(stats['n_steps']), format_number(stats['tokens_pruned_html']), f"{stats['elapsed_time']:.2f}",
-                f"{stats['agent_processing_time']:.2f}", "Yes" if stats['cum_reward'] == 1 else "No", experiment
+                f"{stats['agent_processing_time']:.2f}", "Yes" if stats['cum_reward'] == 1 else "No", stats['err_msg'], experiment
             ])
 
     print(f"Markdown summary saved to {markdown_file}")

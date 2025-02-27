@@ -1,6 +1,7 @@
 from typing import Dict, List, Optional, Union
 import json
 
+
 class AccessibilityNode:
     def __init__(self, data: Dict):
         self.role = data.get('role', '')

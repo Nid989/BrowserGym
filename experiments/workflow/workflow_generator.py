@@ -18,6 +18,7 @@ from langchain_core.tools import tool
 from langchain_anthropic import ChatAnthropic
 from langgraph.graph import MessagesState, StateGraph, START, END
 
+
 # Constants
 SYSTEM_MESSAGE = """Objective:
 Create a detailed, optimal workflow for a specified task. Your final output should be clear, actionable, and supported by data from past execution traces.
@@ -354,7 +355,7 @@ def create_workflow_agent(base_path: Path) -> StateGraph:
     
     # Initialize components
     DataFrameManager.initialize(base_path)
-    llm = ChatAnthropic(model="claude-3-5-sonnet-20241022")
+    llm = ChatAnthropic(model="claude-3-7-sonnet-20241022")
     tools = [describe_dataframe, query_dataframe, retrieve_trace]
     tools_by_name = {tool.name: tool for tool in tools}
     llm_with_tools = llm.bind_tools(tools)
