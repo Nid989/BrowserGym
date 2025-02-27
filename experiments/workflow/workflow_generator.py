@@ -1,6 +1,3 @@
-# Constants
-TRACES_PATH = "results_local/claude-3.5-sonnet"
-# TRACES_PATH = "results_workflow_traces"
 """
 Task Workflow Generator
 
@@ -23,6 +20,9 @@ from langgraph.graph import MessagesState, StateGraph, START, END
 
 
 # Constants
+# source directory containing past traces to derive the workflow from
+TRACES_PATH = "results_local/claude-3.5-sonnet"
+
 SYSTEM_MESSAGE = """Objective:
 Create a detailed, optimal workflow for a specified task. Your final output should be clear, actionable, and supported by data from past execution traces.
 
@@ -65,18 +65,18 @@ Additional Notes:
 
 class DataFrameManager:
     """Manages the global DataFrame instance and related operations."""
-    
+
     _instance = None
     _csv_file = None
     _df = None
-    
+
     @classmethod
     def initialize(cls, base_path: Path) -> None:
         """Initialize the DataFrame from a CSV file in the specified directory."""
         if cls._df is None:
             cls._csv_file = cls._find_csv_file(base_path)
             cls._df = pd.read_csv(cls._csv_file, delimiter=";")
-    
+
     @staticmethod
     def _find_csv_file(base_path: Path) -> Path:
         """Find the first CSV file in the specified directory."""
@@ -84,7 +84,7 @@ class DataFrameManager:
         if not csv_files:
             raise FileNotFoundError("No CSV file found in the directory")
         return csv_files[0]
-    
+
     @classmethod
     def get_df(cls) -> pd.DataFrame:
         """Get the DataFrame instance."""
@@ -193,12 +193,12 @@ def describe_dataframe() -> str:
 
                 # Column-wise information
         metadata.append("\nColumn Information:")
-        
+
         for col in df.columns:
             col_memory = df[col].memory_usage(deep=True)
             col_memory_str = f"{col_memory/1024:.1f} KB" if col_memory < 1024**2 else f"{col_memory/1024**2:.1f} MB"
             non_null_pct = (df[col].count() / len(df)) * 100
-            
+
             # Handle numeric columns
             if df[col].dtype in ['int64', 'float64']:
                 if df[col].count() > 0:
@@ -219,7 +219,7 @@ def describe_dataframe() -> str:
                         f"  memory: {col_memory_str}\n"
                         f"  dtype: {df[col].dtype}"
                     )
-            
+
             # Handle datetime columns
             elif pd.api.types.is_datetime64_any_dtype(df[col]):
                 if df[col].count() > 0:
@@ -232,16 +232,16 @@ def describe_dataframe() -> str:
                         f"  memory: {col_memory_str}\n"
                         f"  dtype: {df[col].dtype}"
                     )
-            
+
             # Handle categorical/text columns
             else:
                 unique_vals = df[col].dropna().unique()[:5]
                 sample_values = [f"'{str(val)}'" for val in unique_vals]
                 total_unique = df[col].nunique()
-                
+
                 if len(sample_values) < total_unique:
                     sample_values.append(f"... ({total_unique} total unique values)")
-                
+
                 metadata.append(
                     f"- {col} ({df[col].dtype}):\n"
                     f"  distinct values: {', '.join(sample_values)}\n"
@@ -249,12 +249,12 @@ def describe_dataframe() -> str:
                     f"  memory: {col_memory_str}\n"
                     f"  dtype: {df[col].dtype}"
                 )
-        
+
         return "\n".join(metadata)
-    
+
     except Exception as e:
         return f"ERROR: Error analyzing DataFrame: {str(e)}"
-    
+
 @tool
 def query_dataframe(query: str, columns: List[str] = None) -> str:
     """
@@ -319,15 +319,15 @@ def retrieve_trace(folder_name: str) -> str:
     """
     Retrieve the execution trace stored in a given folder.
 
-    This function returns a structured record of actions and decisions taken 
+    This function returns a structured record of actions and decisions taken
     during a specific execution.
 
     Args:
-        folder_name (str): Name of the folder containing the trace. 
+        folder_name (str): Name of the folder containing the trace.
                            Example format: {timestamp}_DemoAgentArgs_on_workarena.servicenow.{task}_{id}.
 
     Returns:
-        Optional[str]: A formatted string representing the trace if found. 
+        Optional[str]: A formatted string representing the trace if found.
                        Returns None if the trace is unavailable or invalid.
 
     Example Output:
@@ -344,18 +344,18 @@ def retrieve_trace(folder_name: str) -> str:
     try:
         if not hasattr(retrieve_trace, '_manager'):
             retrieve_trace._manager = HistoryManager()
-        
+
         result = retrieve_trace._manager.get_trace(folder_name)
         if result is None:
             return "ERROR: Trace not found or invalid"
         return result
-        
+
     except Exception as e:
         return f"ERROR: Error retrieving trace: {str(e)}"
 
 def create_workflow_agent(base_path: Path) -> StateGraph:
     """Create and configure the workflow generation agent."""
-    
+
     # Initialize components
     DataFrameManager.initialize(base_path)
     llm = ChatAnthropic(model="claude-3-7-sonnet-20241022")
@@ -404,7 +404,7 @@ def create_workflow_agent(base_path: Path) -> StateGraph:
 
 def main(task_name: str = "order-ipad-mini", reference_task: str = None):
     """Main entry point for the workflow generator.
-    
+
     Args:
         task_name: Name of the task to generate workflow for
         reference_task: Name of the task to use as reference workflow template
@@ -417,7 +417,7 @@ def main(task_name: str = "order-ipad-mini", reference_task: str = None):
     # Initialize the workflow agent
     base_path = Path(TRACES_PATH)
     agent = create_workflow_agent(base_path)
-    
+
     # # DEBUG: Preview DataFrame contents
     # df = DataFrameManager.get_df()
     # print("\n=== DataFrame Preview ===")
@@ -433,34 +433,34 @@ def main(task_name: str = "order-ipad-mini", reference_task: str = None):
     reference_task = reference_task or "order-ipad-mini"
     current_file_dir = Path(__file__).parent
     workflow_path = current_file_dir / "resources" / reference_task / "workflow.txt"
-    
+
     try:
         with open(workflow_path, 'r') as f:
             sample_workflow = f.read()
     except FileNotFoundError:
         raise FileNotFoundError(f"Reference workflow not found at {workflow_path}")
-    
+
     # Generate workflow
     user_message = f"""Generate a workflow for the following task: {task_name}.
 You are provided with a sample workflow:
 {sample_workflow}"""
-    
+
     # Invoke the agent
     messages = [HumanMessage(content=user_message)]
     result = agent.invoke({"messages": messages})
-    
+
     # Print results
     for message in result["messages"]:
         message.pretty_print()
 
 if __name__ == "__main__":
     import argparse
-    
+
     parser = argparse.ArgumentParser(description='Generate workflow for a specified task')
     parser.add_argument('--task-name', type=str, default="order-ipad-mini",
                       help='Name of the task to generate workflow for')
     parser.add_argument('--reference-task', type=str,
                       help='Name of the task to use as reference workflow template')
-    
+
     args = parser.parse_args()
-    main(task_name=args.task_name, reference_task=args.reference_task) 
+    main(task_name=args.task_name, reference_task=args.reference_task)
