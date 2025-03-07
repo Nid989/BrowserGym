@@ -358,7 +358,7 @@ def create_workflow_agent(base_path: Path) -> StateGraph:
 
     # Initialize components
     DataFrameManager.initialize(base_path)
-    llm = ChatAnthropic(model="claude-3-7-sonnet-20241022")
+    llm = ChatAnthropic(model="claude-3-7-sonnet-latest")
     tools = [describe_dataframe, query_dataframe, retrieve_trace]
     tools_by_name = {tool.name: tool for tool in tools}
     llm_with_tools = llm.bind_tools(tools)
