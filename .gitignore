@@ -171,3 +171,5 @@ run_analysis.sh
 response_analysis.ipynb
 experiment_ntbks/
 claude-3.5-sonnet.zip
+uv_initialization_steps.md
+hello.py

@@ -1,16 +1,3 @@
-# /// script
-# requires-python = ">=3.7"
-# dependencies = [
-#   "pathlib",
-#   "logging",
-#   "typing",
-#   "argparse",
-#   "datetime"
-# ]
-# ///
-
-# NOT INCLUDED: json, re, csv
-
 """
 Experiment Summary Report Generator
 
@@ -59,7 +46,6 @@ from datetime import datetime
 from collections import defaultdict
 
 from browsergym.experiments.loop import ExpResult
-
 
 
 # Utility function to load summary_info.json
