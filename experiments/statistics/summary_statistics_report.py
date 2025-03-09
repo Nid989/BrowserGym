@@ -54,7 +54,6 @@ def load_summary_info(exp_dir: Path) -> Dict:
     if summary_path.exists():
         with open(summary_path, "r") as f:
             return json.load(f)
-    logging.warning(f"No summary_info.json found in {exp_dir}")
     return {}
 
 # Utility function to format numbers consistently
@@ -83,12 +82,19 @@ def parse_experiment_metadata(exp_dir: Path) -> Dict:
     start_datetime_str = f"{match.group(1)} {match.group(2).replace('-', ':')}"
     start_datetime = datetime.strptime(start_datetime_str, "%Y-%m-%d %H:%M:%S")
     summary_info_path = exp_dir / "summary_info.json"
-    end_datetime = datetime.fromtimestamp(summary_info_path.stat().st_mtime)
-    elapsed_seconds = (end_datetime - start_datetime).total_seconds()
+    
+    # Check if summary_info.json exists before trying to get its modification time
+    if summary_info_path.exists():
+        end_datetime = datetime.fromtimestamp(summary_info_path.stat().st_mtime)
+        elapsed_seconds = (end_datetime - start_datetime).total_seconds()
+    else:
+        # If file doesn't exist, set elapsed_seconds to 0 without logging
+        elapsed_seconds = 0
 
     # Get model info from ExpResult
     model_provider = "Unknown"
     model_name = "Unknown"
+    agent_type = "Unknown"
     try:
         exp_result = ExpResult(exp_dir)
         if exp_result.steps_info and exp_result.steps_info[0].agent_info:
@@ -97,7 +103,7 @@ def parse_experiment_metadata(exp_dir: Path) -> Dict:
             model_name = model_info.get('model_name', 'Unknown')
             agent_type = exp_result.steps_info[0].agent_info.get('agent_type', 'Unknown')
     except Exception as e:
-        logging.warning(f"Could not extract model info from {exp_dir}: {e}")
+        pass
 
     return {
         "start_datetime_str": start_datetime_str,
@@ -134,68 +140,83 @@ def generate_summary_statistics(exp_dirs: List[Path]) -> Dict[str, Dict]:
         if not metadata:
             continue
 
-        summary_info = load_summary_info(exp_dir)
-        if not summary_info:
-            continue
-
         experiment_name = exp_dir.name
-        cum_reward = summary_info.get("cum_reward", 0)
-        is_success = cum_reward == 1
-        n_steps = summary_info.get("n_steps", 0)
-        n_tokens = summary_info.get("stats.cum_n_token_pruned_html", 0)
-        has_error = 1 if summary_info.get("err_msg") else 0
+        summary_info = load_summary_info(exp_dir)
+        
+        # Flag if summary_info.json is missing
+        summary_missing = not summary_info
+        
+        if not summary_missing:
+            cum_reward = summary_info.get("cum_reward", 0)
+            is_success = cum_reward == 1
+            n_steps = summary_info.get("n_steps", 0)
+            n_tokens = summary_info.get("stats.cum_n_token_pruned_html", 0)
+            has_error = 1 if summary_info.get("err_msg") else 0
 
-        task_name = metadata["task_name"]
-        instance = metadata["instance"]
+            task_name = metadata["task_name"]
+            instance = metadata["instance"]
 
-        summary["experiments"][experiment_name] = {
-            "index": idx,
-            "date_time": metadata["start_datetime_str"],
-            "model_provider": metadata["model_provider"],
-            "model_name": metadata["model_name"],
-            "agent_type": metadata["agent_type"],
-            "task": task_name,
-            "instance": instance,
-            "n_steps": n_steps,
-            "tokens_pruned_html": n_tokens,
-            "elapsed_time": metadata["elapsed_seconds"],
-            "agent_processing_time": summary_info.get("stats.cum_agent_elapsed", 0),
-            "cum_reward": cum_reward,
-            "err_msg": summary_info.get("err_msg", "")
-        }
+            summary["experiments"][experiment_name] = {
+                "index": idx,
+                "date_time": metadata["start_datetime_str"],
+                "model_provider": metadata["model_provider"],
+                "model_name": metadata["model_name"],
+                "agent_type": metadata["agent_type"],
+                "task": task_name,
+                "instance": instance,
+                "n_steps": n_steps,
+                "tokens_pruned_html": n_tokens,
+                "elapsed_time": metadata["elapsed_seconds"],
+                "agent_processing_time": summary_info.get("stats.cum_agent_elapsed", 0),
+                "cum_reward": cum_reward,
+                "err_msg": summary_info.get("err_msg", ""),
+                "summary_missing": False
+            }
 
-        summary["total_runs"] += 1
-        summary["tasks"][task_name]["total_runs"] += 1
+            summary["total_runs"] += 1
+            summary["tasks"][task_name]["total_runs"] += 1
 
-        task_metrics = summary["tasks"][task_name]
+            task_metrics = summary["tasks"][task_name]
 
-        if is_success:
-            summary["successful_runs"] += 1
-            task_metrics["successful_runs"] += 1
-            summary["steps"]["successful"] += n_steps
-            summary["tokens"]["successful"] += n_tokens
-            summary["elapsed_time"]["successful"] += metadata["elapsed_seconds"]
-            summary["error_logs"]["successful"] += has_error
-            task_metrics["steps"]["successful"] += n_steps
-            task_metrics["tokens"]["successful"] += n_tokens
-            task_metrics["elapsed_time"]["successful"] += metadata["elapsed_seconds"]
-            task_metrics["error_logs"]["successful"] += has_error
+            if is_success:
+                summary["successful_runs"] += 1
+                task_metrics["successful_runs"] += 1
+                summary["steps"]["successful"] += n_steps
+                summary["tokens"]["successful"] += n_tokens
+                summary["elapsed_time"]["successful"] += metadata["elapsed_seconds"]
+                summary["error_logs"]["successful"] += has_error
+                task_metrics["steps"]["successful"] += n_steps
+                task_metrics["tokens"]["successful"] += n_tokens
+                task_metrics["elapsed_time"]["successful"] += metadata["elapsed_seconds"]
+                task_metrics["error_logs"]["successful"] += has_error
+            else:
+                summary["failed_runs"] += 1
+                task_metrics["failed_runs"] += 1
+                summary["steps"]["failed"] += n_steps
+                summary["tokens"]["failed"] += n_tokens
+                summary["elapsed_time"]["failed"] += metadata["elapsed_seconds"]
+                summary["error_logs"]["failed"] += has_error
+                task_metrics["steps"]["failed"] += n_steps
+                task_metrics["tokens"]["failed"] += n_tokens
+                task_metrics["elapsed_time"]["failed"] += metadata["elapsed_seconds"]
+                task_metrics["error_logs"]["failed"] += has_error
+
+            summary["steps"]["total"] += n_steps
+            summary["tokens"]["total"] += n_tokens
+            summary["elapsed_time"]["total"] += metadata["elapsed_seconds"]
+            summary["error_logs"]["total"] += has_error
         else:
-            summary["failed_runs"] += 1
-            task_metrics["failed_runs"] += 1
-            summary["steps"]["failed"] += n_steps
-            summary["tokens"]["failed"] += n_tokens
-            summary["elapsed_time"]["failed"] += metadata["elapsed_seconds"]
-            summary["error_logs"]["failed"] += has_error
-            task_metrics["steps"]["failed"] += n_steps
-            task_metrics["tokens"]["failed"] += n_tokens
-            task_metrics["elapsed_time"]["failed"] += metadata["elapsed_seconds"]
-            task_metrics["error_logs"]["failed"] += has_error
-
-        summary["steps"]["total"] += n_steps
-        summary["tokens"]["total"] += n_tokens
-        summary["elapsed_time"]["total"] += metadata["elapsed_seconds"]
-        summary["error_logs"]["total"] += has_error
+            # Just store the experiment with a flag indicating summary is missing
+            summary["experiments"][experiment_name] = {
+                "index": idx,
+                "date_time": metadata.get("start_datetime_str", ""),
+                "model_provider": metadata.get("model_provider", ""),
+                "model_name": metadata.get("model_name", ""),
+                "agent_type": metadata.get("agent_type", ""),
+                "task": metadata.get("task_name", ""),
+                "instance": metadata.get("instance", ""),
+                "summary_missing": True
+            }
 
     return summary
 
@@ -210,17 +231,42 @@ def save_summary(summary: Dict, results_dir: Path):
         md.write("# Experiment Summary Report\n")
 
         # Experiment details table
-        experiment_rows = [
-            [str(stats['index']), stats['date_time'], 
-             stats['model_provider'], stats['model_name'], stats['agent_type'],
-             stats['task'], str(stats['instance']), str(stats['n_steps']),
-             str(stats['tokens_pruned_html']), f"{stats['elapsed_time']:.2f}", 
-             f"{stats['agent_processing_time']:.2f}",
-             "Yes" if stats['cum_reward'] == 1 else "No", 
-             str(stats['err_msg'] or "").replace('\n', ' ').replace('\r', ' '),
-             experiment]
-            for experiment, stats in sorted(summary["experiments"].items(), key=lambda item: item[1]["date_time"])
-        ]
+        experiment_rows = []
+        for experiment, stats in sorted(summary["experiments"].items(), key=lambda item: item[1]["date_time"]):
+            if stats.get("summary_missing", False):
+                # Create a row with just the basic info and empty cells for the rest
+                row = [
+                    str(stats['index']), 
+                    stats.get('date_time', ''), 
+                    stats.get('model_provider', ''), 
+                    stats.get('model_name', ''), 
+                    stats.get('agent_type', ''),
+                    stats.get('task', ''), 
+                    str(stats.get('instance', '')), 
+                    '', '', '', '', '', 
+                    'No summary_info.json found',
+                    experiment
+                ]
+            else:
+                # Create a normal row with all the data
+                row = [
+                    str(stats['index']), 
+                    stats['date_time'], 
+                    stats['model_provider'], 
+                    stats['model_name'], 
+                    stats['agent_type'],
+                    stats['task'], 
+                    str(stats['instance']), 
+                    str(stats['n_steps']),
+                    str(stats['tokens_pruned_html']), 
+                    f"{stats['elapsed_time']:.2f}", 
+                    f"{stats['agent_processing_time']:.2f}",
+                    "Yes" if stats['cum_reward'] == 1 else "No", 
+                    str(stats['err_msg'] or "").replace('\n', ' ').replace('\r', ' '),
+                    experiment
+                ]
+            experiment_rows.append(row)
+            
         write_section(md, "Experiment Details", 
                      ["#", "Date & Time", "Model Provider", "Model Name", "Agent Type", "Task", "Instance", 
                       "Steps", "Tokens (Pruned HTML)", "Time Elapsed (s)", "Agent Time (s)", 
@@ -260,17 +306,40 @@ def save_summary(summary: Dict, results_dir: Path):
         csv_writer.writerow(["Index", "Date & Time", "Model Provider", "Model Name", "Agent Type", "Task", 
                            "Instance", "Steps", "Tokens (Pruned HTML)", "Time Elapsed (s)", 
                            "Agent Time (s)", "Success", "Error Message", "Folder Name"])
+        
         for experiment, stats in sorted(summary["experiments"].items(), key=lambda item: item[1]["date_time"]):
-            csv_writer.writerow([
-                str(stats['index']), stats['date_time'], 
-                stats['model_provider'], stats['model_name'], stats['agent_type'],
-                stats['task'], str(stats['instance']),
-                str(stats['n_steps']), str(stats['tokens_pruned_html']), 
-                f"{stats['elapsed_time']:.2f}", f"{stats['agent_processing_time']:.2f}", 
-                "Yes" if stats['cum_reward'] == 1 else "No", 
-                str(stats['err_msg'] or "").replace('\n', ' ').replace('\r', ' '),
-                experiment
-            ])
+            if stats.get("summary_missing", False):
+                # Create a row with just the basic info and empty cells for the rest
+                csv_writer.writerow([
+                    str(stats['index']), 
+                    stats.get('date_time', ''), 
+                    stats.get('model_provider', ''), 
+                    stats.get('model_name', ''), 
+                    stats.get('agent_type', ''),
+                    stats.get('task', ''), 
+                    str(stats.get('instance', '')), 
+                    '', '', '', '', '', 
+                    'No summary_info.json found',
+                    experiment
+                ])
+            else:
+                # Create a normal row with all the data
+                csv_writer.writerow([
+                    str(stats['index']), 
+                    stats['date_time'], 
+                    stats['model_provider'], 
+                    stats['model_name'], 
+                    stats['agent_type'],
+                    stats['task'], 
+                    str(stats['instance']),
+                    str(stats['n_steps']), 
+                    str(stats['tokens_pruned_html']), 
+                    f"{stats['elapsed_time']:.2f}", 
+                    f"{stats['agent_processing_time']:.2f}", 
+                    "Yes" if stats['cum_reward'] == 1 else "No", 
+                    str(stats['err_msg'] or "").replace('\n', ' ').replace('\r', ' '),
+                    experiment
+                ])
 
     print(f"Markdown summary saved to {markdown_file}")
     print(f"CSV summary saved to {csv_file}")
