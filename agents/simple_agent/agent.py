@@ -36,6 +36,8 @@ _set_env("LANGCHAIN_API_KEY")
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "browsergym"
 
+AGENT_TYPE = "simple"
+
 def image_to_jpg_base64_url(image: np.ndarray | Image.Image):
     """Convert a numpy array to a base64 encoded image url."""
 
@@ -447,7 +449,7 @@ You will now think step by step and produce your next best action. Reflect on yo
         for message in response["messages"]:
             message.pretty_print()
 
-        return action, {**self.model_info, "trace_id": self.trace_id}
+        return action, {**self.model_info, "trace_id": self.trace_id, "agent_type": AGENT_TYPE}
 
 @dataclasses.dataclass
 class DemoAgentArgs(AbstractAgentArgs):

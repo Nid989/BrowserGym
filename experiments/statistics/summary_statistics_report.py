@@ -95,6 +95,7 @@ def parse_experiment_metadata(exp_dir: Path) -> Dict:
             model_info = exp_result.steps_info[0].agent_info.get('model_info', {})
             model_provider = model_info.get('model_provider', 'Unknown')
             model_name = model_info.get('model_name', 'Unknown')
+            agent_type = exp_result.steps_info[0].agent_info.get('agent_type', 'Unknown')
     except Exception as e:
         logging.warning(f"Could not extract model info from {exp_dir}: {e}")
 
@@ -104,7 +105,8 @@ def parse_experiment_metadata(exp_dir: Path) -> Dict:
         "task_name": match.group(3),
         "instance": int(match.group(4)),
         "model_provider": model_provider,
-        "model_name": model_name
+        "model_name": model_name,
+        "agent_type": agent_type
     }
 
 # Generate summary statistics
@@ -151,6 +153,7 @@ def generate_summary_statistics(exp_dirs: List[Path]) -> Dict[str, Dict]:
             "date_time": metadata["start_datetime_str"],
             "model_provider": metadata["model_provider"],
             "model_name": metadata["model_name"],
+            "agent_type": metadata["agent_type"],
             "task": task_name,
             "instance": instance,
             "n_steps": n_steps,
@@ -209,7 +212,7 @@ def save_summary(summary: Dict, results_dir: Path):
         # Experiment details table
         experiment_rows = [
             [str(stats['index']), stats['date_time'], 
-             stats['model_provider'], stats['model_name'],
+             stats['model_provider'], stats['model_name'], stats['agent_type'],
              stats['task'], str(stats['instance']), str(stats['n_steps']),
              str(stats['tokens_pruned_html']), f"{stats['elapsed_time']:.2f}", 
              f"{stats['agent_processing_time']:.2f}",
@@ -219,7 +222,7 @@ def save_summary(summary: Dict, results_dir: Path):
             for experiment, stats in sorted(summary["experiments"].items(), key=lambda item: item[1]["date_time"])
         ]
         write_section(md, "Experiment Details", 
-                     ["#", "Date & Time", "Model Provider", "Model Name", "Task", "Instance", 
+                     ["#", "Date & Time", "Model Provider", "Model Name", "Agent Type", "Task", "Instance", 
                       "Steps", "Tokens (Pruned HTML)", "Time Elapsed (s)", "Agent Time (s)", 
                       "Success", "Error Message", "Folder Name"], 
                      experiment_rows)
@@ -254,13 +257,13 @@ def save_summary(summary: Dict, results_dir: Path):
 
     with open(csv_file, "w", newline='') as csvf:
         csv_writer = csv.writer(csvf, delimiter=';')
-        csv_writer.writerow(["Index", "Date & Time", "Model Provider", "Model Name", "Task", 
+        csv_writer.writerow(["Index", "Date & Time", "Model Provider", "Model Name", "Agent Type", "Task", 
                            "Instance", "Steps", "Tokens (Pruned HTML)", "Time Elapsed (s)", 
                            "Agent Time (s)", "Success", "Error Message", "Folder Name"])
         for experiment, stats in sorted(summary["experiments"].items(), key=lambda item: item[1]["date_time"]):
             csv_writer.writerow([
                 str(stats['index']), stats['date_time'], 
-                stats['model_provider'], stats['model_name'],
+                stats['model_provider'], stats['model_name'], stats['agent_type'],
                 stats['task'], str(stats['instance']),
                 str(stats['n_steps']), str(stats['tokens_pruned_html']), 
                 f"{stats['elapsed_time']:.2f}", f"{stats['agent_processing_time']:.2f}", 
