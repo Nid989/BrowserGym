@@ -1,13 +1,9 @@
 #!/bin/bash
 
 # Values: default, alternatives
-# MODEL_PROVIDER= "openai", "anthropic", "google", "groq"
-MODEL_PROVIDER="anthropic"
-# MODEL_NAME= gpt-4o, chatgpt-4o-latest, o3-mini-2025-01-31, claude-3-5-sonnet-20241022, claude-3-5-haiku-20241022, gemini-2.0-flash-thinking-exp, gemini-2.0-flash, gemini-2.0-flash-lite-preview-02-05
-MODEL_NAME="claude-3-5-sonnet-20241022"
+MODEL_PROVIDER="deepseek" # MODEL_PROVIDER= deepseek, openai, anthropic, google, groq, deepseek, ollama
 TOTAL_RUNS=1
 MAX_STEPS=40
-VISUAL_EFFECTS=true
 USE_HTML=false
 USE_AXTREE=true
 USE_SCREENSHOT=false

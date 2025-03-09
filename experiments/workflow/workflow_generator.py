@@ -21,7 +21,8 @@ from langgraph.graph import MessagesState, StateGraph, START, END
 
 # Constants
 # source directory containing past traces to derive the workflow from
-TRACES_PATH = "results_local/claude-3.5-sonnet"
+# TRACES_PATH = "results_local/claude-3.5-sonnet"
+TRACES_PATH = "../../results_local/workflow_script_input/dev-laptop_sonnet"
 
 SYSTEM_MESSAGE = """Objective:
 Create a detailed, optimal workflow for a specified task. Your final output should be clear, actionable, and supported by data from past execution traces.
