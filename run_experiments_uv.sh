@@ -2,15 +2,16 @@
 
 # Values: default, alternatives
 MODEL_PROVIDER="deepseek" # MODEL_PROVIDER= deepseek, openai, anthropic, google, groq, deepseek, ollama
+MODEL_NAME="deepseek-reasoner" # MODEL_NAME= deepseek-reasoner, gpt-4o-2024-11-20, gpt-4o-2024-08-06, chatgpt-4o-latest, o3-mini-2025-01-31, claude-3-5-sonnet-20241022, claude-3-7-sonnet-20250219, gemini-2.0-flash-thinking-exp, gemini-2.0-flash, gemini-2.0-flash-lite-preview-02-05
 TOTAL_RUNS=1
 MAX_STEPS=40
+VISUAL_EFFECTS=false
 USE_HTML=false
 USE_AXTREE=true
 USE_SCREENSHOT=false
 RESULTS_DIR="./results"
 PARALLEL_TASKS=1 # Add new default value after other defaults
-# AGENT_TYPE= simple, workflow
-AGENT_TYPE="workflow"  # Add new default value for agent type
+AGENT_TYPE="simple"  # AGENT_TYPE= simple, workflow
 
 # Add default system message after other default values
 SYSTEM_MESSAGE="""# Instructions
