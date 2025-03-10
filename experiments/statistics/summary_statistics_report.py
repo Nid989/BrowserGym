@@ -32,7 +32,6 @@ python script.py [results_dir] [--debug]
 python script.py ./results --debug
 python script.py --debug  # Defaults to current directory
 ```
-
 """
 
 from pathlib import Path
@@ -111,7 +110,7 @@ def parse_experiment_metadata(exp_dir: Path) -> Dict:
             agent_type = exp_result.steps_info[0].agent_info.get(
                 "agent_type", "Unknown"
             )
-    except Exception as e:
+    except Exception:
         pass
 
     return {
