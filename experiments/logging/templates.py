@@ -13,12 +13,16 @@ Review the instructions from the user, the current state of the page and all oth
 to find the best possible next action to accomplish your goal. Your answer will be interpreted
 and executed by a program, make sure to follow the formatting instructions."""
     else:
-        return system_message or """\
+        return (
+            system_message
+            or """\
 # Instructions
 
 Review the current state of the page and all other information to find the best
 possible next action to accomplish your goal. Your answer will be interpreted
 and executed by a program, make sure to follow the formatting instructions."""
+        )
+
 
 def get_next_action_template() -> str:
     """Get the next action prompt template."""
@@ -26,4 +30,3 @@ def get_next_action_template() -> str:
 # Next action
 
 You will now think step by step and produce your next best action. Reflect on your past actions, any resulting error message, and the current state of the page before deciding on your next action."""
-

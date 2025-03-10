@@ -64,6 +64,7 @@ Additional Notes:
    - Document any assumptions or decision points briefly if needed.
    - The goal is to have a comprehensive, optimized workflow that can be directly applied to the given task."""
 
+
 class DataFrameManager:
     """Manages the global DataFrame instance and related operations."""
 
@@ -81,7 +82,7 @@ class DataFrameManager:
     @staticmethod
     def _find_csv_file(base_path: Path) -> Path:
         """Find the first CSV file in the specified directory."""
-        csv_files = list(base_path.glob('*.csv'))
+        csv_files = list(base_path.glob("*.csv"))
         if not csv_files:
             raise FileNotFoundError("No CSV file found in the directory")
         return csv_files[0]
@@ -90,6 +91,7 @@ class DataFrameManager:
     def get_df(cls) -> pd.DataFrame:
         """Get the DataFrame instance."""
         return cls._df
+
 
 class HistoryManager:
     """Manages the retrieval and caching of execution trace histories."""
@@ -101,26 +103,26 @@ class HistoryManager:
 
     def _extract_trace_content(self, markdown_content: str) -> Optional[str]:
         """Extract trace content from markdown file."""
-        sections = markdown_content.split('# 2 - Instance Type')
+        sections = markdown_content.split("# 2 - Instance Type")
         if len(sections) < 2:
             return None
 
         instance_type_section = sections[1]
-        instance_steps = re.findall(r'## InstanceStep(\d+)', instance_type_section)
+        instance_steps = re.findall(r"## InstanceStep(\d+)", instance_type_section)
         if not instance_steps:
             return None
 
         last_step = max([int(step) for step in instance_steps])
-        step_sections = instance_type_section.split(f'## InstanceStep{last_step:03d}')
+        step_sections = instance_type_section.split(f"## InstanceStep{last_step:03d}")
         if len(step_sections) < 2:
             return None
 
         last_step_content = step_sections[1]
-        history_sections = last_step_content.split('### History of Past Actions')
+        history_sections = last_step_content.split("### History of Past Actions")
         if len(history_sections) < 2:
             return None
 
-        history_content = history_sections[1].split('### Next Action')[0].strip()
+        history_content = history_sections[1].split("### Next Action")[0].strip()
         return history_content if history_content else None
 
     def _initialize_cache(self):
@@ -129,13 +131,13 @@ class HistoryManager:
             return
 
         df = DataFrameManager.get_df()
-        successful_traces = df[df['Success'] == 'Yes']['Folder Name'].tolist()
+        successful_traces = df[df["Success"] == "Yes"]["Folder Name"].tolist()
 
-        for trace_folder in self.base_path.glob('*'):
+        for trace_folder in self.base_path.glob("*"):
             if trace_folder.name in successful_traces:
-                analysis_file = trace_folder / 'experiment_analysis.md'
+                analysis_file = trace_folder / "experiment_analysis.md"
                 if analysis_file.exists():
-                    content = analysis_file.read_text(encoding='utf-8')
+                    content = analysis_file.read_text(encoding="utf-8")
                     history_content = self._extract_trace_content(content)
                     if history_content:
                         self._history_cache[trace_folder.name] = history_content
@@ -146,6 +148,7 @@ class HistoryManager:
         """Retrieve the history for a specific trace ID."""
         self._initialize_cache()
         return self._history_cache.get(trace_id)
+
 
 # Tool definitions
 @tool
@@ -189,19 +192,27 @@ def describe_dataframe() -> str:
 
         # Memory usage
         memory_usage = df.memory_usage(deep=True).sum()
-        memory_str = f"{memory_usage/1024:.1f} KB" if memory_usage < 1024**2 else f"{memory_usage/1024**2:.1f} MB"
+        memory_str = (
+            f"{memory_usage / 1024:.1f} KB"
+            if memory_usage < 1024**2
+            else f"{memory_usage / 1024**2:.1f} MB"
+        )
         metadata.append(f"- Memory Usage: {memory_str}")
 
-                # Column-wise information
+        # Column-wise information
         metadata.append("\nColumn Information:")
 
         for col in df.columns:
             col_memory = df[col].memory_usage(deep=True)
-            col_memory_str = f"{col_memory/1024:.1f} KB" if col_memory < 1024**2 else f"{col_memory/1024**2:.1f} MB"
+            col_memory_str = (
+                f"{col_memory / 1024:.1f} KB"
+                if col_memory < 1024**2
+                else f"{col_memory / 1024**2:.1f} MB"
+            )
             non_null_pct = (df[col].count() / len(df)) * 100
 
             # Handle numeric columns
-            if df[col].dtype in ['int64', 'float64']:
+            if df[col].dtype in ["int64", "float64"]:
                 if df[col].count() > 0:
                     min_val = df[col].min()
                     max_val = df[col].max()
@@ -256,6 +267,7 @@ def describe_dataframe() -> str:
     except Exception as e:
         return f"ERROR: Error analyzing DataFrame: {str(e)}"
 
+
 @tool
 def query_dataframe(query: str, columns: List[str] = None) -> str:
     """
@@ -305,15 +317,16 @@ def query_dataframe(query: str, columns: List[str] = None) -> str:
 
         # Format results
         result_df = filtered_df[columns]
-        result_strings = [', '.join(columns)]
+        result_strings = [", ".join(columns)]
         for _, row in result_df.iterrows():
-            row_values = [str(val) if pd.notna(val) else '' for val in row]
-            result_strings.append(', '.join(row_values))
+            row_values = [str(val) if pd.notna(val) else "" for val in row]
+            result_strings.append(", ".join(row_values))
 
-        return '\n'.join(result_strings)
+        return "\n".join(result_strings)
 
     except Exception as e:
         return f"ERROR: Error processing query: {str(e)}"
+
 
 @tool
 def retrieve_trace(folder_name: str) -> str:
@@ -343,7 +356,7 @@ def retrieve_trace(folder_name: str) -> str:
         - The trace data is missing.
     """
     try:
-        if not hasattr(retrieve_trace, '_manager'):
+        if not hasattr(retrieve_trace, "_manager"):
             retrieve_trace._manager = HistoryManager()
 
         result = retrieve_trace._manager.get_trace(folder_name)
@@ -353,6 +366,7 @@ def retrieve_trace(folder_name: str) -> str:
 
     except Exception as e:
         return f"ERROR: Error retrieving trace: {str(e)}"
+
 
 def create_workflow_agent(base_path: Path) -> StateGraph:
     """Create and configure the workflow generation agent."""
@@ -379,7 +393,9 @@ def create_workflow_agent(base_path: Path) -> StateGraph:
         for tool_call in state["messages"][-1].tool_calls:
             tool = tools_by_name[tool_call["name"]]
             observation = tool.invoke(tool_call["args"])
-            result.append(ToolMessage(content=observation, tool_call_id=tool_call["id"]))
+            result.append(
+                ToolMessage(content=observation, tool_call_id=tool_call["id"])
+            )
         return {"messages": result}
 
     def should_continue(state: MessagesState) -> Literal["environment", END]:
@@ -402,6 +418,7 @@ def create_workflow_agent(base_path: Path) -> StateGraph:
     agent_builder.add_edge("environment", "llm_call")
 
     return agent_builder.compile()
+
 
 def main(task_name: str = "order-ipad-mini", reference_task: str = None):
     """Main entry point for the workflow generator.
@@ -436,7 +453,7 @@ def main(task_name: str = "order-ipad-mini", reference_task: str = None):
     workflow_path = current_file_dir / "resources" / reference_task / "workflow.txt"
 
     try:
-        with open(workflow_path, 'r') as f:
+        with open(workflow_path, "r") as f:
             sample_workflow = f.read()
     except FileNotFoundError:
         raise FileNotFoundError(f"Reference workflow not found at {workflow_path}")
@@ -454,14 +471,24 @@ You are provided with a sample workflow:
     for message in result["messages"]:
         message.pretty_print()
 
+
 if __name__ == "__main__":
     import argparse
 
-    parser = argparse.ArgumentParser(description='Generate workflow for a specified task')
-    parser.add_argument('--task-name', type=str, default="order-ipad-mini",
-                      help='Name of the task to generate workflow for')
-    parser.add_argument('--reference-task', type=str,
-                      help='Name of the task to use as reference workflow template')
+    parser = argparse.ArgumentParser(
+        description="Generate workflow for a specified task"
+    )
+    parser.add_argument(
+        "--task-name",
+        type=str,
+        default="order-ipad-mini",
+        help="Name of the task to generate workflow for",
+    )
+    parser.add_argument(
+        "--reference-task",
+        type=str,
+        help="Name of the task to use as reference workflow template",
+    )
 
     args = parser.parse_args()
     main(task_name=args.task_name, reference_task=args.reference_task)

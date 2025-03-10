@@ -4,55 +4,56 @@ import json
 
 class AccessibilityNode:
     def __init__(self, data: Dict):
-        self.role = data.get('role', '')
-        self.name = data.get('name', '')
-        self.bid = data.get('bid', '')  # This would be like 'a307'
+        self.role = data.get("role", "")
+        self.name = data.get("name", "")
+        self.bid = data.get("bid", "")  # This would be like 'a307'
         self.children = []
         self.parent = None
-        
+
         # Copy other relevant properties
-        self.url = data.get('url', '')
-        self.live = data.get('live', '')
-        self.atomic = data.get('atomic', False)
-        self.relevant = data.get('relevant', '')
-        self.focused = data.get('focused', False)
+        self.url = data.get("url", "")
+        self.live = data.get("live", "")
+        self.atomic = data.get("atomic", False)
+        self.relevant = data.get("relevant", "")
+        self.focused = data.get("focused", False)
+
 
 def parse_accessibility_tree(text: str) -> AccessibilityNode:
     """Parse the text representation of accessibility tree into a tree structure."""
-    lines = text.split('\n')
+    lines = text.split("\n")
     root = None
     stack = []
     current_indent = 0
-    
+
     for line in lines:
         if not line.strip():
             continue
-            
+
         # Calculate indent level
-        indent = len(line) - len(line.lstrip('\t'))
+        indent = len(line) - len(line.lstrip("\t"))
         line = line.strip()
-        
+
         # Parse node information
-        node_data = {'role': '', 'name': '', 'bid': ''}
-        
+        node_data = {"role": "", "name": "", "bid": ""}
+
         # Extract bid if present
-        if line.startswith('['):
-            bid_end = line.find(']')
+        if line.startswith("["):
+            bid_end = line.find("]")
             if bid_end != -1:
-                node_data['bid'] = line[1:bid_end]
-                line = line[bid_end + 1:].strip()
-        
+                node_data["bid"] = line[1:bid_end]
+                line = line[bid_end + 1 :].strip()
+
         # Parse role and name
         parts = line.split("'")
         if len(parts) >= 2:
-            node_data['role'] = parts[0].strip()
-            node_data['name'] = parts[1].strip()
+            node_data["role"] = parts[0].strip()
+            node_data["name"] = parts[1].strip()
         else:
-            node_data['role'] = line
-            
+            node_data["role"] = line
+
         # Create node
         node = AccessibilityNode(node_data)
-        
+
         # Handle tree structure
         if not root:
             root = node
@@ -62,46 +63,47 @@ def parse_accessibility_tree(text: str) -> AccessibilityNode:
             while indent <= current_indent and stack:
                 stack.pop()
                 current_indent -= 1
-            
+
             if stack:
                 parent = stack[-1]
                 parent.children.append(node)
                 node.parent = parent
-            
+
             stack.append(node)
             current_indent = indent
-    
+
     return root
 
-def find_node_by_bid(root: AccessibilityNode, target_bid: str) -> Optional[AccessibilityNode]:
+
+def find_node_by_bid(
+    root: AccessibilityNode, target_bid: str
+) -> Optional[AccessibilityNode]:
     """Find a node with the specified bid."""
     if root.bid == target_bid:
         return root
-        
+
     for child in root.children:
         result = find_node_by_bid(child, target_bid)
         if result:
             return result
-            
+
     return None
+
 
 def get_path_to_bid(root: AccessibilityNode, target_bid: str) -> List[Dict[str, str]]:
     """Get the path from root to the node with target_bid."""
     node = find_node_by_bid(root, target_bid)
     if not node:
         return []
-        
+
     path = []
     current = node
     while current:
-        path.append({
-            'bid': current.bid,
-            'role': current.role,
-            'name': current.name
-        })
+        path.append({"bid": current.bid, "role": current.role, "name": current.name})
         current = current.parent
-        
+
     return list(reversed(path))
+
 
 def main():
     # Your accessibility tree text
@@ -370,19 +372,20 @@ def main():
 				[a499] status '', live='polite', atomic, relevant='additions text'
 				[a500] generic, live='polite', relevant='additions text'
     """
-    
+
     # Parse the tree
     root = parse_accessibility_tree(accessibility_tree_text)
-    
+
     # Find path for bid 'a307'
-    target_bid = 'a405'
+    target_bid = "a405"
     path = get_path_to_bid(root, target_bid)
-    
+
     # Print the path
     print(f"\nPath to bid '{target_bid}':")
     for i, node in enumerate(path):
         indent = "  " * i
         print(f"{indent}[{node['bid']}] {node['role']}: '{node['name']}'")
+
 
 if __name__ == "__main__":
     main()

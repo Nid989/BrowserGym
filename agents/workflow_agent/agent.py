@@ -1,5 +1,5 @@
 import base64
-import uuid 
+import uuid
 import dataclasses
 import io
 import logging
@@ -27,9 +27,11 @@ from browsergym.utils.obs import flatten_axtree_to_str, flatten_dom_to_str, prun
 
 logger = logging.getLogger(__name__)
 
+
 def _set_env(var: str):
     if not os.environ.get(var):
         os.environ[var] = getpass.getpass(f"{var}: ")
+
 
 _set_env("OPENAI_API_KEY")
 _set_env("LANGCHAIN_API_KEY")
@@ -37,6 +39,7 @@ os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"] = "browsergym"
 
 AGENT_TYPE = "workflow"
+
 
 def image_to_jpg_base64_url(image: np.ndarray | Image.Image):
     """Convert a numpy array to a base64 encoded image url."""
@@ -52,12 +55,12 @@ def image_to_jpg_base64_url(image: np.ndarray | Image.Image):
 
     return f"data:image/jpeg;base64,{image_base64}"
 
+
 # TODO: rename the class to something more meaningful.
 class DemoAgent(Agent):
     """A agent using langgraph to utilize BrowserGym's functionalities."""
 
     def obs_preprocessor(self, obs: dict) -> dict:
-
         return {
             "chat_messages": obs["chat_messages"],
             "screenshot": obs["screenshot"],
@@ -70,7 +73,7 @@ class DemoAgent(Agent):
             "axtree_txt": flatten_axtree_to_str(obs["axtree_object"]),
             "pruned_html": prune_html(flatten_dom_to_str(obs["dom_object"])),
         }
-    
+
     def __init__(
         self,
         model_name: str,
@@ -87,7 +90,7 @@ class DemoAgent(Agent):
 Review the current state of the page and all other information to find the best
 possible next action to accomplish your goal. Your answer will be interpreted
 and executed by a program, make sure to follow the formatting instructions.
-"""
+""",
     ) -> None:
         super().__init__()
         self.model_name = model_name
@@ -107,33 +110,39 @@ and executed by a program, make sure to follow the formatting instructions.
             }
         }
 
-        if not hasattr(self, 'trace_id'):
+        if not hasattr(self, "trace_id"):
             self.trace_id = str(uuid.uuid4())
 
         if not (use_html or use_axtree):
             raise ValueError(f"Either use_html or use_axtree must be set to True.")
-        
+
         self.action_set = HighLevelActionSet(
-            subsets=["chat", "tab", "nav", "bid", "infeas"], # define a subset of action space
+            subsets=[
+                "chat",
+                "tab",
+                "nav",
+                "bid",
+                "infeas",
+            ],  # define a subset of action space
             # subsets=["chat", "bid", "coord", "infeas"], # allow the agent to also use x, y coordinates
-            strict=False, # less strict on the parsing of the actions
-            multiaction=False, # does not enable the agent to take multiple actions at once
-            demo_mode=demo_mode, # add visual effects
+            strict=False,  # less strict on the parsing of the actions
+            multiaction=False,  # does not enable the agent to take multiple actions at once
+            demo_mode=demo_mode,  # add visual effects
         )
 
-        self.action_history = [] 
+        self.action_history = []
 
     def _create_workflow(self):
         workflow = StateGraph(MessagesState)
-        
-        # define necessary nodes 
+
+        # define necessary nodes
         workflow.add_node("predict", self._predict)
 
         # add edges connecting defined nodes and start/end nodes
         workflow.add_edge(START, "predict")
         workflow.add_edge("predict", END)
 
-        # compile graph 
+        # compile graph
         graph = workflow.compile()
 
         return graph
@@ -141,15 +150,17 @@ and executed by a program, make sure to follow the formatting instructions.
     def _predict(self, state: MessagesState) -> MessagesState:
         if self.model_provider == "openai":
             # Set temperature=1 for all o-series models
-            is_o_series = any(self.model_name.startswith(prefix) for prefix in ["o1", "o3"])
+            is_o_series = any(
+                self.model_name.startswith(prefix) for prefix in ["o1", "o3"]
+            )
             temperature = 1.0 if is_o_series else 0.0
             llm = ChatOpenAI(model=self.model_name, temperature=temperature)
         elif self.model_provider == "anthropic":
             llm = ChatAnthropic(model=self.model_name, temperature=0.0)
         elif self.model_provider == "groq":
             llm = ChatGroq(
-                model=self.model_name, 
-                temperature=0.0,     
+                model=self.model_name,
+                temperature=0.0,
                 max_tokens=None,
                 timeout=None,
                 max_retries=2,
@@ -158,55 +169,53 @@ and executed by a program, make sure to follow the formatting instructions.
             llm = ChatGoogleGenerativeAI(
                 model=self.model_name,
                 temperature=0.0,
-                convert_system_message_to_human=True
+                convert_system_message_to_human=True,
             )
         elif self.model_provider == "deepseek":
             llm = BaseChatOpenAI(
                 model=self.model_name,
                 openai_api_key=os.environ["DEEPSEEK_API_KEY"],
-                openai_api_base='https://api.deepseek.com',
-                temperature=0.0
+                openai_api_base="https://api.deepseek.com",
+                temperature=0.0,
             )
         elif self.model_provider == "ollama":
             llm = ChatOllama(model=self.model_name, temperature=0.0)
         else:
             raise ValueError(f"Unsupported model provider: {self.model_provider}")
-        
-        response = llm.invoke(state['messages'])
-        return {'messages': [response]}
+
+        response = llm.invoke(state["messages"])
+        return {"messages": [response]}
 
     def _load_workflow_guide(self) -> str:
         """
         Load the workflow guide for a specific task from resources.
-        
+
         Returns:
             str: The workflow guide text if found, otherwise a default message
         """
         if not self.task_name or "workarena.servicenow." not in self.task_name:
             return "No specific workflow guide available for this task."
-        
+
         # Extract the last part of the task name after workarena.servicenow.
         task_folder = self.task_name.split("workarena.servicenow.")[-1]
-        
+
         # Construct path to workflow file
         workflow_path = os.path.join(
-            os.path.dirname(__file__),
-            "resources",
-            task_folder,
-            "workflow.txt"
+            os.path.dirname(__file__), "resources", task_folder, "workflow.txt"
         )
-        
+
         try:
             if os.path.exists(workflow_path):
                 with open(workflow_path, "r") as f:
                     return f.read()
         except Exception as e:
-            logger.warning(f"Failed to load workflow guide from {workflow_path}: {str(e)}")
-        
+            logger.warning(
+                f"Failed to load workflow guide from {workflow_path}: {str(e)}"
+            )
+
         return "No specific workflow guide available for this task."
 
     def _build_context(self, obs):
-        
         system_msgs = []
         user_msgs = []
 
@@ -238,19 +247,23 @@ and executed by a program, make sure to follow the formatting instructions.
                 }
             )
             for msg in obs["chat_messages"]:
-                if msg["role"] in ("user", "assistant", "infeasible"): # TODO: check what is `infeasible` (guess: is it the system message, e.g., instructions stating the task?)
+                if (
+                    msg["role"] in ("user", "assistant", "infeasible")
+                ):  # TODO: check what is `infeasible` (guess: is it the system message, e.g., instructions stating the task?)
                     user_msgs.append(
                         {
                             "type": "text",
                             "text": f"""\
-- [{msg['role']}] {msg['message']}
+- [{msg["role"]}] {msg["message"]}
 """,
                         }
                     )
                 elif msg["role"] == "user_image":
                     user_msgs.append({"type": "image_url", "image_url": msg["message"]})
                 else:
-                    raise ValueError(f"Unexpected chat message role {repr(msg['role'])}")
+                    raise ValueError(
+                        f"Unexpected chat message role {repr(msg['role'])}"
+                    )
 
         else:
             assert obs["goal_object"], "The goal is missing."
@@ -408,7 +421,7 @@ I found the information requested by the user, I will send it to the chat.
 # Guide
 
 {workflow_guide}
-"""
+""",
             }
         )
 
@@ -451,31 +464,32 @@ You will now think step by step and produce your next best action. Reflect on yo
             # Check for any image content and raise exception if found
             for msg in system_msgs + user_msgs:
                 if isinstance(msg, dict) and "image_url" in msg:
-                    raise ValueError("ChatGroq does not support image inputs. Please use a different model provider for image processing.")
-            
+                    raise ValueError(
+                        "ChatGroq does not support image inputs. Please use a different model provider for image processing."
+                    )
+
             # Concatenate system messages
             system_content = "\n".join(
-                msg["text"] if isinstance(msg, dict) and "text" in msg 
-                else str(msg) for msg in system_msgs
+                msg["text"] if isinstance(msg, dict) and "text" in msg else str(msg)
+                for msg in system_msgs
             )
-            
+
             # Concatenate user messages
             user_content = "\n".join(
-                msg["text"] if isinstance(msg, dict) and "text" in msg 
-                else str(msg) for msg in user_msgs
+                msg["text"] if isinstance(msg, dict) and "text" in msg else str(msg)
+                for msg in user_msgs
             )
-            
+
             return [
                 SystemMessage(content=system_content),
-                HumanMessage(content=user_content)
+                HumanMessage(content=user_content),
             ]
-        
+
         # For other models, return the original format
         return [SystemMessage(content=system_msgs), HumanMessage(content=user_msgs)]
 
     def get_action(self, obs: dict) -> tuple[str, dict]:
-
-        # initialize BrowsergymState with obs 
+        # initialize BrowsergymState with obs
         initial_state = MessagesState(messages=self._build_context(obs))
 
         # create and run the graph
@@ -485,19 +499,24 @@ You will now think step by step and produce your next best action. Reflect on yo
 
         # get the predicted action
         action = response["messages"][-1].content
-        
+
         # update action history
         self.action_history.append(action)
 
         for message in response["messages"]:
             message.pretty_print()
 
-        return action, {**self.model_info, "trace_id": self.trace_id, "agent_type": AGENT_TYPE}
+        return action, {
+            **self.model_info,
+            "trace_id": self.trace_id,
+            "agent_type": AGENT_TYPE,
+        }
+
 
 @dataclasses.dataclass
 class DemoAgentArgs(AbstractAgentArgs):
     """
-    This class is meant to store the arguments that define the agent. 
+    This class is meant to store the arguments that define the agent.
 
     By isolating them in a dataclass, this ensures serialization without storing
     internal states of the agent.
@@ -529,5 +548,5 @@ and executed by a program, make sure to follow the formatting instructions.
             use_axtree=self.use_axtree,
             use_screenshot=self.use_screenshot,
             task_name=self.task_name,
-            system_message=self.system_message
+            system_message=self.system_message,
         )
