@@ -173,3 +173,4 @@ experiment_ntbks/
 claude-3.5-sonnet.zip
 uv_initialization_steps.md
 hello.py
+run_experiments_uv_mba.sh

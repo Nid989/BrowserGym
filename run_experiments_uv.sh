@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # Values: default, alternatives
-MODEL_PROVIDER="deepseek" # MODEL_PROVIDER= deepseek, openai, anthropic, google, groq, deepseek, ollama
-MODEL_NAME="deepseek-reasoner" # MODEL_NAME= deepseek-reasoner, gpt-4o-2024-11-20, gpt-4o-2024-08-06, chatgpt-4o-latest, o3-mini-2025-01-31, claude-3-5-sonnet-20241022, claude-3-7-sonnet-20250219, gemini-2.0-flash-thinking-exp, gemini-2.0-flash, gemini-2.0-flash-lite-preview-02-05
+MODEL_PROVIDER="openai" # MODEL_PROVIDER= deepseek, openai, anthropic, google, groq, deepseek, ollama
+MODEL_NAME="o3-mini-2025-01-31" # MODEL_NAME= deepseek-reasoner, gpt-4o-2024-11-20, gpt-4o-2024-08-06, chatgpt-4o-latest, o3-mini-2025-01-31, claude-3-5-sonnet-20241022, claude-3-7-sonnet-20250219, gemini-2.0-flash-thinking-exp, gemini-2.0-flash, gemini-2.0-flash-lite-preview-02-05
 TOTAL_RUNS=1
 MAX_STEPS=40
-VISUAL_EFFECTS=false
+VISUAL_EFFECTS=true
 USE_HTML=false
 USE_AXTREE=true
 USE_SCREENSHOT=false
 RESULTS_DIR="./results"
 PARALLEL_TASKS=1 # Add new default value after other defaults
-AGENT_TYPE="simple"  # AGENT_TYPE= simple, workflow
+AGENT_TYPE="workflow"  # AGENT_TYPE= simple, workflow
 
 # Add default system message after other default values
 SYSTEM_MESSAGE="""# Instructions
