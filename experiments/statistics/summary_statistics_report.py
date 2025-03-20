@@ -43,6 +43,7 @@ import argparse
 import csv
 from datetime import datetime
 from collections import defaultdict
+import shutil
 
 from browsergym.experiments.loop import ExpResult
 
@@ -53,7 +54,9 @@ def load_summary_info(exp_dir: Path) -> Dict:
     if summary_path.exists():
         with open(summary_path, "r") as f:
             return json.load(f)
-    return {}
+    logging.warning(f"Deleting directory {exp_dir} due to missing summary_info.json")
+    shutil.rmtree(exp_dir)
+    return None
 
 
 # Utility function to format numbers consistently
@@ -154,84 +157,70 @@ def generate_summary_statistics(exp_dirs: List[Path]) -> Dict[str, Dict]:
             continue
 
         experiment_name = exp_dir.name
+        print(experiment_name)
         summary_info = load_summary_info(exp_dir)
 
-        # Flag if summary_info.json is missing
-        summary_missing = not summary_info
+        if summary_info is None:
+            continue
 
-        if not summary_missing:
-            cum_reward = summary_info.get("cum_reward", 0)
-            is_success = cum_reward == 1
-            n_steps = summary_info.get("n_steps", 0)
-            n_tokens = summary_info.get("stats.cum_n_token_pruned_html", 0)
-            has_error = 1 if summary_info.get("err_msg") else 0
+        cum_reward = summary_info.get("cum_reward", 0)
+        is_success = cum_reward == 1
+        n_steps = summary_info.get("n_steps", 0)
+        n_tokens = summary_info.get("stats.cum_n_token_pruned_html", 0)
+        has_error = 1 if summary_info.get("err_msg") else 0
 
-            task_name = metadata["task_name"]
-            instance = metadata["instance"]
+        task_name = metadata["task_name"]
+        instance = metadata["instance"]
 
-            summary["experiments"][experiment_name] = {
-                "index": idx,
-                "date_time": metadata["start_datetime_str"],
-                "model_provider": metadata["model_provider"],
-                "model_name": metadata["model_name"],
-                "agent_type": metadata["agent_type"],
-                "task": task_name,
-                "instance": instance,
-                "n_steps": n_steps,
-                "tokens_pruned_html": n_tokens,
-                "elapsed_time": metadata["elapsed_seconds"],
-                "agent_processing_time": summary_info.get("stats.cum_agent_elapsed", 0),
-                "cum_reward": cum_reward,
-                "err_msg": summary_info.get("err_msg", ""),
-                "summary_missing": False,
-            }
+        summary["experiments"][experiment_name] = {
+            "index": idx,
+            "date_time": metadata["start_datetime_str"],
+            "model_provider": metadata["model_provider"],
+            "model_name": metadata["model_name"],
+            "agent_type": metadata["agent_type"],
+            "task": task_name,
+            "instance": instance,
+            "n_steps": n_steps,
+            "tokens_pruned_html": n_tokens,
+            "elapsed_time": metadata["elapsed_seconds"],
+            "agent_processing_time": summary_info.get("stats.cum_agent_elapsed", 0),
+            "cum_reward": cum_reward,
+            "err_msg": summary_info.get("err_msg", ""),
+            "summary_missing": False,
+        }
 
-            summary["total_runs"] += 1
-            summary["tasks"][task_name]["total_runs"] += 1
+        summary["total_runs"] += 1
+        summary["tasks"][task_name]["total_runs"] += 1
 
-            task_metrics = summary["tasks"][task_name]
+        task_metrics = summary["tasks"][task_name]
 
-            if is_success:
-                summary["successful_runs"] += 1
-                task_metrics["successful_runs"] += 1
-                summary["steps"]["successful"] += n_steps
-                summary["tokens"]["successful"] += n_tokens
-                summary["elapsed_time"]["successful"] += metadata["elapsed_seconds"]
-                summary["error_logs"]["successful"] += has_error
-                task_metrics["steps"]["successful"] += n_steps
-                task_metrics["tokens"]["successful"] += n_tokens
-                task_metrics["elapsed_time"]["successful"] += metadata[
-                    "elapsed_seconds"
-                ]
-                task_metrics["error_logs"]["successful"] += has_error
-            else:
-                summary["failed_runs"] += 1
-                task_metrics["failed_runs"] += 1
-                summary["steps"]["failed"] += n_steps
-                summary["tokens"]["failed"] += n_tokens
-                summary["elapsed_time"]["failed"] += metadata["elapsed_seconds"]
-                summary["error_logs"]["failed"] += has_error
-                task_metrics["steps"]["failed"] += n_steps
-                task_metrics["tokens"]["failed"] += n_tokens
-                task_metrics["elapsed_time"]["failed"] += metadata["elapsed_seconds"]
-                task_metrics["error_logs"]["failed"] += has_error
-
-            summary["steps"]["total"] += n_steps
-            summary["tokens"]["total"] += n_tokens
-            summary["elapsed_time"]["total"] += metadata["elapsed_seconds"]
-            summary["error_logs"]["total"] += has_error
+        if is_success:
+            summary["successful_runs"] += 1
+            task_metrics["successful_runs"] += 1
+            summary["steps"]["successful"] += n_steps
+            summary["tokens"]["successful"] += n_tokens
+            summary["elapsed_time"]["successful"] += metadata["elapsed_seconds"]
+            summary["error_logs"]["successful"] += has_error
+            task_metrics["steps"]["successful"] += n_steps
+            task_metrics["tokens"]["successful"] += n_tokens
+            task_metrics["elapsed_time"]["successful"] += metadata["elapsed_seconds"]
+            task_metrics["error_logs"]["successful"] += has_error
         else:
-            # Just store the experiment with a flag indicating summary is missing
-            summary["experiments"][experiment_name] = {
-                "index": idx,
-                "date_time": metadata.get("start_datetime_str", ""),
-                "model_provider": metadata.get("model_provider", ""),
-                "model_name": metadata.get("model_name", ""),
-                "agent_type": metadata.get("agent_type", ""),
-                "task": metadata.get("task_name", ""),
-                "instance": metadata.get("instance", ""),
-                "summary_missing": True,
-            }
+            summary["failed_runs"] += 1
+            task_metrics["failed_runs"] += 1
+            summary["steps"]["failed"] += n_steps
+            summary["tokens"]["failed"] += n_tokens
+            summary["elapsed_time"]["failed"] += metadata["elapsed_seconds"]
+            summary["error_logs"]["failed"] += has_error
+            task_metrics["steps"]["failed"] += n_steps
+            task_metrics["tokens"]["failed"] += n_tokens
+            task_metrics["elapsed_time"]["failed"] += metadata["elapsed_seconds"]
+            task_metrics["error_logs"]["failed"] += has_error
+
+        summary["steps"]["total"] += n_steps
+        summary["tokens"]["total"] += n_tokens
+        summary["elapsed_time"]["total"] += metadata["elapsed_seconds"]
+        summary["error_logs"]["total"] += has_error
 
     return summary
 

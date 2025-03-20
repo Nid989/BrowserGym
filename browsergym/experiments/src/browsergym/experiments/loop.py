@@ -289,6 +289,7 @@ class ExpArgs:
                 raise
 
         finally:
+            success = False
             try:
                 if step_info is not None:
                     step_info.save_step_info(
@@ -304,10 +305,23 @@ class ExpArgs:
                 ):
                     e = KeyboardInterrupt("Early termination??")
                     err_msg = f"Exception uncaught by agent or environment in task {self.env_args.task_name}.\n{type(e).__name__}:\n{e}"
+                
                 logger.info(f"Saving summary info.")
                 _save_summary_info(episode_info, self.exp_dir, err_msg, stack_trace)
+                
+                # Check if summary_info.json exists and is valid
+                summary_path = self.exp_dir / "summary_info.json"
+                if summary_path.exists() and summary_path.stat().st_size > 0:
+                    try:
+                        with open(summary_path, 'r') as f:
+                            json.load(f) 
+                        success = True
+                    except json.JSONDecodeError:
+                        success = False
+                
             except Exception as e:
                 logger.error(f"Error while saving summary info in the finally block: {e}")
+                success = False
             try:
                 if env is not None:
                     env.close()
@@ -317,6 +331,15 @@ class ExpArgs:
                 self._unset_logger()  # stop writing logs to run logfile
             except Exception as e:
                 logger.error(f"Error while unsetting the logger in the finally block: {e}")
+
+            # Delete the experiment directory if the run wasn't successful
+            if not success:
+                logger.warning(f"Run was not successful, deleting experiment directory: {self.exp_dir}")
+                try:
+                    import shutil
+                    shutil.rmtree(self.exp_dir)
+                except Exception as e:
+                    logger.error(f"Failed to delete experiment directory: {e}")
 
     def _set_logger(self):
         # output logging traces to a log file
