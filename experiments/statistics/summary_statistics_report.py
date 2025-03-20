@@ -116,6 +116,13 @@ def parse_experiment_metadata(exp_dir: Path) -> Dict:
     except Exception:
         pass
 
+    if "Unknown" in [model_provider, model_name, agent_type]:
+        logging.warning(
+            f"Deleting directory {exp_dir} due to missing model information"
+        )
+        shutil.rmtree(exp_dir)
+        return {}
+
     return {
         "start_datetime_str": start_datetime_str,
         "elapsed_seconds": elapsed_seconds,
