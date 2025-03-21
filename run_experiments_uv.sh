@@ -34,6 +34,19 @@ TASKS=(
     # 'workarena.servicenow.order-standard-laptop'
 )
 
+# Array of config IDs corresponding to each task (integers only)
+CONFIG_IDS=(
+    # 0  # config ID for order-apple-mac-book-pro15
+    # 0  # config ID for order-apple-watch
+    # 0  # config ID for order-developer-laptop
+    # 0  # config ID for order-development-laptop-p-c
+    1  # config ID for order-ipad-mini
+    # 0  # config ID for order-ipad-pro
+    # 0  # config ID for order-loaner-laptop
+    # 0  # config ID for order-sales-laptop
+    # 0  # config ID for order-standard-laptop
+)
+
 # Help function
 function show_help {
     echo "Usage: $0 [options]"
@@ -133,23 +146,28 @@ echo "Results directory: $RESULTS_DIR"
 # Function to get random task
 function get_random_task {
     local idx=$((RANDOM % ${#TASKS[@]}))
-    echo "${TASKS[$idx]}"
+    local task=${TASKS[$idx]}
+    local config_id=${CONFIG_IDS[$idx]}
+    echo "$task $config_id"
 }
 
 # Update the task list generation to avoid empty tasks
 echo "Preparing task list..."
 TASK_LIST=""
 for ((i=1; i<=$TOTAL_RUNS; i++)); do
-    TASK=$(get_random_task)
+    TASK_INFO=$(get_random_task)
+    TASK=$(echo $TASK_INFO | cut -d' ' -f1)
+    CONFIG_ID=$(echo $TASK_INFO | cut -d' ' -f2)
+    
     if [ $i -eq $TOTAL_RUNS ]; then
-        TASK_LIST+="$TASK"  # No newline for last item
+        TASK_LIST+="$TASK $CONFIG_ID"  # No newline for last item
     else
-        TASK_LIST+="$TASK\n"
+        TASK_LIST+="$TASK $CONFIG_ID\n"
     fi
 done
 
 # Add debug output before parallel execution
-echo "Generated tasks:"
+echo "Generated tasks with config IDs:"
 echo -e "$TASK_LIST"
 
 # Determine the agent path based on agent type
@@ -159,10 +177,10 @@ if [ "$AGENT_TYPE" = "workflow" ]; then
 fi
 
 # Execute tasks in parallel with dynamic agent path
-echo -e "$TASK_LIST" | grep -v '^$' | parallel -j "$PARALLEL_TASKS" \
+echo -e "$TASK_LIST" | grep -v '^$' | parallel --colsep ' ' -j "$PARALLEL_TASKS" \
     uv run --env-file .env ${AGENT_PATH}/run_demo.py \
         --model_provider "$MODEL_PROVIDER" \
-        --task_name {} \
+        --task_name {1} \
         --model_name "$MODEL_NAME" \
         --max_steps "$MAX_STEPS" \
         --visual_effects "$VISUAL_EFFECTS" \
@@ -170,7 +188,8 @@ echo -e "$TASK_LIST" | grep -v '^$' | parallel -j "$PARALLEL_TASKS" \
         --use_axtree "$USE_AXTREE" \
         --use_screenshot "$USE_SCREENSHOT" \
         --system_message "'$SYSTEM_MESSAGE'" \
-        --results_dir "$RESULTS_DIR"
+        --results_dir "$RESULTS_DIR" \
+        --config_id {2}
 
 # Generate analysis after all runs are complete
 echo "Generating experiment analysis..."

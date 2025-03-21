@@ -1,4 +1,6 @@
 import argparse
+import importlib.resources
+import json
 
 # locally defined agent
 from agent import DemoAgentArgs
@@ -93,6 +95,12 @@ and executed by a program, make sure to follow the formatting instructions.
         default="./results",
         help="Directory for storing results",
     )
+    parser.add_argument(
+        "--config_id",
+        type=int,
+        default=None,
+        help="ID of the task configuration to use",
+    )
 
     return parser.parse_args()
 
@@ -119,9 +127,40 @@ Creating simulation environment ..."""
         task_name=args.task_name,
     )
 
+    # Setup task_kwargs based on whether config_id is provided
+    task_kwargs = None
+
+    # Only handle fixed_config if config_id is provided
+    if args.config_id is not None and args.task_name.startswith("workarena.servicenow"):
+        # Extract the task name after the "workarena.servicenow." prefix
+        task_config_name = args.task_name.split(".", 2)[-1].replace("-", "_") + "_task"
+
+        try:
+            # Load configurations using importlib.resources
+            config_content = importlib.resources.read_text(
+                "browsergym.workarena.data_files.task_configs",
+                f"{task_config_name}.json",
+            )
+            configs = json.loads(config_content)
+
+            # Check if config_id is within valid range
+            if 0 <= args.config_id < len(configs):
+                fixed_config = configs[args.config_id]
+                print(
+                    f"Using configuration ID {args.config_id} for task {args.task_name}"
+                )
+                task_kwargs = {"fixed_config": fixed_config}
+            else:
+                print(
+                    f"Warning: Config ID {args.config_id} is out of range (0-{len(configs) - 1}). Using default task behavior."
+                )
+        except Exception as e:
+            print(f"Error loading configuration: {e}. Using default task behavior.")
+
     # setting up environment config
     env_args = EnvArgs(
         task_name=args.task_name,
+        task_kwargs=task_kwargs,
         task_seed=None,
         max_steps=args.max_steps,
         headless=False,  # keep the browser open
