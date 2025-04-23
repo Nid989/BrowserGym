@@ -3,15 +3,13 @@ import uuid
 import dataclasses
 import io
 import logging
-import os, getpass
+import os
+import getpass
 
 import numpy as np
 from PIL import Image
-from IPython.display import display
-from IPython.display import Image as IPythonImage
-from typing import Dict, List, Optional
 
-from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
+from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_openai import ChatOpenAI
 from langchain_openai.chat_models.base import BaseChatOpenAI
 from langchain_anthropic import ChatAnthropic
@@ -19,7 +17,6 @@ from langchain_groq import ChatGroq
 from langchain_ollama import ChatOllama
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langgraph.graph import START, END, StateGraph, MessagesState
-from langgraph.prebuilt import tools_condition, ToolNode
 
 from browsergym.core.action.highlevel import HighLevelActionSet
 from browsergym.experiments import AbstractAgentArgs, Agent
@@ -114,7 +111,7 @@ and executed by a program, make sure to follow the formatting instructions.
             self.trace_id = str(uuid.uuid4())
 
         if not (use_html or use_axtree):
-            raise ValueError(f"Either use_html or use_axtree must be set to True.")
+            raise ValueError("Either use_html or use_axtree must be set to True.")
 
         self.action_set = HighLevelActionSet(
             subsets=[
@@ -151,7 +148,7 @@ and executed by a program, make sure to follow the formatting instructions.
         if self.model_provider == "openai":
             # Set temperature=1 for all o-series models
             is_o_series = any(
-                self.model_name.startswith(prefix) for prefix in ["o1", "o3"]
+                self.model_name.startswith(prefix) for prefix in ["o1", "o3", "o4"]
             )
             temperature = 1.0 if is_o_series else 0.0
             llm = ChatOpenAI(model=self.model_name, temperature=temperature)
@@ -223,7 +220,7 @@ and executed by a program, make sure to follow the formatting instructions.
             system_msgs.append(
                 {
                     "type": "text",
-                    "text": f"""\
+                    "text": """\
 # Instructions
 
 You are a UI Assistant, your goal is to help the user perform tasks using a web browser. You can
@@ -241,7 +238,7 @@ and executed by a program, make sure to follow the formatting instructions.
             user_msgs.append(
                 {
                     "type": "text",
-                    "text": f"""\
+                    "text": """\
 # Chat Messages
 """,
                 }
@@ -277,7 +274,7 @@ and executed by a program, make sure to follow the formatting instructions.
             user_msgs.append(
                 {
                     "type": "text",
-                    "text": f"""\
+                    "text": """\
 # Goal
 """,
                 }
@@ -289,7 +286,7 @@ and executed by a program, make sure to follow the formatting instructions.
         user_msgs.append(
             {
                 "type": "text",
-                "text": f"""\
+                "text": """\
 # Currently open tabs
 """,
             }
@@ -381,7 +378,7 @@ I found the information requested by the user, I will send it to the chat.
             user_msgs.append(
                 {
                     "type": "text",
-                    "text": f"""\
+                    "text": """\
 # History of past actions
 """,
                 }
@@ -429,7 +426,7 @@ I found the information requested by the user, I will send it to the chat.
         user_msgs.append(
             {
                 "type": "text",
-                "text": f"""\
+                "text": """\
 # Next action
 
 You will now think step by step and produce your next best action. Reflect on your past actions, any resulting error message, and the current state of the page before deciding on your next action.
@@ -494,7 +491,7 @@ You will now think step by step and produce your next best action. Reflect on yo
 
         # create and run the graph
         graph = self._create_workflow()
-        display(IPythonImage(graph.get_graph().draw_mermaid_png()))
+        # display(IPythonImage(graph.get_graph().draw_mermaid_png()))
         response = graph.invoke(initial_state)
 
         # get the predicted action
