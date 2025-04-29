@@ -1,6 +1,7 @@
 import argparse
 import importlib.resources
 import json
+from pathlib import Path
 
 # locally defined agent
 from agent import DemoAgentArgs
@@ -182,6 +183,18 @@ Creating simulation environment ..."""
 
     # Update to use custom results directory
     exp_args.prepare(args.results_dir)
+    # Allows recording the "exp_dir" name via terminal output in the "./run_experiment.sh" bash script.
+    # Usual value; 'results/2025-04-22_23-13-02_DemoAgentArgs_on_workarena.servicenow.order-ipad-mini_28'
+    # Desired value; '2025-04-22_23-13-02_DemoAgentArgs_on_workarena.servicenow.order-ipad-mini_28'
+    exp_dir_path = Path(exp_args.exp_dir)
+    results_dir_path = Path(args.results_dir)
+    try:
+        exp_dir_name = exp_dir_path.relative_to(results_dir_path)
+    except ValueError:
+        exp_dir_name = exp_dir_path.name
+    # Print with a specific format for easy parsing by scripts
+    print(f"EXPERIMENT_DIR={exp_dir_name}")
+
     exp_args.run()
 
     # loading and printing results

@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Values: default, alternatives
-MODEL_PROVIDER="openai" # MODEL_PROVIDER= deepseek, openai, anthropic, google, groq, deepseek, ollama
-MODEL_NAME="o3-mini-2025-01-31" # MODEL_NAME= deepseek-reasoner, gpt-4o-2024-11-20, gpt-4o-2024-08-06, chatgpt-4o-latest, o3-mini-2025-01-31, claude-3-5-sonnet-20241022, claude-3-7-sonnet-20250219, gemini-2.0-flash-thinking-exp, gemini-2.0-flash, gemini-2.0-flash-lite-preview-02-05
+MODEL_PROVIDER="anthropic" # MODEL_PROVIDER= deepseek, openai, anthropic, google, groq, deepseek, ollama
+MODEL_NAME="claude-3-7-sonnet-20250219" # MODEL_NAME= deepseek-reasoner, gpt-4o-2024-11-20, gpt-4o-2024-08-06, chatgpt-4o-latest, o3-mini-2025-01-31, claude-3-5-sonnet-20241022, claude-3-7-sonnet-20250219, gemini-2.0-flash-thinking-exp, gemini-2.0-flash, gemini-2.0-flash-lite-preview-02-05
 TOTAL_RUNS=1
-MAX_STEPS=40
+MAX_STEPS=15
 VISUAL_EFFECTS=true
 USE_HTML=false
 USE_AXTREE=true
@@ -40,7 +40,7 @@ CONFIG_IDS=(
     # 0  # config ID for order-apple-watch
     # 0  # config ID for order-developer-laptop
     # 0  # config ID for order-development-laptop-p-c
-    1  # config ID for order-ipad-mini
+    2  # config ID for order-ipad-mini
     # 0  # config ID for order-ipad-pro
     # 0  # config ID for order-loaner-laptop
     # 0  # config ID for order-sales-laptop

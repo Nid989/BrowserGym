@@ -175,3 +175,6 @@ uv_initialization_steps.md
 hello.py
 run_experiments_uv_mba.sh
 cache
+service-account-key.json
+token.json
+credentials.json
